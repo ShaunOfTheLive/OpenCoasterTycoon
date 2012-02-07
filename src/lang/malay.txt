@@ -190,7 +190,7 @@ STR_COLOUR_BROWN                                                :Perang
 STR_COLOUR_GREY                                                 :Kelabu
 STR_COLOUR_WHITE                                                :Putih
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} mph
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} km/h
 STR_UNITS_VELOCITY_SI                                           :{COMMA} m/s
@@ -316,12 +316,12 @@ STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}Bina lap
 STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}Paparkan toolbar lanskap untuk menaikkan/menurunkan tanah, menanam pokok, dan sebagainya
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}Paparkan tetingkap bunyi/muzik
 STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}Paparkan mesej akhir/repot berita, paparkan pilihan mesej
-STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Maklumat kawasan tanah, konsol, AI debug, tangkap skrin, tentang OpenTTD
+STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Maklumat kawasan tanah, konsol, AI debug, tangkap skrin, tentang OpenCoaster Tycoon
 STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}Tukarkan toolbar
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Simpan senario, buka senario, keluar penyunting senario, keluar permainan
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Penyunting Senario
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}Pindah tarikh permulaan 1 tahun belakang
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}Pindah tarikh permulaan 1 tahun ke hadapan
@@ -443,7 +443,7 @@ STR_ABOUT_MENU_TOGGLE_CONSOLE                                   :Papar atau pada
 STR_ABOUT_MENU_AI_DEBUG                                         :AI debug
 STR_ABOUT_MENU_SCREENSHOT                                       :Tangkap gambar skrin (Ctrl-S)
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :Tangkap gambar skrin besar (Ctrl+G)
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :Tentang 'OpenTTD'
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :Tentang 'OpenCoaster Tycoon'
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :Penjajar peperi
 ############ range ends here
 
@@ -936,7 +936,7 @@ STR_GAME_OPTIONS_LANGUAGE                                       :{BLACK}Bahasa
 STR_GAME_OPTIONS_LANGUAGE_TOOLTIP                               :{BLACK}Pilih bahasa antaramuka yang ingin digunakan
 
 STR_GAME_OPTIONS_FULLSCREEN                                     :{BLACK}Skrin Penuh
-STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Tanda kotak ini untuk bermain OpenTTD dalam mod skrin penuh
+STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Tanda kotak ini untuk bermain OpenCoaster Tycoon dalam mod skrin penuh
 
 STR_GAME_OPTIONS_RESOLUTION                                     :{BLACK}Resolusi Skrin
 STR_GAME_OPTIONS_RESOLUTION_TOOLTIP                             :{BLACK}Pilih resolusi skrin untuk digunakan
@@ -1349,7 +1349,7 @@ STR_CONFIG_SETTING_REVERSE_AT_SIGNALS                           :{LTBLUE}Berundu
 STR_CONFIG_SETTING_QUERY_CAPTION                                :{WHITE}Tukar nilai tetapan
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}Permainan Baru
 STR_INTRO_LOAD_GAME                                             :{BLACK}Buka Permainan
@@ -1384,12 +1384,12 @@ STR_INTRO_TOOLTIP_ADVANCED_SETTINGS                             :{BLACK}Papar te
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}Papar tetapan NewGRF
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK}Periksa kandungan baru atau yang telah dikemaskini untuk dimuat turun
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK}Papar tetapan AI
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Keluar 'OpenTTD'
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Keluar 'OpenCoaster Tycoon'
 
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}Keluar
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}Pastikah anda untuk keluar dari OpenTTD dan kembali ke {STRING}?
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}Pastikah anda untuk keluar dari OpenCoaster Tycoon dan kembali ke {STRING}?
 STR_QUIT_YES                                                    :{BLACK}Ya
 STR_QUIT_NO                                                     :{BLACK}Tidak
 
@@ -1481,7 +1481,7 @@ STR_FACE_SIMPLE                                                 :{BLACK}Mudah
 STR_FACE_SIMPLE_TOOLTIP                                         :{BLACK}Pilihan wajah mudah.
 STR_FACE_LOAD                                                   :{BLACK}Buka
 STR_FACE_LOAD_TOOLTIP                                           :{BLACK}Buka wajah kegemaran anda
-STR_FACE_LOAD_DONE                                              :{WHITE}Wajah kegemaran anda telah dimuat daripada fail config OpenTTD.
+STR_FACE_LOAD_DONE                                              :{WHITE}Wajah kegemaran anda telah dimuat daripada fail config OpenCoaster Tycoon.
 STR_FACE_FACECODE                                               :{BLACK}Wajah pemain no.
 STR_FACE_FACECODE_TOOLTIP                                       :{BLACK}Lihat dan/atau tetapkan nombor wajah presiden syarikat
 STR_FACE_FACECODE_CAPTION                                       :{WHITE}Lihat dan/atau tetapkan nombor wajah presiden
@@ -1489,7 +1489,7 @@ STR_FACE_FACECODE_SET                                           :{WHITE}Kod baru
 STR_FACE_FACECODE_ERR                                           :{WHITE}Nombor wajah pemain tidak dapat ditetapkan - nombor mesti di antara 0 dan 4,294,967,295!
 STR_FACE_SAVE                                                   :{BLACK}Simpan
 STR_FACE_SAVE_TOOLTIP                                           :{BLACK}Simpan wajah kegemaran anda
-STR_FACE_SAVE_DONE                                              :{WHITE}Wajah ini akan disimpan sebagai wajah kegemaran anda dalam fail config OpenTTD.
+STR_FACE_SAVE_DONE                                              :{WHITE}Wajah ini akan disimpan sebagai wajah kegemaran anda dalam fail config OpenCoaster Tycoon.
 STR_FACE_EUROPEAN                                               :{BLACK}Eropah
 STR_FACE_SELECT_EUROPEAN                                        :{BLACK}Pilih wajah orang Eropah
 STR_FACE_AFRICAN                                                :{BLACK}Afrika
@@ -1824,7 +1824,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER}Anda te
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}Anda telah memilih untuk memuat turun kandungan ini
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER}Tanggungan ini telah dipilih untuk dimuat turun
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER}Anda sudah mempunyai kandungan ini
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Kandungan ini tidak diketahui dan tidak boleh dimuat turunkan dalam OpenTTD
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Kandungan ini tidak diketahui dan tidak boleh dimuat turunkan dalam OpenCoaster Tycoon
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}Ini ialah penggantian untuk {STRING}
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}Nama: {WHITE}{STRING}
 STR_CONTENT_DETAIL_VERSION                                      :{SILVER}Versi: {WHITE}{STRING}
@@ -1835,7 +1835,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}Saiz do
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER}Dipilih kerana: {WHITE}{STRING}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER}Tanggungan: {WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER}Tag: {WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenTTD diaturcara tanpa sokongan "zlib"...
+STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenCoaster Tycoon diaturcara tanpa sokongan "zlib"...
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}... pemuat turunan kandungan adalah mustahil!
 
 # Order of these is important!
@@ -2246,11 +2246,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Rumah api
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :Ibu pejabat syarikat
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :Tanah dimiliki syarikat
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}Tentang OpenTTD
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}Tentang OpenCoaster Tycoon
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}Hakcipta asal {COPYRIGHT} 1995 Chris Sawyer, Hakcipta terpelihara
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD versi {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT}2002-2012 The OpenTTD team
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon versi {REV}
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT}2002-2012 The OpenCoaster Tycoon team
 
 # Save/load game/scenario
 STR_SAVELOAD_SAVE_CAPTION                                       :{WHITE}Simpankan Permainan
@@ -2388,7 +2388,7 @@ STR_NEWGRF_SETTINGS_PARAMETER                                   :{BLACK}Paramete
 STR_NEWGRF_SETTINGS_NO_INFO                                     :{BLACK}Tiada maklumat
 STR_NEWGRF_SETTINGS_NOT_FOUND                                   :{RED}Fail yang berpadanan tidak dijumpai
 STR_NEWGRF_SETTINGS_DISABLED                                    :{RED}Dinyahaktifkan
-STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Tidak serasi dengan versi OpenTTD ini
+STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Tidak serasi dengan versi OpenCoaster Tycoon ini
 
 STR_NEWGRF_SETTINGS_PARAMETER_QUERY                             :{BLACK}Masukkan parameter NewGRF
 
@@ -2433,13 +2433,13 @@ STR_NEWGRF_ERROR_MSG_WARNING                                    :{RED}Amaran: {S
 STR_NEWGRF_ERROR_MSG_ERROR                                      :{RED}Kesilapan: {SILVER}{STRING}
 STR_NEWGRF_ERROR_MSG_FATAL                                      :{RED}Bahaya: {SILVER}{STRING}
 STR_NEWGRF_ERROR_FATAL_POPUP                                    :{WHITE}Kesilapan NewGRF yang bahaya telah berlaku: {}{STRING}
-STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} tidak akan berfungsi dengan versi TTDPatch yang dilaporkan OpenTTD.
+STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} tidak akan berfungsi dengan versi TTDPatch yang dilaporkan OpenCoaster Tycoon.
 STR_NEWGRF_ERROR_DOS_OR_WINDOWS                                 :{1:STRING} adalah untuk TTD versi {STRING}.
 STR_NEWGRF_ERROR_UNSET_SWITCH                                   :{1:STRING} direkabentuk untuk digunakan bersama {STRING}
 STR_NEWGRF_ERROR_INVALID_PARAMETER                              :Parameter yang tidak sah untuk {1:STRING}: parameter {STRING} ({NUM})
 STR_NEWGRF_ERROR_LOAD_BEFORE                                    :{1:STRING} mesti dimuatkan sebelum {STRING}.
 STR_NEWGRF_ERROR_LOAD_AFTER                                     :{1:STRING} mesti dimuatkan selepas {STRING}.
-STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} memerlukan OpenTTD versi {STRING} atau lebih.
+STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} memerlukan OpenCoaster Tycoon versi {STRING} atau lebih.
 STR_NEWGRF_ERROR_AFTER_TRANSLATED_FILE                          :fail GRF yang ianya direka untuk menterjemah
 STR_NEWGRF_ERROR_TOO_MANY_NEWGRFS_LOADED                        :Terlalu banyak NewGRF dimuatkan.
 STR_NEWGRF_ERROR_STATIC_GRF_CAUSES_DESYNC                       :Memuatkan {2:STRING} sebagai NewGRF statik dengan {4:STRING} mungkin boleh menyebabkan kesilapan sinkronisasi (desync).
@@ -2452,7 +2452,7 @@ STR_NEWGRF_ERROR_READ_BOUNDS                                    :Pembacaan meleb
 
 # NewGRF related 'general' warnings
 STR_NEWGRF_POPUP_CAUTION_CAPTION                                :{WHITE}Amaran!
-STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Anda akan melakukan perubahan kepada permainan yang sedang berjalan. Ini boleh merosakkan OpenTTD atau keadaan permainan. TJangan membuat laporan pepijat tentang isu ini.{}Adakah anda pasti tentang ini?
+STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Anda akan melakukan perubahan kepada permainan yang sedang berjalan. Ini boleh merosakkan OpenCoaster Tycoon atau keadaan permainan. TJangan membuat laporan pepijat tentang isu ini.{}Adakah anda pasti tentang ini?
 
 STR_NEWGRF_DUPLICATE_GRFID                                      :{WHITE}Tidak boleh menambah fail: GRF ID berduplikat
 STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Fail berpadanan tidak dijumpai (GRF yang secocok telah dimuat)
@@ -2460,7 +2460,7 @@ STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Fail be
 STR_NEWGRF_COMPATIBLE_LOAD_WARNING                              :{WHITE}GRF secocok telah dimuat untuk menggantikan fail yang tidak dijumpai
 STR_NEWGRF_DISABLED_WARNING                                     :{WHITE}Fail GRF yang tidak dijumpai telah dinyahaktifkan
 STR_NEWGRF_UNPAUSE_WARNING_TITLE                                :{YELLOW}Fail GRF tidak dijumpai
-STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Unpausing can crash OpenTTD. Do not file bug reports for subsequent crashes.{}Do you really want to unpause?
+STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Unpausing can crash OpenCoaster Tycoon. Do not file bug reports for subsequent crashes.{}Do you really want to unpause?
 
 # NewGRF status
 STR_NEWGRF_LIST_NONE                                            :Tiada
@@ -3511,7 +3511,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}Papan ta
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}Nama papan tanda tidak dapat ditukar...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}Papan tanda tidak dapat dibuang...
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :Sebuah permainan simulasi berasaskan Transport Tycoon Deluxe
 
 ##id 0x2000

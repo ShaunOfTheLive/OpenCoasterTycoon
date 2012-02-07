@@ -191,7 +191,7 @@ STR_COLOUR_BROWN                                                :Brúnn
 STR_COLOUR_GREY                                                 :Grár
 STR_COLOUR_WHITE                                                :Hvítur
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} mílur/klst
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} km/klst
 STR_UNITS_VELOCITY_SI                                           :{COMMA} m/s
@@ -320,8 +320,8 @@ STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Landsvæ
 STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}Skipta á tækjaslá
 
 # Extra tooltips for the scenario editor toolbar
-STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Vista kort, opna kort, hætta í kortagerð, hætta í OpenTTD
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Vista kort, opna kort, hætta í kortagerð, hætta í OpenCoaster Tycoon
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Kortagerð
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}Færa byrjunardagsetninguna aftur um 1 ár
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}Færa byrjunardagsetninguna fram um 1 ár
@@ -444,7 +444,7 @@ STR_ABOUT_MENU_AI_DEBUG                                         :Aflúsun gervig
 STR_ABOUT_MENU_SCREENSHOT                                       :Skjámynd
 STR_ABOUT_MENU_ZOOMIN_SCREENSHOT                                :Þysjuð inn skjámynd
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :Risa skjámynd
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :Um 'OpenTTD'
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :Um 'OpenCoaster Tycoon'
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :Samstilla hreyfimynd
 ############ range ends here
 
@@ -937,7 +937,7 @@ STR_GAME_OPTIONS_LANGUAGE                                       :{BLACK}Tungumá
 STR_GAME_OPTIONS_LANGUAGE_TOOLTIP                               :{BLACK}Tungumál viðmóts
 
 STR_GAME_OPTIONS_FULLSCREEN                                     :{BLACK}Fylla út í skjá
-STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Smelltu hér til að OpenTTD fylli út í skjáinn
+STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Smelltu hér til að OpenCoaster Tycoon fylli út í skjáinn
 
 STR_GAME_OPTIONS_RESOLUTION                                     :{BLACK}Skjáupplausn
 STR_GAME_OPTIONS_RESOLUTION_TOOLTIP                             :{BLACK}Stilla skjáupplausn
@@ -1343,7 +1343,7 @@ STR_CONFIG_SETTING_PATHFINDER_FOR_SHIPS_YAPF                    :YAPF {RED}(Ór�
 STR_CONFIG_SETTING_QUERY_CAPTION                                :{WHITE}Breyta gildi stillingar
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}Nýr leikur
 STR_INTRO_LOAD_GAME                                             :{BLACK}Opna leik
@@ -1372,18 +1372,18 @@ STR_INTRO_TOOLTIP_SUB_ARCTIC_LANDSCAPE                          :{BLACK}Heimskau
 STR_INTRO_TOOLTIP_SUB_TROPICAL_LANDSCAPE                        :{BLACK}Eyðimerkurlandslag
 STR_INTRO_TOOLTIP_TOYLAND_LANDSCAPE                             :{BLACK}Leikfangalandslag
 
-STR_INTRO_TOOLTIP_GAME_OPTIONS                                  :{BLACK}Stilla OpenTTD
+STR_INTRO_TOOLTIP_GAME_OPTIONS                                  :{BLACK}Stilla OpenCoaster Tycoon
 STR_INTRO_TOOLTIP_DIFFICULTY_OPTIONS                            :{BLACK}Stilla erfiðleikastig
 STR_INTRO_TOOLTIP_ADVANCED_SETTINGS                             :{BLACK}Birta þróaðar stillingar
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}Sýna NewGRF stillingar
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK}Skoða viðbætur sem hægt er að ná í af netinu
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK}Sýna stillingar gervigreindar
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Hætta í OpenTTD
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Hætta í OpenCoaster Tycoon
 
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}Hætta
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}Ertu viss um að þú viljir hætta í OpenTTD og fara aftur í {STRING}?
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}Ertu viss um að þú viljir hætta í OpenCoaster Tycoon og fara aftur í {STRING}?
 STR_QUIT_YES                                                    :{BLACK}Já
 STR_QUIT_NO                                                     :{BLACK}Nei
 
@@ -1474,7 +1474,7 @@ STR_FACE_SIMPLE                                                 :{BLACK}Einfalt
 STR_FACE_SIMPLE_TOOLTIP                                         :{BLACK}Einföld breyting andlits
 STR_FACE_LOAD                                                   :{BLACK}Hlaða
 STR_FACE_LOAD_TOOLTIP                                           :{BLACK}Hlaða uppáhalds andliti
-STR_FACE_LOAD_DONE                                              :{WHITE}Þitt uppáhalds andlit hefur verið sótt úr OpenTTD stilliskrá
+STR_FACE_LOAD_DONE                                              :{WHITE}Þitt uppáhalds andlit hefur verið sótt úr OpenCoaster Tycoon stilliskrá
 STR_FACE_FACECODE                                               :{BLACK}Andlit nr.
 STR_FACE_FACECODE_TOOLTIP                                       :{BLACK}Skoða og/eða stilla andlitsnúmer
 STR_FACE_FACECODE_CAPTION                                       :{WHITE}Skoða og/eða stilla andlitsnúmer
@@ -1482,7 +1482,7 @@ STR_FACE_FACECODE_SET                                           :{WHITE}Nýtt an
 STR_FACE_FACECODE_ERR                                           :{WHITE}Gat ekki stillt andlitsnúmer - verður að vera tala á bilinu 0 og upp í 4.294.967.295!
 STR_FACE_SAVE                                                   :{BLACK}Vista
 STR_FACE_SAVE_TOOLTIP                                           :{BLACK}Vista uppáhalds andlit
-STR_FACE_SAVE_DONE                                              :{WHITE}Þetta andlit mun verða vistað sem þitt uppahald í OpenTTD stilliskrá
+STR_FACE_SAVE_DONE                                              :{WHITE}Þetta andlit mun verða vistað sem þitt uppahald í OpenCoaster Tycoon stilliskrá
 STR_FACE_EUROPEAN                                               :{BLACK}Evrópskt
 STR_FACE_SELECT_EUROPEAN                                        :{BLACK}Velja evrópskt andlit
 STR_FACE_AFRICAN                                                :{BLACK}Afrískt
@@ -1814,7 +1814,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER}Pakkinn
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}Pakkinn er valinn til niðurhals
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER}Þessi pakki er nauðsynlegur undirstaða fyrir annan pakka sem er valinn til niðurhals
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER}Þú hefur þetta nú þegar
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Þetta innihald er óþekkt og ekki er hægt að niðurhala í gegnum OpenTTD
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Þetta innihald er óþekkt og ekki er hægt að niðurhala í gegnum OpenCoaster Tycoon
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}Þetta skiptir út því sem er fyrir {STRING}
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}Heiti: {WHITE}{STRING}
 STR_CONTENT_DETAIL_VERSION                                      :{SILVER}Útgáfa: {WHITE}{STRING}
@@ -1825,7 +1825,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}Stærð
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER}Valinn vegna: {WHITE}{STRING}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER}Byggir á: {WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER}Stikkorð: {WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenTTD er smíðað án „zlib“ stuðnings...
+STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenCoaster Tycoon er smíðað án „zlib“ stuðnings...
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}... ekki hægt að hlaða niður efni!
 
 # Order of these is important!
@@ -2248,11 +2248,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Viti
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :Höfuðstöðvar fyritækis
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :Land í eigu fyrirtækis
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}Um OpenTTD
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}Um OpenCoaster Tycoon
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}Upphaflegur höfundarréttur {COPYRIGHT} 1995 Chris Sawyer, Öll réttindi áskilin
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD útgáfa {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT}2002-2012 OpenTTD hópurinn
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon útgáfa {REV}
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT}2002-2012 OpenCoaster Tycoon hópurinn
 
 # Save/load game/scenario
 STR_SAVELOAD_SAVE_CAPTION                                       :{WHITE}Vista leik
@@ -2433,13 +2433,13 @@ STR_NEWGRF_ERROR_MSG_WARNING                                    :{RED}Aðvörun:
 STR_NEWGRF_ERROR_MSG_ERROR                                      :{RED}Villa: {SILVER}{STRING}
 STR_NEWGRF_ERROR_MSG_FATAL                                      :{RED}Banvænt: {SILVER}{STRING}
 STR_NEWGRF_ERROR_FATAL_POPUP                                    :{WHITE}Alvarle NewGRF villa átti sér stað: {}{STRING}
-STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} Mun ekki virka með útgáfu TTDPatch sem OpenTTD gefur til kynna.
+STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} Mun ekki virka með útgáfu TTDPatch sem OpenCoaster Tycoon gefur til kynna.
 STR_NEWGRF_ERROR_DOS_OR_WINDOWS                                 :{1:STRING} er fyrir {STRING} útgáfu af TTD.
 STR_NEWGRF_ERROR_UNSET_SWITCH                                   :{1:STRING} er hannað til að notast með {STRING}
 STR_NEWGRF_ERROR_INVALID_PARAMETER                              :Ógild færibreyta {1:STRING}: færibreyta {STRING} ({NUM})
 STR_NEWGRF_ERROR_LOAD_BEFORE                                    :{1:STRING} verður að hlaðast á undan {STRING}.
 STR_NEWGRF_ERROR_LOAD_AFTER                                     :{1:STRING} verður að hlaðast eftir {STRING}.
-STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} þarf OpenTTD útgáfu {STRING} eða nýrri.
+STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} þarf OpenCoaster Tycoon útgáfu {STRING} eða nýrri.
 STR_NEWGRF_ERROR_AFTER_TRANSLATED_FILE                          :GRF skránni sem það var hannað til að þýða
 STR_NEWGRF_ERROR_TOO_MANY_NEWGRFS_LOADED                        :Of mörg NewGRF eru hlaðin.
 STR_NEWGRF_ERROR_STATIC_GRF_CAUSES_DESYNC                       :Ef {2:STRING} er hlaðið sem kyrrstæðu NewGRF ásamt {4:STRING} gætu orðið hnökrar á keyrslu leiksins.
@@ -2453,7 +2453,7 @@ STR_NEWGRF_ERROR_MISSING_SPRITES                                :{WHITE}Grunntei
 
 # NewGRF related 'general' warnings
 STR_NEWGRF_POPUP_CAUTION_CAPTION                                :{WHITE}Varúð!
-STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Þú ert í þann mund að eiga við leik í gangi, við það gæti OpenTTD hrunið.{}Ertu viss um að þú viljir halda áfram?
+STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Þú ert í þann mund að eiga við leik í gangi, við það gæti OpenCoaster Tycoon hrunið.{}Ertu viss um að þú viljir halda áfram?
 
 STR_NEWGRF_DUPLICATE_GRFID                                      :{WHITE}Get ekki bætt skrá við: tvö eins GRF einkenni
 STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Viðeigandi skrá finnst ekki (samsvarandi GRF hlaðið)
@@ -2461,7 +2461,7 @@ STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Viðeig
 STR_NEWGRF_COMPATIBLE_LOAD_WARNING                              :{WHITE}Samsvarandi GRF hlaðið í staðin týndrar skrár
 STR_NEWGRF_DISABLED_WARNING                                     :{WHITE}Týndar GRF skrár hafa verið gerðar óvirkar
 STR_NEWGRF_UNPAUSE_WARNING_TITLE                                :{YELLOW}Vantar GRF skrá(r)
-STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}OpenTTD getur hrunið ef leikur er settur af stað. Ekki skrá villufærslur fyrir eftirfarandi hrun.{}Ertu viss um að þú viljir setja leikinn af stað?
+STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}OpenCoaster Tycoon getur hrunið ef leikur er settur af stað. Ekki skrá villufærslur fyrir eftirfarandi hrun.{}Ertu viss um að þú viljir setja leikinn af stað?
 
 # NewGRF status
 STR_NEWGRF_LIST_NONE                                            :Engin
@@ -3309,7 +3309,7 @@ STR_AI_DEBUG_CONTINUE                                           :{BLACK}Áfram
 STR_AI_DEBUG_CONTINUE_TOOLTIP                                   :{BLACK}Láta gerfigreind halda áfram.
 STR_AI_DEBUG_SELECT_AI_TOOLTIP                                  :{BLACK}Skoða ferlisupplýsingar frá þessari gerfigreind
 
-STR_ERROR_NO_AI                                                 :{WHITE}OpenTTD kemur án gerfigreindar...
+STR_ERROR_NO_AI                                                 :{WHITE}OpenCoaster Tycoon kemur án gerfigreindar...
 STR_ERROR_NO_AI_SUB                                             :{WHITE}... engar gerfigreindir í boði!
 
 STR_ERROR_AI_NO_AI_FOUND                                        :Engin nothæf gerfigreind fundin.{}Þetta er platgerfigreind sem gerir ekkert.{}Hægt er að ná í gerfigreindir með 'Ná í viðbætur af netinu' valmöguleikanum.
@@ -3740,7 +3740,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}Ekki hæ
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}Get ekki breytt nafni skiltis...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}Ekki hægt að eyða skilti...
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :Transport Tycoon Deluxe eftirherma
 
 ##id 0x2000

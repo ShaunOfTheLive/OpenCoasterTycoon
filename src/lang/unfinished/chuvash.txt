@@ -152,7 +152,7 @@ STR_COLOUR_BROWN                                                :Хӑмӑр
 STR_COLOUR_GREY                                                 :Сӑрӑ
 STR_COLOUR_WHITE                                                :Шурӑ
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} мил/с
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} км/с
 STR_UNITS_VELOCITY_SI                                           :{COMMA} м/ҫ
@@ -210,7 +210,7 @@ STR_TOOLBAR_TOOLTIP_OPTIONS                                     :{BLACK}Майл
 STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}Аэропорт ларт
 
 # Extra tooltips for the scenario editor toolbar
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_PLACE_OBJECT                               :{BLACK}Объект вырӑнӗ
 
 ############ range for SE file menu starts
@@ -272,7 +272,7 @@ STR_TOOLBAR_SOUND_MUSIC                                         :Сасӑ/Юрӑ
 STR_ABOUT_MENU_SEPARATOR                                        :
 STR_ABOUT_MENU_SCREENSHOT                                       :Экран сӑнӗ
 STR_ABOUT_MENU_ZOOMIN_SCREENSHOT                                :Яланхилле экран сӑнӗ
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :'OpenTTD' çинчен
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :'OpenCoaster Tycoon' çинчен
 ############ range ends here
 
 ############ range for days starts (also used for the place in the highscore window)
@@ -639,7 +639,7 @@ STR_CONFIG_SETTING_PATHFINDER_FOR_SHIPS_NPF                     :NPF
 
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 
 STR_INTRO_NEWGRF_SETTINGS                                       :{BLACK}NewGRF майлаштару
@@ -650,7 +650,7 @@ STR_INTRO_QUIT                                                  :{BLACK}Вӗҫл
 
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}NewGRF майлаштару кӑтар
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK}AI майлаштару кӑтар
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}'OpenTTD' вӗҫле
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}'OpenCoaster Tycoon' вӗҫле
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}Вӗҫле
@@ -964,8 +964,8 @@ STR_LAI_STATION_DESCRIPTION_AIRPORT                             :Аэропор�
 STR_LAI_OBJECT_DESCRIPTION_TRANSMITTER                          :Передатчик
 STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Маяк
 
-# About OpenTTD window
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD верси {REV}
+# About OpenCoaster Tycoon window
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon верси {REV}
 
 # Save/load game/scenario
 
@@ -1329,7 +1329,7 @@ STR_ERROR_OBJECT_IN_THE_WAY                                     :{WHITE}Ҫул �
 
 # Sign related errors
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 
 ##id 0x2000
 # Town building names

@@ -190,7 +190,7 @@ STR_COLOUR_BROWN                                                :Brun
 STR_COLOUR_GREY                                                 :Grå
 STR_COLOUR_WHITE                                                :Hvid
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} miles/t
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} km/t
 STR_UNITS_VELOCITY_SI                                           :{COMMA} m/s
@@ -316,12 +316,12 @@ STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}Byg luft
 STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}Åbn landskabsværktøjslinjen for at hæve/sænke terræn, plante træer, osv.
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}Vis lyd-/musikvindue
 STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}Vis seneste besked/nyhedsrapport, vis beskedvalg
-STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Landområde information, konsol, debug af kunstig intelligens, tag billede, om OpenTTD
+STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Landområde information, konsol, debug af kunstig intelligens, tag billede, om OpenCoaster Tycoon
 STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}Skift værktøjslinier
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Gem scenarie, hent scenarie, forlad scenarie editoren, afslut
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Scenarieeditor
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}Flyt startdatoen 1 år tilbage
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}Flyt startdatoen 1 år frem
@@ -445,7 +445,7 @@ STR_ABOUT_MENU_AI_DEBUG                                         :Computerspiller
 STR_ABOUT_MENU_SCREENSHOT                                       :Skærmbillede (Ctrl-S)
 STR_ABOUT_MENU_ZOOMIN_SCREENSHOT                                :Zoomet skærmbillede
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :Kæmpe skærmbillede (Ctrl-G)
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :Om 'OpenTTD'
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :Om 'OpenCoaster Tycoon'
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :Tilpas grafikelement
 STR_ABOUT_MENU_TOGGLE_BOUNDING_BOXES                            :Slå afgrænsningsrammerne til/fra
 ############ range ends here
@@ -944,7 +944,7 @@ STR_GAME_OPTIONS_LANGUAGE                                       :{BLACK}Sprog
 STR_GAME_OPTIONS_LANGUAGE_TOOLTIP                               :{BLACK}Vælg sprog til brugerfladen
 
 STR_GAME_OPTIONS_FULLSCREEN                                     :{BLACK}Fuld skærm
-STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Afkryds for at spille OpenTTD i fuld skærm
+STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Afkryds for at spille OpenCoaster Tycoon i fuld skærm
 
 STR_GAME_OPTIONS_RESOLUTION                                     :{BLACK}Skærmopløsning
 STR_GAME_OPTIONS_RESOLUTION_TOOLTIP                             :{BLACK}Vælg ønsket skærmopløsning
@@ -1371,7 +1371,7 @@ STR_CONFIG_SETTING_REVERSE_AT_SIGNALS                           :{LTBLUE}Vend au
 STR_CONFIG_SETTING_QUERY_CAPTION                                :{WHITE}Skift indstillingsværdi
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}Nyt spil
 STR_INTRO_LOAD_GAME                                             :{BLACK}Hent spil
@@ -1406,12 +1406,12 @@ STR_INTRO_TOOLTIP_ADVANCED_SETTINGS                             :{BLACK}Vis avan
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}Vis NewGRF-indstillinger
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK}Tjek for nyt og opdateret indhold til download
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK}Vis indstillinger for computerstyrede spillere
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Afslut 'OpenTTD'
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Afslut 'OpenCoaster Tycoon'
 
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}Afslut
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}Er du sikker på, at du vil forlade dette spil og returnere til {STRING}?
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}Er du sikker på, at du vil forlade dette spil og returnere til {STRING}?
 STR_QUIT_YES                                                    :{BLACK}Ja
 STR_QUIT_NO                                                     :{BLACK}Nej
 
@@ -1503,7 +1503,7 @@ STR_FACE_SIMPLE                                                 :{BLACK}Simpel
 STR_FACE_SIMPLE_TOOLTIP                                         :{BLACK}Simpelt valg af ansigt.
 STR_FACE_LOAD                                                   :{BLACK}Hent
 STR_FACE_LOAD_TOOLTIP                                           :{BLACK}Hent favoritansigt
-STR_FACE_LOAD_DONE                                              :{WHITE}Dit favoritansigt er hentet fra OpenTTD-konfigurationsfilen.
+STR_FACE_LOAD_DONE                                              :{WHITE}Dit favoritansigt er hentet fra OpenCoaster Tycoon-konfigurationsfilen.
 STR_FACE_FACECODE                                               :{BLACK}Spiller ansigtsnr.
 STR_FACE_FACECODE_TOOLTIP                                       :{BLACK}Vis og/eller indstil spillers ansigtsnummer
 STR_FACE_FACECODE_CAPTION                                       :{WHITE}Vis og/eller indstil spillers ansigtsnummer
@@ -1511,7 +1511,7 @@ STR_FACE_FACECODE_SET                                           :{WHITE}Ny ansig
 STR_FACE_FACECODE_ERR                                           :{WHITE}Kunne ikke indstille spillers ansigtsnummer - skal være et nummer mellem 0 og 4.294.967.295!
 STR_FACE_SAVE                                                   :{BLACK}Gem
 STR_FACE_SAVE_TOOLTIP                                           :{BLACK}Gem favoritansigt
-STR_FACE_SAVE_DONE                                              :{WHITE}Dette ansigt bliver gemt som din favorit i OpenTTD konfigurationsfilen.
+STR_FACE_SAVE_DONE                                              :{WHITE}Dette ansigt bliver gemt som din favorit i OpenCoaster Tycoon konfigurationsfilen.
 STR_FACE_EUROPEAN                                               :{BLACK}Europæisk
 STR_FACE_SELECT_EUROPEAN                                        :{BLACK}Vælg europæiske ansigter
 STR_FACE_AFRICAN                                                :{BLACK}Afrikansk
@@ -1846,7 +1846,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER}Du har 
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}Du har valgt denne til download
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER}Denne afhængighed er valgt til download
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER}Du har allerede denne
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Dette indhold er ukendt og kan ikke downloades i OpenTTD
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Dette indhold er ukendt og kan ikke downloades i OpenCoaster Tycoon
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}Dette er en afløser for en eksisterende {STRING}
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}Navn: {WHITE}{STRING}
 STR_CONTENT_DETAIL_VERSION                                      :{SILVER}Version: {WHITE}{STRING}
@@ -1857,7 +1857,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}Større
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER}Valgt på grund af: {WHITE}{STRING}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER}Afhængigheder: {WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER}Tags: {WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenTTD er kompileret uden "zlib"-understøttelse...
+STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenCoaster Tycoon er kompileret uden "zlib"-understøttelse...
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}... det er ikke muligt at downloade indhold!
 
 # Order of these is important!
@@ -2282,11 +2282,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Fyrtårn
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :Selskabets hovedkontor
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :Land ejet af selskabet
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}Om OpenTTD
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}Om OpenCoaster Tycoon
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}Original copyright {COPYRIGHT} 1995 Chris Sawyer, Alle rettigheder reserveret
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD version {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT} 2002-2012 OpenTTD teamet
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon version {REV}
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT} 2012 Shaun Andrew Hill
 
 # Save/load game/scenario
 STR_SAVELOAD_SAVE_CAPTION                                       :{WHITE}Gem spil
@@ -2424,7 +2424,7 @@ STR_NEWGRF_SETTINGS_PARAMETER                                   :{BLACK}Paramete
 STR_NEWGRF_SETTINGS_NO_INFO                                     :{BLACK}Ingen information tilgængelig
 STR_NEWGRF_SETTINGS_NOT_FOUND                                   :{RED}Tilsvarende fil blev ikke fundet
 STR_NEWGRF_SETTINGS_DISABLED                                    :{RED}Deaktiveret
-STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Ikke kompatibel med denne version af OpenTTD
+STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Ikke kompatibel med denne version af OpenCoaster Tycoon
 
 STR_NEWGRF_SETTINGS_PARAMETER_QUERY                             :{BLACK}Indtast NewGRF-parameter
 
@@ -2470,13 +2470,13 @@ STR_NEWGRF_ERROR_MSG_WARNING                                    :{RED}Advarsel: 
 STR_NEWGRF_ERROR_MSG_ERROR                                      :{RED}Fejl: {SILVER}{STRING}
 STR_NEWGRF_ERROR_MSG_FATAL                                      :{RED}Fatalt: {SILVER}{STRING}
 STR_NEWGRF_ERROR_FATAL_POPUP                                    :{WHITE}En fatal NewGRF-fejl er opstået: {}{STRING}
-STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} virker ikke med TTDPatch-versionen rapporteret af OpenTTD.
+STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} virker ikke med TTDPatch-versionen rapporteret af OpenCoaster Tycoon.
 STR_NEWGRF_ERROR_DOS_OR_WINDOWS                                 :{1:STRING} er beregnet til {STRING}-versionen af TTD.
 STR_NEWGRF_ERROR_UNSET_SWITCH                                   :{1:STRING} er designet til brug sammen med {STRING}
 STR_NEWGRF_ERROR_INVALID_PARAMETER                              :Ugyldig parameter for {1:STRING}: parameter {STRING} ({NUM})
 STR_NEWGRF_ERROR_LOAD_BEFORE                                    :{1:STRING} skal indlæses før {STRING}.
 STR_NEWGRF_ERROR_LOAD_AFTER                                     :{1:STRING} skal indlæses efter {STRING}.
-STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} kræver OpenTTD version {STRING} eller højere.
+STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} kræver OpenCoaster Tycoon version {STRING} eller højere.
 STR_NEWGRF_ERROR_AFTER_TRANSLATED_FILE                          :GRF filen, som den er lavet til at oversætte,
 STR_NEWGRF_ERROR_TOO_MANY_NEWGRFS_LOADED                        :For mange NewGRF sæt er indlæst.
 STR_NEWGRF_ERROR_STATIC_GRF_CAUSES_DESYNC                       :Indlæsning af {2:STRING} som statisk NewGRF med {4:STRING} kan forårsage de-sykronisering.
@@ -2492,7 +2492,7 @@ STR_NEWGRF_ERROR_FORCEFULLY_DISABLED                            :{2:STRING} blev
 
 # NewGRF related 'general' warnings
 STR_NEWGRF_POPUP_CAUTION_CAPTION                                :{WHITE}Advarsel!
-STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Du er ved at ændre et igangværende spil; dette kan få OpenTTD til at gå ned.{}Er du helt sikker på at du vil fortsætte?
+STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Du er ved at ændre et igangværende spil; dette kan få OpenCoaster Tycoon til at gå ned.{}Er du helt sikker på at du vil fortsætte?
 
 STR_NEWGRF_DUPLICATE_GRFID                                      :{WHITE}Kan ikke tilføje sæt: dobbelt GRF ID
 STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Tilsvarende fil ikke fundet (kompatibel GRF indlæst)
@@ -2500,7 +2500,7 @@ STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Tilsvar
 STR_NEWGRF_COMPATIBLE_LOAD_WARNING                              :{WHITE}Kompatible GRF fil(er) indlæst i stedet for manglende fil(er)
 STR_NEWGRF_DISABLED_WARNING                                     :{WHITE}Manglende GRF fil(er) er blevet slået fra
 STR_NEWGRF_UNPAUSE_WARNING_TITLE                                :{YELLOW}Manglende GRF-fil(er)
-STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}OpenTTD kan gå ned, når spillet sættes i gang igen. Undlad at indsende fejlrapporter for efterfølgende nedbrud.{}Vil du virkelig sætte spillet i gang igen?
+STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}OpenCoaster Tycoon kan gå ned, når spillet sættes i gang igen. Undlad at indsende fejlrapporter for efterfølgende nedbrud.{}Vil du virkelig sætte spillet i gang igen?
 
 # NewGRF status
 STR_NEWGRF_LIST_NONE                                            :Ingen
@@ -3359,7 +3359,7 @@ STR_AI_DEBUG_CONTINUE                                           :{BLACK}Fortsæt
 STR_AI_DEBUG_CONTINUE_TOOLTIP                                   :{BLACK}Sæt spillet i gang, og start den kunstige intelligens igen
 STR_AI_DEBUG_SELECT_AI_TOOLTIP                                  :{BLACK}Se debug output for denne AI
 
-STR_ERROR_NO_AI                                                 :{WHITE}OpenTTD er kompileret uden understøttelse for kunstig intelligens...
+STR_ERROR_NO_AI                                                 :{WHITE}OpenCoaster Tycoon er kompileret uden understøttelse for kunstig intelligens...
 STR_ERROR_NO_AI_SUB                                             :{WHITE}... ingen kunstig intelligens er tilgængeligt!
 
 STR_ERROR_AI_NO_AI_FOUND                                        :Ingen passende AI kan findes.{}Denne AI er en pladsholder, og vil ikke gøre noget.{} Du kan downloade indtil flere AI'er fra 'Online Indhold'-systemet.
@@ -3796,7 +3796,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}Kan ikke
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}Kan ikke ændre navnet på skiltet...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}Kan ikke slette skilt...
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :Et simulationsspil baseret på Transport Tycoon Deluxe
 
 ##id 0x2000

@@ -190,7 +190,7 @@ STR_COLOUR_BROWN                                                :棕
 STR_COLOUR_GREY                                                 :灰
 STR_COLOUR_WHITE                                                :白
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} mph
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} km/h
 STR_UNITS_VELOCITY_SI                                           :{COMMA} m/s
@@ -316,12 +316,12 @@ STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}興建�
 STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}打開地形工具列、提升／降低地面、 植樹等
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}顯示音效／背景音樂視窗
 STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}顯示上次訊息／新聞報告、顯示訊息選項
-STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}土地資訊、主控台、AI 除錯、擷取畫面、關於 OpenTTD
+STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}土地資訊、主控台、AI 除錯、擷取畫面、關於 OpenCoaster Tycoon
 STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}切換工具列
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}儲存場景、載入場景、離開編輯器、結束
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}場景編輯器
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}將開始時間往前 1 年
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}將開始時間往後 1 年
@@ -445,7 +445,7 @@ STR_ABOUT_MENU_AI_DEBUG                                         :AI 除錯
 STR_ABOUT_MENU_SCREENSHOT                                       :擷取畫面
 STR_ABOUT_MENU_ZOOMIN_SCREENSHOT                                :放大截圖
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :擷取全場景畫面
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :關於「OpenTTD」
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :關於「OpenCoaster Tycoon」
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :Sprite 定位工具
 ############ range ends here
 
@@ -943,7 +943,7 @@ STR_GAME_OPTIONS_LANGUAGE                                       :{BLACK}語言
 STR_GAME_OPTIONS_LANGUAGE_TOOLTIP                               :{BLACK}選擇要用的介面語言
 
 STR_GAME_OPTIONS_FULLSCREEN                                     :{BLACK}全螢幕
-STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}勾選即可在全螢幕下玩 OpenTTD
+STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}勾選即可在全螢幕下玩 OpenCoaster Tycoon
 
 STR_GAME_OPTIONS_RESOLUTION                                     :{BLACK}螢幕解析度
 STR_GAME_OPTIONS_RESOLUTION_TOOLTIP                             :{BLACK}選擇螢幕解析度
@@ -1370,7 +1370,7 @@ STR_CONFIG_SETTING_REVERSE_AT_SIGNALS                           :{LTBLUE}在號�
 STR_CONFIG_SETTING_QUERY_CAPTION                                :{WHITE}修改設定值
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}開新遊戲
 STR_INTRO_LOAD_GAME                                             :{BLACK}載入遊戲
@@ -1405,12 +1405,12 @@ STR_INTRO_TOOLTIP_ADVANCED_SETTINGS                             :{BLACK}顯示�
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}顯示 NewGRF 設定
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK}檢查有無最新或可更新的內容可下載
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK}顯示 AI 設定
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}離開「OpenTTD」
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}離開「OpenCoaster Tycoon」
 
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}離開
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}您確定要放棄進行中的遊戲{}返回 {STRING}？
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}您確定要放棄進行中的遊戲{}返回 {STRING}？
 STR_QUIT_YES                                                    :{BLACK}是
 STR_QUIT_NO                                                     :{BLACK}否
 
@@ -1502,7 +1502,7 @@ STR_FACE_SIMPLE                                                 :{BLACK}簡易
 STR_FACE_SIMPLE_TOOLTIP                                         :{BLACK}簡易臉孔選擇
 STR_FACE_LOAD                                                   :{BLACK}載入
 STR_FACE_LOAD_TOOLTIP                                           :{BLACK}載入喜愛臉孔
-STR_FACE_LOAD_DONE                                              :{WHITE}您喜愛的臉孔已從 OpenTTD 設定檔中載入
+STR_FACE_LOAD_DONE                                              :{WHITE}您喜愛的臉孔已從 OpenCoaster Tycoon 設定檔中載入
 STR_FACE_FACECODE                                               :{BLACK}玩家臉孔編號
 STR_FACE_FACECODE_TOOLTIP                                       :{BLACK}檢視或設定公司總經理臉孔編號
 STR_FACE_FACECODE_CAPTION                                       :{WHITE}檢視或設定總經理臉孔編號
@@ -1510,7 +1510,7 @@ STR_FACE_FACECODE_SET                                           :{WHITE}新的�
 STR_FACE_FACECODE_ERR                                           :{WHITE}無法設定總經理臉孔編號 - 應該要介於 0 ~ 4,294,967,295 之間！
 STR_FACE_SAVE                                                   :{BLACK}儲存
 STR_FACE_SAVE_TOOLTIP                                           :{BLACK}儲存喜愛臉孔
-STR_FACE_SAVE_DONE                                              :{WHITE}這將被當成您喜愛的臉孔存入 OpenTTD 設定檔
+STR_FACE_SAVE_DONE                                              :{WHITE}這將被當成您喜愛的臉孔存入 OpenCoaster Tycoon 設定檔
 STR_FACE_EUROPEAN                                               :{BLACK}歐洲人
 STR_FACE_SELECT_EUROPEAN                                        :{BLACK}選擇歐洲人臉孔
 STR_FACE_AFRICAN                                                :{BLACK}非洲人
@@ -1845,7 +1845,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER}你尚�
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}你已選擇下載此項目
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER}此項目因相依性而被自動選擇下載
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER}你已下載過此項目
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}此未知內容無法於 OpenTTD 中下載
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}此未知內容無法於 OpenCoaster Tycoon 中下載
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}這是現有 {STRING} 的更新版
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}名稱：{WHITE}{STRING}
 STR_CONTENT_DETAIL_VERSION                                      :{SILVER}版本：{WHITE}{STRING}
@@ -1856,7 +1856,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}下載�
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER}因與下列內容關聯而被選擇：{WHITE}{STRING}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER}相依性：{WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER}標籤：{WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenTTD 編譯時未加入「zlib」支援...
+STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenCoaster Tycoon 編譯時未加入「zlib」支援...
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}... 不支援內容下載功能！
 
 # Order of these is important!
@@ -2281,11 +2281,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :燈塔
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :公司總部
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :公司所有土地
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}關於 OpenTTD
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}關於 OpenCoaster Tycoon
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}原著作權為 {COPYRIGHT} 1995 Chris Sawyer，保留所有權利
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD 版本 {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT} 2002-2012 OpenTTD 開發小組
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon 版本 {REV}
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT} 2012 Shaun Andrew Hill
 
 # Save/load game/scenario
 STR_SAVELOAD_SAVE_CAPTION                                       :{WHITE}儲存遊戲
@@ -2423,7 +2423,7 @@ STR_NEWGRF_SETTINGS_PARAMETER                                   :{BLACK}參數�
 STR_NEWGRF_SETTINGS_NO_INFO                                     :{BLACK}沒有相關資訊
 STR_NEWGRF_SETTINGS_NOT_FOUND                                   :{RED}找不到符合的檔案
 STR_NEWGRF_SETTINGS_DISABLED                                    :{RED}關閉
-STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}與此版本的OpenTTD不相容
+STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}與此版本的OpenCoaster Tycoon不相容
 
 STR_NEWGRF_SETTINGS_PARAMETER_QUERY                             :{BLACK}輸入 NewGRF 參數
 
@@ -2469,13 +2469,13 @@ STR_NEWGRF_ERROR_MSG_WARNING                                    :{RED}警告：{
 STR_NEWGRF_ERROR_MSG_ERROR                                      :{RED}錯誤：{SILVER}{STRING}
 STR_NEWGRF_ERROR_MSG_FATAL                                      :{RED}嚴重錯誤：{SILVER}{STRING}
 STR_NEWGRF_ERROR_FATAL_POPUP                                    :{WHITE}NewGRF 發生嚴重錯誤的處理方式：{}{STRING}
-STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} 跟由 OpenTTD 回報的 TTDPatch 版本不合
+STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} 跟由 OpenCoaster Tycoon 回報的 TTDPatch 版本不合
 STR_NEWGRF_ERROR_DOS_OR_WINDOWS                                 :{1:STRING} 只適合用於 TTD 版本 {STRING}
 STR_NEWGRF_ERROR_UNSET_SWITCH                                   :{1:STRING} 必須跟 {STRING} 一起使用
 STR_NEWGRF_ERROR_INVALID_PARAMETER                              :{1:STRING} 的參數無效：參數 {STRING} ({NUM})
 STR_NEWGRF_ERROR_LOAD_BEFORE                                    :載入 {2:STRING} 前必須先載入 {1:STRING}
 STR_NEWGRF_ERROR_LOAD_AFTER                                     :{1:STRING} 必須要在 {STRING} 之後載入
-STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} 需要 OpenTTD 版本 {STRING} 或更新的版本
+STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} 需要 OpenCoaster Tycoon 版本 {STRING} 或更新的版本
 STR_NEWGRF_ERROR_AFTER_TRANSLATED_FILE                          :GRF 檔案翻譯後出現錯誤
 STR_NEWGRF_ERROR_TOO_MANY_NEWGRFS_LOADED                        :已載入太多 NewGRF
 STR_NEWGRF_ERROR_STATIC_GRF_CAUSES_DESYNC                       :與{4:STRING} 將 {2:STRING} 載入為靜態 NewGRF 可能會讓遊戲失去同步
@@ -2489,7 +2489,7 @@ STR_NEWGRF_ERROR_MISSING_SPRITES                                :{WHITE}目前�
 
 # NewGRF related 'general' warnings
 STR_NEWGRF_POPUP_CAUTION_CAPTION                                :{WHITE}注意！
-STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}您將會修改進行中的遊戲；這可能會導致 OpenTTD 當掉或破壞遊戲資料，修改後遇到錯誤時請不要回報。{}您真的確定要這麼做嗎？
+STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}您將會修改進行中的遊戲；這可能會導致 OpenCoaster Tycoon 當掉或破壞遊戲資料，修改後遇到錯誤時請不要回報。{}您真的確定要這麼做嗎？
 
 STR_NEWGRF_DUPLICATE_GRFID                                      :{WHITE}無法新增檔案：GRF ID 重複
 STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}找不到符合的檔案 (已載入相容的 GRF)
@@ -2497,7 +2497,7 @@ STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}找不�
 STR_NEWGRF_COMPATIBLE_LOAD_WARNING                              :{WHITE}已為找不到的檔案載入相容的 GRF
 STR_NEWGRF_DISABLED_WARNING                                     :{WHITE}找不到的 GRF 檔已被關閉
 STR_NEWGRF_UNPAUSE_WARNING_TITLE                                :{YELLOW}缺少某些 GRF 檔案
-STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}取消暫停可能會讓 OpenTTD 當掉，請不要回報之後的當機情形。{}您真的要取消暫停嗎？
+STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}取消暫停可能會讓 OpenCoaster Tycoon 當掉，請不要回報之後的當機情形。{}您真的要取消暫停嗎？
 
 # NewGRF status
 STR_NEWGRF_LIST_NONE                                            :無
@@ -3356,7 +3356,7 @@ STR_AI_DEBUG_CONTINUE                                           :{BLACK}繼續
 STR_AI_DEBUG_CONTINUE_TOOLTIP                                   :{BLACK}取消暫停並繼續 AI
 STR_AI_DEBUG_SELECT_AI_TOOLTIP                                  :{BLACK}檢視此 AI 的除錯輸出資訊
 
-STR_ERROR_NO_AI                                                 :{WHITE}OpenTTD 編譯時未加入 AI 支援...
+STR_ERROR_NO_AI                                                 :{WHITE}OpenCoaster Tycoon 編譯時未加入 AI 支援...
 STR_ERROR_NO_AI_SUB                                             :{WHITE}... 無 AI 可使用！
 
 STR_ERROR_AI_NO_AI_FOUND                                        :找不到適合的 AI 可以載入。{}此 AI 是虛擬 AI，沒有任何效果。{}您可以透過「線上內容」系統下載更多 AI。
@@ -3794,7 +3794,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}不能�
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}不能修改標誌名稱...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}無法刪除標誌...
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :基於《運輸大亨豪華版》的運輸模擬遊戲
 
 ##id 0x2000

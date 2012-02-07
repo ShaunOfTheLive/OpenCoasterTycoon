@@ -192,7 +192,7 @@ STR_COLOUR_BROWN                                                :Brūns
 STR_COLOUR_GREY                                                 :Pelēks
 STR_COLOUR_WHITE                                                :Balts
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} jūdzes/h
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} km/h
 STR_UNITS_VELOCITY_SI                                           :{COMMA} m/s
@@ -318,12 +318,12 @@ STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}Būvēt 
 STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}Atvērt ainavas rīkjoslu, lai paceltu/nolaistu zemes līmeni, stādītu kokus utt.
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}Rādīt skaņas/mūzikas logu
 STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}Parādīt pēdējo ziņojumu/ziņu rādīšanas režīmus
-STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Informācija par zemesgabalu, konsole, MI atkļūdošana, ekrānuzņēmumi, par OpenTTD
+STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Informācija par zemesgabalu, konsole, MI atkļūdošana, ekrānuzņēmumi, par OpenCoaster Tycoon
 STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}Pārslēgt skaidrojumus
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Saglabāt scenāriju, ielādēt scenāriju, pamest scenārija redaktoru, beigt
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Scenāriju redaktors
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}Pārvietot sākšanas datumu 1 gadu atpakaļ
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}Pārvietot sākuma datumu 1 gadu uz priekšu
@@ -447,7 +447,7 @@ STR_ABOUT_MENU_AI_DEBUG                                         :MI atkļūdoša
 STR_ABOUT_MENU_SCREENSHOT                                       :Ekrānuzņēmums
 STR_ABOUT_MENU_ZOOMIN_SCREENSHOT                                :Tuvināts ekrānuzņēmums
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :Visas kartes ekrānuzņēmums
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :Par 'OpenTTD'
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :Par 'OpenCoaster Tycoon'
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :Objektu izkārtotājs
 STR_ABOUT_MENU_TOGGLE_BOUNDING_BOXES                            :Pārslēgt saistītās kastes
 ############ range ends here
@@ -946,7 +946,7 @@ STR_GAME_OPTIONS_LANGUAGE                                       :{BLACK}Valoda
 STR_GAME_OPTIONS_LANGUAGE_TOOLTIP                               :{BLACK}Interfeisa valodas izvēle
 
 STR_GAME_OPTIONS_FULLSCREEN                                     :{BLACK}Pilnekrāns
-STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Iezīmējiet ķeksi, lai spēlētu OpenTTD pilnekrāna režīmā
+STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Iezīmējiet ķeksi, lai spēlētu OpenCoaster Tycoon pilnekrāna režīmā
 
 STR_GAME_OPTIONS_RESOLUTION                                     :{BLACK}Ekrāna izšķirtspēja
 STR_GAME_OPTIONS_RESOLUTION_TOOLTIP                             :{BLACK}Ekrāna izšķirtspējas izvēle
@@ -1373,7 +1373,7 @@ STR_CONFIG_SETTING_REVERSE_AT_SIGNALS                           :{LTBLUE}Automā
 STR_CONFIG_SETTING_QUERY_CAPTION                                :{WHITE}Mainīt iestatījuma vērtību
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}Jauna spēle
 STR_INTRO_LOAD_GAME                                             :{BLACK}Ielādēt spēli
@@ -1408,12 +1408,12 @@ STR_INTRO_TOOLTIP_ADVANCED_SETTINGS                             :{BLACK}Parādī
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}Parādīt NewGRF iestatījumus
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK}Pārbaudīt vai lejupielādei nav pieejams jauns un atjaunināts saturs
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK}Parādīt mākslīgā intelekta iestatījumus
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Iziet no 'OpenTTD'
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Iziet no 'OpenCoaster Tycoon'
 
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}Iziet
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}Vai jūs tiešām vēlaties iziet no OpenTTD un atgriezties uz {STRING}?
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}Vai jūs tiešām vēlaties iziet no OpenCoaster Tycoon un atgriezties uz {STRING}?
 STR_QUIT_YES                                                    :{BLACK}Jā
 STR_QUIT_NO                                                     :{BLACK}Nē
 
@@ -1848,7 +1848,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER}Šo jū
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}Šo jūs esat atlasījis lejupielādei
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER}Šis atkarīgais materiāls ir iezīmēts lejupielādei.
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER}Jums jau šis ir
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Šī materiāla saturs ir nezināms, tādēļ to nav iespejams lejupielādēt OpenTTD
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Šī materiāla saturs ir nezināms, tādēļ to nav iespejams lejupielādēt OpenCoaster Tycoon
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}Jau esoša aizvietošanai{STRING}
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}Nosaukums: {WHITE}{STRING}
 STR_CONTENT_DETAIL_VERSION                                      :{SILVER}Versija: {WHITE}{STRING}
@@ -1859,7 +1859,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}Lejupie
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER}Atlasīts, jo: {WHITE}{STRING}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER}Atkarības: {WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER}Atzīmes: {WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}OPENTTD ir būvēts bez ''zlib'' palīdzības...
+STR_CONTENT_NO_ZLIB                                             :{WHITE}OPENCOTY ir būvēts bez ''zlib'' palīdzības...
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}... lejuplādēt saturu nav iespējams!
 
 # Order of these is important!
@@ -2286,11 +2286,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Bāka
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :Uzņēmuma birojs
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :Uzņēmumam piederoša zeme
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}Par OpenTTD
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}Par OpenCoaster Tycoon
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}Oriģināla autortiesības {COPYRIGHT} 1995 Kriss Sojers. Visas tiesības paturētas
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD versija {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT}2002-2012 OpenTTD grupa
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon versija {REV}
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT}2002-2012 OpenCoaster Tycoon grupa
 
 # Save/load game/scenario
 STR_SAVELOAD_SAVE_CAPTION                                       :{WHITE}Saglabāt spēli
@@ -2430,7 +2430,7 @@ STR_NEWGRF_SETTINGS_PARAMETER                                   :{BLACK}Parametr
 STR_NEWGRF_SETTINGS_NO_INFO                                     :{BLACK}Informācija nav pieejama
 STR_NEWGRF_SETTINGS_NOT_FOUND                                   :{RED}Nevar atrast saskanīgo failu
 STR_NEWGRF_SETTINGS_DISABLED                                    :{RED}Atspējots
-STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Nav savietojams ar šo OpenTTD versiju
+STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Nav savietojams ar šo OpenCoaster Tycoon versiju
 
 STR_NEWGRF_SETTINGS_PARAMETER_QUERY                             :{BLACK}Ievadīt NewGRF parametrus
 # NewGRF parameters window
@@ -2477,7 +2477,7 @@ STR_NEWGRF_ERROR_MSG_WARNING                                    :{RED}Brīdināj
 STR_NEWGRF_ERROR_MSG_ERROR                                      :{RED}Kļūda: {SILVER}{STRING}
 STR_NEWGRF_ERROR_MSG_FATAL                                      :{RED}Fatāls: {SILVER}{STRING}
 STR_NEWGRF_ERROR_FATAL_POPUP                                    :{WHITE}Notikusi fatāla NewGRF kļūda: {}{STRING}
-STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} nedarbosies kopā ar TTDPatch versiju pēc OpenTTD ziņojuma.
+STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} nedarbosies kopā ar TTDPatch versiju pēc OpenCoaster Tycoon ziņojuma.
 STR_NEWGRF_ERROR_DOS_OR_WINDOWS                                 :{1:STRING} ir TTD {STRING} versijai
 STR_NEWGRF_ERROR_UNSET_SWITCH                                   :{1:STRING} ir paredzēts lietošanai kopā ar {STRING}
 STR_NEWGRF_ERROR_INVALID_PARAMETER                              :Nepareizs parametrs priekš {1:STRING}: parametrs {STRING} ({NUM})
@@ -2499,7 +2499,7 @@ STR_NEWGRF_ERROR_FORCEFULLY_DISABLED                            :{2:STRING} ar {
 
 # NewGRF related 'general' warnings
 STR_NEWGRF_POPUP_CAUTION_CAPTION                                :{WHITE}Uzmanību!
-STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Jūs grasieties veikt izmaiņas pašreizējai spēlei. Var notik OpenTTD avārija.{}Vai tu esi pilnībā drošs?
+STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Jūs grasieties veikt izmaiņas pašreizējai spēlei. Var notik OpenCoaster Tycoon avārija.{}Vai tu esi pilnībā drošs?
 
 STR_NEWGRF_DUPLICATE_GRFID                                      :{WHITE}Nevar pievienot failu: vienādas GRF ID
 STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Atbilstošs fails nav atrass (savienojams GRF ielādēts)
@@ -2507,7 +2507,7 @@ STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Atbilst
 STR_NEWGRF_COMPATIBLE_LOAD_WARNING                              :{WHITE}Saderīgs GRF(s) ielādēts pazudusajiem failiem
 STR_NEWGRF_DISABLED_WARNING                                     :{WHITE}Trūkstošie GRF faili tikuši atspējoti
 STR_NEWGRF_UNPAUSE_WARNING_TITLE                                :{YELLOW}Trūkst GRF fails/i
-STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Atpauzēšana var izraisīt OpenTTD avāriju. Neziņot izstrādātājiem par šo kļudu.{}Vai patiešām vēlies atpauzēt?
+STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Atpauzēšana var izraisīt OpenCoaster Tycoon avāriju. Neziņot izstrādātājiem par šo kļudu.{}Vai patiešām vēlies atpauzēt?
 
 # NewGRF status
 STR_NEWGRF_LIST_NONE                                            :Nekas
@@ -3370,7 +3370,7 @@ STR_AI_DEBUG_CONTINUE                                           :{BLACK}Turpinā
 STR_AI_DEBUG_CONTINUE_TOOLTIP                                   :{BLACK}Atsākt un turpināt šo MI
 STR_AI_DEBUG_SELECT_AI_TOOLTIP                                  :{BLACK}Attēlot šī MI atkļūdošanas izvadu
 
-STR_ERROR_NO_AI                                                 :{WHITE}OpenTTD ir radīts bez MI atbalsta...
+STR_ERROR_NO_AI                                                 :{WHITE}OpenCoaster Tycoon ir radīts bez MI atbalsta...
 STR_ERROR_NO_AI_SUB                                             :{WHITE}... nav peejams neviens MI!
 
 STR_ERROR_AI_NO_AI_FOUND                                        :Nav atrasts piemērots MI.{}Šis ir MI makets un spēlē tas neko nedarīs.{}Jūs varat lejupielādēt vairākus MI no globālās atbalsta sistēmas.
@@ -3808,7 +3808,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}Šeit ne
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}Zīmes nosaukumu nevar mainīt...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}Nevar dzēst zīmi...
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :Uz 'Transport Tycoon Deluxe' balstīta simulācijas spēle
 
 ##id 0x2000

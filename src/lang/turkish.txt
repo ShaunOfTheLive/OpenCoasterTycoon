@@ -191,7 +191,7 @@ STR_COLOUR_BROWN                                                :Kahverengi
 STR_COLOUR_GREY                                                 :Gri
 STR_COLOUR_WHITE                                                :Beyaz
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} mil/s
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} km/s
 STR_UNITS_VELOCITY_SI                                           :{COMMA} m/s
@@ -317,12 +317,12 @@ STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}Havalima
 STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}Arazi düzenleme araç çubuğunu aç (ağaç dikme, alçaltma/yükseltme vb. için).
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}Ses/müzik penceresini göster
 STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}Son mesajı/haberi göster, mesaj ayarlarını göster
-STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Arazi bilgisi, konsol, YZ hata ayıklama, ekran görüntüsü yakalama, OpenTTD hakkında
+STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Arazi bilgisi, konsol, YZ hata ayıklama, ekran görüntüsü yakalama, OpenCoaster Tycoon hakkında
 STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}Araç çubuklarını değiştir
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Senaryoyu kaydet, senaryoyu yükle, editörden çık, oyundan çık
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Senaryo Düzenleyicisi
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}Başlangıç tarihini 1 yıl gerilet
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}Başlangıç tarihini 1 yıl ilerlet
@@ -446,7 +446,7 @@ STR_ABOUT_MENU_AI_DEBUG                                         :YZ hata ayıkla
 STR_ABOUT_MENU_SCREENSHOT                                       :Ekran Görüntüsü
 STR_ABOUT_MENU_ZOOMIN_SCREENSHOT                                :Ekran fotoğrafında yaklaşıldı
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :Tüm harita ekran görüntüsü
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :'OpenTTD' Hakkında
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :'OpenCoaster Tycoon' Hakkında
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :Sprayt hizalayıcı
 STR_ABOUT_MENU_TOGGLE_BOUNDING_BOXES                            :Çerçeveleri aç/kapa
 ############ range ends here
@@ -1372,7 +1372,7 @@ STR_CONFIG_SETTING_PATHFINDER_FOR_SHIPS_YAPF                    :YAPF {RED}(Öne
 STR_CONFIG_SETTING_QUERY_CAPTION                                :{WHITE}Ayar değerini değiştir
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}Yeni Oyun
 STR_INTRO_LOAD_GAME                                             :{BLACK}Oyun Yükle
@@ -1407,12 +1407,12 @@ STR_INTRO_TOOLTIP_ADVANCED_SETTINGS                             :{BLACK}Gelişmi
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}NewGRF ayarlarını göster
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK}İndirilecek yeni ve güncellenmiş içeriği kontrol et
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK}YZ ayarlarını göster
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}'OpenTTD' den çık
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}'OpenCoaster Tycoon' den çık
 
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}Çıkış
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}Oyundan çıkıp {STRING} sisteminize dönmek istediğinizden emin misiniz?
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}Oyundan çıkıp {STRING} sisteminize dönmek istediğinizden emin misiniz?
 STR_QUIT_YES                                                    :{BLACK}Evet
 STR_QUIT_NO                                                     :{BLACK}Hayır
 
@@ -1504,7 +1504,7 @@ STR_FACE_SIMPLE                                                 :{BLACK}Basit
 STR_FACE_SIMPLE_TOOLTIP                                         :{BLACK}Basit yüz seçimi
 STR_FACE_LOAD                                                   :{BLACK}Yükle
 STR_FACE_LOAD_TOOLTIP                                           :{BLACK}Tercih edilen yüzü yükle
-STR_FACE_LOAD_DONE                                              :{WHITE}Tercih edilen yüz OpenTTD ayar dosyasından yüklendi
+STR_FACE_LOAD_DONE                                              :{WHITE}Tercih edilen yüz OpenCoaster Tycoon ayar dosyasından yüklendi
 STR_FACE_FACECODE                                               :{BLACK}Oyuncu yüzü no.
 STR_FACE_FACECODE_TOOLTIP                                       :{BLACK}Şirket başkanının yüz portre numarasını göster ve/veya düzenle
 STR_FACE_FACECODE_CAPTION                                       :{WHITE}Şirket başkanının yüz portre numarasını göster ve/veya düzenle
@@ -1512,7 +1512,7 @@ STR_FACE_FACECODE_SET                                           :{WHITE}Surat nu
 STR_FACE_FACECODE_ERR                                           :{WHITE}Şirket başkanının yüz portre numarası hatalıdır. - Yüz portre numarası 0 ve 4,294,967,295 arasında bir sayı olmalıdır!
 STR_FACE_SAVE                                                   :{BLACK}Kaydet
 STR_FACE_SAVE_TOOLTIP                                           :{BLACK}Tercih edilen yüzü kaydet
-STR_FACE_SAVE_DONE                                              :{WHITE}Bu yüz OpenTTD ayar dosyasına favoriniz olarak kaydedilecek
+STR_FACE_SAVE_DONE                                              :{WHITE}Bu yüz OpenCoaster Tycoon ayar dosyasına favoriniz olarak kaydedilecek
 STR_FACE_EUROPEAN                                               :{BLACK}Avrupalı
 STR_FACE_SELECT_EUROPEAN                                        :{BLACK}Avrupalı yüz seç
 STR_FACE_AFRICAN                                                :{BLACK}Afrikalı
@@ -1847,7 +1847,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER}Bunu in
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}Bunu indirmek üzere seçtiniz
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER}Bu bağımlılık indirilmek üzere seçildi
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER}Bu zaten var
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Bu içerik bilinmiyor ve OpenTTD'ye indirilemez
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Bu içerik bilinmiyor ve OpenCoaster Tycoon'ye indirilemez
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}Bu, mevcut {STRING} için bir yenilemedir
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}Ad: {WHITE}{STRING}
 STR_CONTENT_DETAIL_VERSION                                      :{SILVER}Sürüm: {WHITE}{STRING}
@@ -1858,7 +1858,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}İndirm
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER}Seçildi çünkü: {WHITE}{STRING}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER}Bağımlılıklar: {WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER}Etiketler: {WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenTTD "zlib" desteği olmadan derlenmiş...
+STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenCoaster Tycoon "zlib" desteği olmadan derlenmiş...
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}... içerik indirmek mümkün değil!
 
 # Order of these is important!
@@ -2282,11 +2282,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Fener
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :Şirket binasi
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :Satın alınmış alan
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}OpenTTD Hakkında
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}OpenCoaster Tycoon Hakkında
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}Telif hakkı {COPYRIGHT} 1995 Chris Sawyer, Her hakkı saklıdır
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD {REV} versiyonu
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT} 2002-2012 OpenTTD ekibi
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon {REV} versiyonu
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT} 2012 Shaun Andrew Hill
 
 # Save/load game/scenario
 STR_SAVELOAD_SAVE_CAPTION                                       :{WHITE}Oyunu Kaydet
@@ -2424,7 +2424,7 @@ STR_NEWGRF_SETTINGS_PARAMETER                                   :{BLACK}Seçenek
 STR_NEWGRF_SETTINGS_NO_INFO                                     :{BLACK}Hiç bilgi yok
 STR_NEWGRF_SETTINGS_NOT_FOUND                                   :{RED}Eşleşen dosya bulunamadı
 STR_NEWGRF_SETTINGS_DISABLED                                    :{RED}Etkisiz
-STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}OpenTTD'nin bu sürümüyle uyumlu değil
+STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}OpenCoaster Tycoon'nin bu sürümüyle uyumlu değil
 
 STR_NEWGRF_SETTINGS_PARAMETER_QUERY                             :{BLACK}NewGRF seçeneklerini girin
 
@@ -2470,13 +2470,13 @@ STR_NEWGRF_ERROR_MSG_WARNING                                    :{RED}Uyarı: {S
 STR_NEWGRF_ERROR_MSG_ERROR                                      :{RED}Hata: {SILVER}{STRING}
 STR_NEWGRF_ERROR_MSG_FATAL                                      :{RED}Ölümcül hata: {SILVER}{STRING}
 STR_NEWGRF_ERROR_FATAL_POPUP                                    :{WHITE}Ölümcül bir NewGRF hatası oluştu: {}{STRING}
-STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} OpenTTD tarafından belirtilen TTDPatch sürümüyle çalışmayacaktır
+STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} OpenCoaster Tycoon tarafından belirtilen TTDPatch sürümüyle çalışmayacaktır
 STR_NEWGRF_ERROR_DOS_OR_WINDOWS                                 :{1:STRING}, TTD'nin {STRING} sürümü içindir
 STR_NEWGRF_ERROR_UNSET_SWITCH                                   :{1:STRING}, {STRING} ile kullanılmak için tasarlanmıştır
 STR_NEWGRF_ERROR_INVALID_PARAMETER                              :{1:STRING} için geçersiz parametre: {STRING} ({NUM})
 STR_NEWGRF_ERROR_LOAD_BEFORE                                    :{1:STRING} önce, {STRING} ondan sonra yüklenmeli
 STR_NEWGRF_ERROR_LOAD_AFTER                                     :{1:STRING} sonra, {STRING} ondan önce yüklenmeli
-STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} OpenTTD {STRING} veya daha yüksek bir sürüm gerektirir
+STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} OpenCoaster Tycoon {STRING} veya daha yüksek bir sürüm gerektirir
 STR_NEWGRF_ERROR_AFTER_TRANSLATED_FILE                          :GRF dosyası çeviri için yapılmış
 STR_NEWGRF_ERROR_TOO_MANY_NEWGRFS_LOADED                        :Çok fazla NewGRF yüklendi
 STR_NEWGRF_ERROR_STATIC_GRF_CAUSES_DESYNC                       :{2:STRING} adlı NewGRF'yi {4:STRING} ile birlikte kullanmak senkronizasyon sorunu oluşturabilir
@@ -2492,7 +2492,7 @@ STR_NEWGRF_ERROR_FORCEFULLY_DISABLED                            :{2:STRING} {4:S
 
 # NewGRF related 'general' warnings
 STR_NEWGRF_POPUP_CAUTION_CAPTION                                :{WHITE}Uyarı!
-STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Çalışan bir oyunu değiştirmek üzeresiniz. Bu OpenTTD'yi çökertebilir.{}Bundan kesinlikle emin misiniz?
+STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Çalışan bir oyunu değiştirmek üzeresiniz. Bu OpenCoaster Tycoon'yi çökertebilir.{}Bundan kesinlikle emin misiniz?
 
 STR_NEWGRF_DUPLICATE_GRFID                                      :{WHITE}Dosya eklenemiyor: GRF ID çakışması
 STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Eşleşen dosya bulunamadı (uyumlu GRF yüklendi)
@@ -2500,7 +2500,7 @@ STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Eşleş
 STR_NEWGRF_COMPATIBLE_LOAD_WARNING                              :{WHITE}Eksik dosyalar için uyumlu GRF(ler) yüklendi
 STR_NEWGRF_DISABLED_WARNING                                     :{WHITE}Eksik GRF dosyaları etkisizleştirildi
 STR_NEWGRF_UNPAUSE_WARNING_TITLE                                :{YELLOW}Eksik GRF dosyası
-STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Devam ettırme OpenTTD'yi çökertebilir. Takip eden çökmeler için hata rapor etmeyiniz.{}Gerçekten devam ettirmek istiyor musunuz?
+STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Devam ettırme OpenCoaster Tycoon'yi çökertebilir. Takip eden çökmeler için hata rapor etmeyiniz.{}Gerçekten devam ettirmek istiyor musunuz?
 
 # NewGRF status
 STR_NEWGRF_LIST_NONE                                            :Hiçbiri
@@ -3359,7 +3359,7 @@ STR_AI_DEBUG_CONTINUE                                           :{BLACK}Devam et
 STR_AI_DEBUG_CONTINUE_TOOLTIP                                   :{BLACK}YZ'yi devam ettir
 STR_AI_DEBUG_SELECT_AI_TOOLTIP                                  :{BLACK}Bu YZ için hata ayıklama çıktısı göster
 
-STR_ERROR_NO_AI                                                 :{WHITE}OpenTTD YZ desteği olmadan derlenmiş...
+STR_ERROR_NO_AI                                                 :{WHITE}OpenCoaster Tycoon YZ desteği olmadan derlenmiş...
 STR_ERROR_NO_AI_SUB                                             :{WHITE}... hiç YZ yok!
 
 STR_ERROR_AI_NO_AI_FOUND                                        :Yüklenecek uygun bir YZ bulunamadı.{}Bu YZ boş bir YZ'dir ve hiçbir şey yapmaz.{}'Çevrimiçi İçerik" sistemiyle pekçok YZ'yi indirebilirsiniz
@@ -3797,7 +3797,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}Buraya t
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}Tabela adı değiştirilemiyor...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}Tabelayı silemezsiniz...
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :Transport Tycoon Deluxe'ü temel alan bir simülasyon oyunu
 
 ##id 0x2000

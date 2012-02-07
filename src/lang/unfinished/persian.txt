@@ -183,7 +183,7 @@ STR_COLOUR_BROWN                                                :قهوه‌ای
 STR_COLOUR_GREY                                                 :خاکستری
 STR_COLOUR_WHITE                                                :سفید
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} مایل در ساعت
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} کیلومتر/ساعت
 STR_UNITS_VELOCITY_SI                                           :{COMMA} متر/ثانیه
@@ -288,7 +288,7 @@ STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}صفحه
 STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}توضیحات درباره ی زمین
 
 # Extra tooltips for the scenario editor toolbar
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}روز شروع بازی را یک سال به عقب برگردان
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}روز شروع بازی را یک سال جلو ببر
 STR_SCENEDIT_TOOLBAR_TOOLTIP_DISPLAY_MAP_TOWN_DIRECTORY         :{BLACK}نقشه، لیست شهر ها را نشان می دهد
@@ -386,7 +386,7 @@ STR_ABOUT_MENU_SEPARATOR                                        :
 STR_ABOUT_MENU_AI_DEBUG                                         :رفع اشکالات هوش مصنوعی
 STR_ABOUT_MENU_SCREENSHOT                                       :(Ctrl-S) تصویر از بازی
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :(Ctrl-G) تصویر از دنیا
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :'OpenTTD' درباره
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :'OpenCoaster Tycoon' درباره
 ############ range ends here
 
 ############ range for days starts (also used for the place in the highscore window)
@@ -723,7 +723,7 @@ STR_NUM_CUSTOM                                                  :انتخابی
 
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}بازی جدید
 STR_INTRO_LOAD_GAME                                             :{BLACK}ادامه بازی های قبلی
@@ -744,11 +744,11 @@ STR_INTRO_TOOLTIP_GAME_OPTIONS                                  :{BLACK}نشان
 STR_INTRO_TOOLTIP_DIFFICULTY_OPTIONS                            :{BLACK} نشان دادن تنظیمات سختی
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK}بررسی وجود مجموعه ها و به روز رسانی های جدید در اینترنت
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK}نمایش تنظیمات هوش مصنوعی
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK} خروج از 'OpenTTD'
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK} خروج از 'OpenCoaster Tycoon'
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}خروج
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}آیا می‌خواهید از بازی خارج شوید و برگردید به{STRING}?
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}آیا می‌خواهید از بازی خارج شوید و برگردید به{STRING}?
 STR_QUIT_YES                                                    :{BLACK}بله
 STR_QUIT_NO                                                     :{BLACK}خیر
 
@@ -852,7 +852,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER} شما
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}شما این گزینه را برای دانلود انتخاب کرده اید
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER}این پیوست برای دانلود انتخاب شده است
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER}شما این را از قبل داشته اید
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}این محتوی ناشناخته است و قابلیت دانلود در OpenTTD را ندارد
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}این محتوی ناشناخته است و قابلیت دانلود در OpenCoaster Tycoon را ندارد
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}این مورد جایگزینی برای گزینه ی موجود است {STRING}
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}نام:{WHITE}{STRING}
 STR_CONTENT_DETAIL_VERSION                                      :{SILVER}نسخه: {WHITE}{STRING}
@@ -863,7 +863,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}جحم 
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER}دلیل انتخاب: {STRING}{WHITE}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER}وابستگی ها: {WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER}برچسب ها: {WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}نرم افزار OpenTTD بدون استفاده از پشتیبانی "zlib" ساخته شده است
+STR_CONTENT_NO_ZLIB                                             :{WHITE}نرم افزار OpenCoaster Tycoon بدون استفاده از پشتیبانی "zlib" ساخته شده است
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}... امکان دانلود این محتوی وجود ندارد!
 
 # Order of these is important!
@@ -1073,11 +1073,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :فانوس در
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :ساختمان اصلی شرکت
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :زمین خریداری شده
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}OpenTTD در باره ی
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}OpenCoaster Tycoon در باره ی
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}Original copyright {COPYRIGHT} 1995 Chris Sawyer, All rights reserved
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD version {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT}2002-2012 The OpenTTD team
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon version {REV}
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT}2002-2012 The OpenCoaster Tycoon team
 
 # Save/load game/scenario
 STR_SAVELOAD_SAVE_CAPTION                                       :{WHITE}ذخیره ی بازی
@@ -1791,7 +1791,7 @@ STR_ERROR_TOO_MANY_SIGNS                                        :{WHITE}تعدا
 STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}اینجا نمی شود علامت ساخت
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}نمی شود اسم علامت را عوض کرد
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 
 ##id 0x2000
 # Town building names

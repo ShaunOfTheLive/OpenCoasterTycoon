@@ -254,7 +254,7 @@ STR_COLOUR_BROWN                                                :Hnedá
 STR_COLOUR_GREY                                                 :Šedá
 STR_COLOUR_WHITE                                                :Biela
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} mph
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} km/h
 STR_UNITS_VELOCITY_SI                                           :{COMMA} m/s
@@ -357,7 +357,7 @@ STR_SORT_BY_CARGO_CAPACITY                                      :Kapacita nákla
 STR_TOOLBAR_TOOLTIP_PAUSE_GAME                                  :{BLACK}Pauza
 STR_TOOLBAR_TOOLTIP_FORWARD                                     :{BLACK}Zrýchliť priebeh hry
 STR_TOOLBAR_TOOLTIP_OPTIONS                                     :{BLACK}Nastavenia
-STR_TOOLBAR_TOOLTIP_SAVE_GAME_ABANDON_GAME                      :{BLACK}Uložiť hru, opustiť hru, ukončiť OpenTTD
+STR_TOOLBAR_TOOLTIP_SAVE_GAME_ABANDON_GAME                      :{BLACK}Uložiť hru, opustiť hru, ukončiť OpenCoaster Tycoon
 STR_TOOLBAR_TOOLTIP_DISPLAY_MAP                                 :{BLACK}Zobraziť mapu
 STR_TOOLBAR_TOOLTIP_DISPLAY_TOWN_DIRECTORY                      :{BLACK}Zobraziť zoznam miest
 STR_TOOLBAR_TOOLTIP_DISPLAY_SUBSIDIES                           :{BLACK}Zobraziť dotácie
@@ -380,12 +380,12 @@ STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}Výstavb
 STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}Otvoriť panel nástrojov pre úpravy terénu, výsadbu stromov, a pod.
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}Zobraziť okno zvuku a hudby
 STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}Zobraziť poslednú správu/novinku, nastavenia správ
-STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Informácie o pozemku, konzola, AI ladenie, screenshoty, o OpenTTD
+STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Informácie o pozemku, konzola, AI ladenie, screenshoty, o OpenCoaster Tycoon
 STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}Prepnúť panely nástrojov
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Uložiť scenár, nahrať scenár, opustiť editor scenáru, koniec
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Editor scenárov
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}Posunúť začiatok o rok dozadu
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}Posunúť začiatok o rok dopredu
@@ -509,7 +509,7 @@ STR_ABOUT_MENU_AI_DEBUG                                         :AI Oprava
 STR_ABOUT_MENU_SCREENSHOT                                       :Snímka
 STR_ABOUT_MENU_ZOOMIN_SCREENSHOT                                :Priblížená snímka
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :Veľká snímka celej mapy
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :O hre 'OpenTTD'
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :O hre 'OpenCoaster Tycoon'
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :Sprite zarovnávač
 STR_ABOUT_MENU_TOGGLE_BOUNDING_BOXES                            :Prepnúť okrajové boxy
 ############ range ends here
@@ -1012,7 +1012,7 @@ STR_GAME_OPTIONS_LANGUAGE                                       :{BLACK}Jazyk
 STR_GAME_OPTIONS_LANGUAGE_TOOLTIP                               :{BLACK}Výber jazyka rozhrania
 
 STR_GAME_OPTIONS_FULLSCREEN                                     :{BLACK}Celá obrazovka
-STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Zaskrtnite, ak chcete hrat OpenTTD na celej obrazovke
+STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Zaskrtnite, ak chcete hrat OpenCoaster Tycoon na celej obrazovke
 
 STR_GAME_OPTIONS_RESOLUTION                                     :{BLACK}Rozlíšenie obrazovky
 STR_GAME_OPTIONS_RESOLUTION_TOOLTIP                             :{BLACK}Voľba rozlíšenia obrazovky
@@ -1439,7 +1439,7 @@ STR_CONFIG_SETTING_REVERSE_AT_SIGNALS                           :{LTBLUE}Automat
 STR_CONFIG_SETTING_QUERY_CAPTION                                :{WHITE}Zmeniť hodnotu nastavenia
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}Nová hra
 STR_INTRO_LOAD_GAME                                             :{BLACK}Nahrať hru
@@ -1474,12 +1474,12 @@ STR_INTRO_TOOLTIP_ADVANCED_SETTINGS                             :{BLACK}Zobrazi�
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}Zobraziť NewGRF nastavenia
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK}Skontrolovať nový a aktualizovaný obsah pre stiahnutie
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK}Zobraziť AI nastavenia
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Ukončiť OpenTTD
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Ukončiť OpenCoaster Tycoon
 
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}Koniec
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}Si si istý, že chceš ukončiť hru a vrátiť sa do {STRING}?
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}Si si istý, že chceš ukončiť hru a vrátiť sa do {STRING}?
 STR_QUIT_YES                                                    :{BLACK}Áno
 STR_QUIT_NO                                                     :{BLACK}Nie
 
@@ -1571,7 +1571,7 @@ STR_FACE_SIMPLE                                                 :{BLACK}Jednoduc
 STR_FACE_SIMPLE_TOOLTIP                                         :{BLACK}Rýchla voľba vzhľadu
 STR_FACE_LOAD                                                   :{BLACK}Nahrať
 STR_FACE_LOAD_TOOLTIP                                           :{BLACK}Nahrať obľúbenú tvár
-STR_FACE_LOAD_DONE                                              :{WHITE}Tvoja obľúbená tvár bola nahratá z kofiguračného súboru OpenTTD.
+STR_FACE_LOAD_DONE                                              :{WHITE}Tvoja obľúbená tvár bola nahratá z kofiguračného súboru OpenCoaster Tycoon.
 STR_FACE_FACECODE                                               :{BLACK}Kód tváre
 STR_FACE_FACECODE_TOOLTIP                                       :{BLACK}Zobraziť/nastaviť kód tváre
 STR_FACE_FACECODE_CAPTION                                       :{WHITE}Zobraziť a/alebo nastaviť kód tváre
@@ -1579,7 +1579,7 @@ STR_FACE_FACECODE_SET                                           :{WHITE}Nové č
 STR_FACE_FACECODE_ERR                                           :{WHITE}Nie je možné nastaviť kód tváre - povolené je číslo od 0 do 4 294 967 295!
 STR_FACE_SAVE                                                   :{BLACK}Uložit
 STR_FACE_SAVE_TOOLTIP                                           :{BLACK}Uložit oblúbenú tvár
-STR_FACE_SAVE_DONE                                              :{WHITE}Táto tvár bude uložená ako obľúbená do konfiguračného súboru OpenTTD
+STR_FACE_SAVE_DONE                                              :{WHITE}Táto tvár bude uložená ako obľúbená do konfiguračného súboru OpenCoaster Tycoon
 STR_FACE_EUROPEAN                                               :{BLACK}Európan
 STR_FACE_SELECT_EUROPEAN                                        :{BLACK}Vybrať európske tváre
 STR_FACE_AFRICAN                                                :{BLACK}African
@@ -1914,7 +1914,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER}Toto ni
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}Označili ste toto pre stiahnutie
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER}Táto závislosť bola označená na stiahnutie
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER}Už to máte
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Tento obsah je neznámy a nemôže byť stiahnutý v OpenTTD
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Tento obsah je neznámy a nemôže byť stiahnutý v OpenCoaster Tycoon
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}Toto je náhrada za existujúci {STRING}
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}Meno: {WHITE}{STRING}
 STR_CONTENT_DETAIL_VERSION                                      :{SILVER}Verzia: {WHITE}{STRING}
@@ -1925,7 +1925,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}Veľkos
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER}Označené pretože: {WHITE}{STRING}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER}Závislosti: {WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER}Tagy: {WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenTTD je skompilované bez "zlib" podpory...
+STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenCoaster Tycoon je skompilované bez "zlib" podpory...
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}... stiahnutie obsahu nie je možné!
 
 # Order of these is important!
@@ -2350,11 +2350,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Maják
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :Sidlo firmy
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :Spoločnosťou vlastnený pozemok
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}OpenTTD
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}OpenCoaster Tycoon
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}Pôvodný copyright: {COPYRIGHT} 1995 Chris Sawyer, všetky práva vyhradené
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD verzia {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT} 2002-2012 team OpenTTD
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon verzia {REV}
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT} 2012 Shaun Andrew Hill
 
 # Save/load game/scenario
 STR_SAVELOAD_SAVE_CAPTION                                       :{WHITE}Uložiť hru
@@ -2492,7 +2492,7 @@ STR_NEWGRF_SETTINGS_PARAMETER                                   :{BLACK}Parametr
 STR_NEWGRF_SETTINGS_NO_INFO                                     :{BLACK}Žiadne dostupné informácie
 STR_NEWGRF_SETTINGS_NOT_FOUND                                   :{RED}Príslušný súbor nenájdený
 STR_NEWGRF_SETTINGS_DISABLED                                    :{RED}Nedostupný
-STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Nekompatibilné s touto verziou OpenTTD
+STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Nekompatibilné s touto verziou OpenCoaster Tycoon
 
 STR_NEWGRF_SETTINGS_PARAMETER_QUERY                             :{BLACK}Zadajte NewGRF parametre
 
@@ -2538,13 +2538,13 @@ STR_NEWGRF_ERROR_MSG_WARNING                                    :{RED}Upozorneni
 STR_NEWGRF_ERROR_MSG_ERROR                                      :{RED}Chyba: {SILVER}{STRING}
 STR_NEWGRF_ERROR_MSG_FATAL                                      :{RED}Kritická chyba: {SILVER}{STRING}
 STR_NEWGRF_ERROR_FATAL_POPUP                                    :{WHITE}Nastala závažná chyba pri použití NewGRF: {}{STRING}
-STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} nebude fungovať s TTDPatch verziou nahlásenou OpenTTD.
+STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} nebude fungovať s TTDPatch verziou nahlásenou OpenCoaster Tycoon.
 STR_NEWGRF_ERROR_DOS_OR_WINDOWS                                 :{1:STRING} je pre verziu {STRING} TTD.
 STR_NEWGRF_ERROR_UNSET_SWITCH                                   :{1:STRING} je navrhnutý pre použitie s {STRING}
 STR_NEWGRF_ERROR_INVALID_PARAMETER                              :Neplatný parameter {1:STRING}: parameter {STRING} ({NUM})
 STR_NEWGRF_ERROR_LOAD_BEFORE                                    :{1:STRING} musí byť načítaný pred {STRING}
 STR_NEWGRF_ERROR_LOAD_AFTER                                     :{1:STRING} musí byť načítaný po {STRING}
-STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} vyžaduje verziu OpenTTD {STRING} alebo vyššiu.
+STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} vyžaduje verziu OpenCoaster Tycoon {STRING} alebo vyššiu.
 STR_NEWGRF_ERROR_AFTER_TRANSLATED_FILE                          :GRF súbor bol navrhnutý na preklad
 STR_NEWGRF_ERROR_TOO_MANY_NEWGRFS_LOADED                        :Načítaných priveľa súborov NewGRF.
 STR_NEWGRF_ERROR_STATIC_GRF_CAUSES_DESYNC                       :Načítanie {2:STRING} ako statického NewGRF s {4:STRING} môže spôsobiť chybné zobrazenie.
@@ -2568,7 +2568,7 @@ STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Príslu
 STR_NEWGRF_COMPATIBLE_LOAD_WARNING                              :{WHITE}Kompatibilné súbory GRF použité namiesto chýbajúcich
 STR_NEWGRF_DISABLED_WARNING                                     :{WHITE}Chýbajúce súbory GRF boli vypnuté
 STR_NEWGRF_UNPAUSE_WARNING_TITLE                                :{YELLOW}Chýba(jú) GRF súbor(y)
-STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Odpauzovanie môže spôsobit pád OpenTTD. Nezaznamenávajte nasledujúce chyby.{}Naozaj chcete odpauzovat?
+STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Odpauzovanie môže spôsobit pád OpenCoaster Tycoon. Nezaznamenávajte nasledujúce chyby.{}Naozaj chcete odpauzovat?
 
 # NewGRF status
 STR_NEWGRF_LIST_NONE                                            :Žiadne
@@ -3427,7 +3427,7 @@ STR_AI_DEBUG_CONTINUE                                           :{BLACK}Pokračo
 STR_AI_DEBUG_CONTINUE_TOOLTIP                                   :{BLACK}Odpauzovať a povoliť AI
 STR_AI_DEBUG_SELECT_AI_TOOLTIP                                  :{BLACK}Ukázať ladiaci výpis tejto UI
 
-STR_ERROR_NO_AI                                                 :{WHITE}OpenTTD je vytvorené bez podpory AI...
+STR_ERROR_NO_AI                                                 :{WHITE}OpenCoaster Tycoon je vytvorené bez podpory AI...
 STR_ERROR_NO_AI_SUB                                             :{WHITE}... žiadne AI nieje dostupné!
 
 STR_ERROR_AI_NO_AI_FOUND                                        :Nebolo nájdená žiadne použitelné AI.{}Toto AI je hlúpe a nebude nič robiť.{}Môžete si stiahnúť niekoľko AI cez 'Online Obsah' systém.
@@ -3865,7 +3865,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}Tu sa ne
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}Nemožno zmeniť text popisu...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}Nemôžem zmazať popis...
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :Simulátor založený na hre Transport Tycoon Deluxe
 
 ##id 0x2000

@@ -183,7 +183,7 @@ STR_COLOUR_BROWN                                                :Кафена
 STR_COLOUR_GREY                                                 :Сива
 STR_COLOUR_WHITE                                                :Бела
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} mph
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} km/h
 STR_UNITS_VELOCITY_SI                                           :{COMMA} m/s
@@ -286,7 +286,7 @@ STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}Прик
 STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Информација за земјишна област
 
 # Extra tooltips for the scenario editor toolbar
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Сценарио Едитор
 STR_SCENEDIT_TOOLBAR_TOOLTIP_DISPLAY_MAP_TOWN_DIRECTORY         :{BLACK}Прикажи мапа, именик на градови
 STR_SCENEDIT_TOOLBAR_LANDSCAPE_GENERATION                       :{BLACK}Генерирање на терен
@@ -692,7 +692,7 @@ STR_INTRO_DIFFICULTY                                            :{BLACK}Тежи
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}Напушти
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}Дали сте сигурни дека сакате да ја напуштите OpenTTD и да се вратите во {STRING}?
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}Дали сте сигурни дека сакате да ја напуштите OpenCoaster Tycoon и да се вратите во {STRING}?
 STR_QUIT_YES                                                    :{BLACK}Да
 STR_QUIT_NO                                                     :{BLACK}Не
 
@@ -929,11 +929,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Светилн�
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :Седиштето на компанијата
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :Компанија во сопственост на земјиштето
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}За OpenTTD
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}За OpenCoaster Tycoon
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}Оригинален copyright {COPYRIGHT} 1995 Chris Sawyer, Сите права се задржани
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD верзија {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT}2002-2012 OpenTTD тимот
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon верзија {REV}
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT}2002-2012 OpenCoaster Tycoon тимот
 
 # Save/load game/scenario
 STR_SAVELOAD_LOAD_BUTTON                                        :{BLACK}Оптоварување
@@ -1450,7 +1450,7 @@ STR_ERROR_TOO_FAR_FROM_PREVIOUS_DESTINATION                     :{WHITE}..пре
 
 # Sign related errors
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :А симулација игра базирана на транспорт Тајкун Делукс
 
 ##id 0x2000

@@ -190,7 +190,7 @@ STR_COLOUR_BROWN                                                :بني
 STR_COLOUR_GREY                                                 :رمادي
 STR_COLOUR_WHITE                                                :ابيض
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA}ميل/س
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA}كم/س
 STR_UNITS_VELOCITY_SI                                           :{COMMA}م/ث
@@ -321,7 +321,7 @@ STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}بدل �
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}حفظ/فتح/خروج من محرر الخرائط
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}النسخة المفتوحة
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}النسخة المفتوحة
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}محرر الخريطة
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}العودة بتاريخ البدأ سنة واحدة
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}تقديم تاريخ البدأ سنة واحدة لالأمام
@@ -445,7 +445,7 @@ STR_ABOUT_MENU_AI_DEBUG                                         :مكتشف اخ
 STR_ABOUT_MENU_SCREENSHOT                                       :صورة من الشاشة - Ctrl-S -
 STR_ABOUT_MENU_ZOOMIN_SCREENSHOT                                :صورة للشاشة مصغرة
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :صورة كبيرة لكامل الخريطة -Ctrl-G -
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :حول 'OpenTTD'
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :حول 'OpenCoaster Tycoon'
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :موائم العفريتات
 STR_ABOUT_MENU_TOGGLE_BOUNDING_BOXES                            :اضهار /اخفاء مربح الحوارات/الخيارات
 ############ range ends here
@@ -944,7 +944,7 @@ STR_GAME_OPTIONS_LANGUAGE                                       :{BLACK}لغة
 STR_GAME_OPTIONS_LANGUAGE_TOOLTIP                               :{BLACK}اختر لغة الواجهه
 
 STR_GAME_OPTIONS_FULLSCREEN                                     :{BLACK}شاشة كاملة
-STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}اختر هذا المربع للعب OpenTTD على لشاشة الكاملة
+STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}اختر هذا المربع للعب OpenCoaster Tycoon على لشاشة الكاملة
 
 STR_GAME_OPTIONS_RESOLUTION                                     :{BLACK}دقة الشاشة
 STR_GAME_OPTIONS_RESOLUTION_TOOLTIP                             :{BLACK}اختر دقة الشاشة
@@ -1371,7 +1371,7 @@ STR_CONFIG_SETTING_REVERSE_AT_SIGNALS                           :{LTBLUE}الع�
 STR_CONFIG_SETTING_QUERY_CAPTION                                :{WHITE}عدل قيمة التغيير
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}لعبة جديدة
 STR_INTRO_LOAD_GAME                                             :{BLACK} تحميل
@@ -1406,12 +1406,12 @@ STR_INTRO_TOOLTIP_ADVANCED_SETTINGS                             :{BLACK}عرض �
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK} عرض اعدادات newGRF
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK} ابحث عن محتوى جديد او تحديث
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK} عرض اعدادات الذكاء الصناعي
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}اغلاق'OpenTTD'
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}اغلاق'OpenCoaster Tycoon'
 
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}انهاء
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}هل تود اغلاق النسخة المفتوحة و العودة لـ {STRING}?
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}هل تود اغلاق النسخة المفتوحة و العودة لـ {STRING}?
 STR_QUIT_YES                                                    :{BLACK}نعم
 STR_QUIT_NO                                                     :{BLACK}لا
 
@@ -1503,7 +1503,7 @@ STR_FACE_SIMPLE                                                 :{BLACK}بسيط
 STR_FACE_SIMPLE_TOOLTIP                                         :{BLACK}اختيار الوجة المبسط
 STR_FACE_LOAD                                                   :{BLACK}حمل
 STR_FACE_LOAD_TOOLTIP                                           :{BLACK}حمل الوجه المفضل
-STR_FACE_LOAD_DONE                                              :{WHITE}وجهك المفضل تم تحميله من ملف التكوين الخاص بـ OpenTTD.
+STR_FACE_LOAD_DONE                                              :{WHITE}وجهك المفضل تم تحميله من ملف التكوين الخاص بـ OpenCoaster Tycoon.
 STR_FACE_FACECODE                                               :{BLACK}رقم وجة اللاعب
 STR_FACE_FACECODE_TOOLTIP                                       :{BLACK}عرض او تغيير رقم الوجة
 STR_FACE_FACECODE_CAPTION                                       :{WHITE}عرض او تغيير رقم وجة اللاعب
@@ -1846,7 +1846,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER} لم �
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER} لقد اخترت هذا المحتوى ليتم تحميله
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER} هذا الدعم قد اختير للتحميل
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER} هذا المحتوى موجود لديك مسبقا
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}هذا المحتوى غير معروف و لا يمكت تحميله في OpenTTD
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}هذا المحتوى غير معروف و لا يمكت تحميله في OpenCoaster Tycoon
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}هذا استبدال للملف الموجود {STRING}
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}الاسم: {WHITE}{STRING}
 STR_CONTENT_DETAIL_VERSION                                      :{SILVER} النسخة: {WHITE}{STRING}
@@ -1857,7 +1857,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}حجم 
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER} اختير بسبب: {WHITE}{STRING}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER} الاعتمادية: {WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER} الاسم الرمزي: {WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}بنيت OpenTTD بدون دعم "zlib"...
+STR_CONTENT_NO_ZLIB                                             :{WHITE}بنيت OpenCoaster Tycoon بدون دعم "zlib"...
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}تحميل محتويات zlib غير ممكن
 
 # Order of these is important!
@@ -2282,11 +2282,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :منارة ضو
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :مبنى الشركة الرئيسي
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :ارض مملوكة لشركة
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}حول النسخة المفتوحة
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}حول النسخة المفتوحة
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}الحقوق الاصلية {COPYRIGHT} كريس سوير 1995 , جميع الحقوق محفوظة
 STR_ABOUT_VERSION                                               :{BLACK}النسخة المفتوحة رقم {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}النسخة المفتوحة {COPYRIGHT}2002-2012 فريق النسخة المفتوحة
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}النسخة المفتوحة {COPYRIGHT}2002-2012 فريق النسخة المفتوحة
 
 # Save/load game/scenario
 STR_SAVELOAD_SAVE_CAPTION                                       :{WHITE}حفظ اللعبة
@@ -2492,7 +2492,7 @@ STR_NEWGRF_ERROR_FORCEFULLY_DISABLED                            :{2:STRING}تم 
 
 # NewGRF related 'general' warnings
 STR_NEWGRF_POPUP_CAUTION_CAPTION                                :{WHITE}تحذير!
-STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}ان على وشك ان تحدث تغييرات في لعبة شغالة؛ قد يتسبب في توقف OpenTTD.{} هل انت متأكد تماما من هذا؟
+STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}ان على وشك ان تحدث تغييرات في لعبة شغالة؛ قد يتسبب في توقف OpenCoaster Tycoon.{} هل انت متأكد تماما من هذا؟
 
 STR_NEWGRF_DUPLICATE_GRFID                                      :{WHITE}لا يمكن اضافة الملف: نسخة سابقة منه مضافة
 STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}الملف المطابق غير موجود (ملف متوافق من NewGRFحمل)
@@ -3797,7 +3797,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}لايم
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}لا يمكن تعديل اسم العلامة ...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}لا يمكن حذف العلامة ...
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :نسخة مستنسخة من ترانسبورت تايكون ديلوكس
 
 ##id 0x2000

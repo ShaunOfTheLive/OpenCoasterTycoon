@@ -265,7 +265,7 @@ STR_COLOUR_BROWN                                                :Ruda
 STR_COLOUR_GREY                                                 :Pilka
 STR_COLOUR_WHITE                                                :Balta
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} mph
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} km/h
 STR_UNITS_VELOCITY_SI                                           :{COMMA} m/s
@@ -391,12 +391,12 @@ STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}Statyti 
 STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}Atidaro žemės tvarkymo įrankių juostą, skirtą pakelti/nuleisti žemės lygiui, sodinti medžius ir t.t.
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}Rodyti garso/muzikos nustatymus
 STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}Rodyti paskutinę žinutę/naujienų pranešimus, rodyti žinučių nustatymus
-STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Žemės ploto informacija, konsolė, AI debug, ekrano nuotraukos, apie OpenTTD
+STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Žemės ploto informacija, konsolė, AI debug, ekrano nuotraukos, apie OpenCoaster Tycoon
 STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}Perjungti įrankines
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Išsaugoti scenarijų, įkelti scenarijų, išjungti scenarijų redaktorių, išeiti
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Scenarijaus redaktorius
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}Žaidimo pradžios datą sumažinti 1 metais
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}Žaidimo pradžios datą padidinti 1 metais
@@ -520,7 +520,7 @@ STR_ABOUT_MENU_AI_DEBUG                                         :AI Debug
 STR_ABOUT_MENU_SCREENSHOT                                       :Ekrano nuotrauka
 STR_ABOUT_MENU_ZOOMIN_SCREENSHOT                                :Ekrano nuotrauka iš arti
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :Fotografuoti viso ekrano vaizdą
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :Apie „OpenTTD“
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :Apie „OpenCoaster Tycoon“
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :Animacinių objektų išdėstytuvas
 STR_ABOUT_MENU_TOGGLE_BOUNDING_BOXES                            :Rodyti/slėpti apvadus
 ############ range ends here
@@ -1019,7 +1019,7 @@ STR_GAME_OPTIONS_LANGUAGE                                       :{BLACK}Kalba
 STR_GAME_OPTIONS_LANGUAGE_TOOLTIP                               :{BLACK}Pasirinkite aplinkos kalbą
 
 STR_GAME_OPTIONS_FULLSCREEN                                     :{BLACK}Visu ekranu
-STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Pažymėkite šį langelį, jeigu norite OpenTTD žaisti visu ekranu
+STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Pažymėkite šį langelį, jeigu norite OpenCoaster Tycoon žaisti visu ekranu
 
 STR_GAME_OPTIONS_RESOLUTION                                     :{BLACK}Ekrano raiška
 STR_GAME_OPTIONS_RESOLUTION_TOOLTIP                             :{BLACK}Pasirinkite ekrano raišką
@@ -1443,7 +1443,7 @@ STR_CONFIG_SETTING_REVERSE_AT_SIGNALS                           :{LTBLUE}Apsisuk
 STR_CONFIG_SETTING_QUERY_CAPTION                                :{WHITE}Keisti reikšmes
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}Naujas žaidimas
 STR_INTRO_LOAD_GAME                                             :{BLACK}Įkelti žaidimą
@@ -1478,12 +1478,12 @@ STR_INTRO_TOOLTIP_ADVANCED_SETTINGS                             :{BLACK}Rodyti s
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}Atvaizduoti NewGRF nustatymus
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK}Patikrinti dėl naujų ir atnaujintą turinį atsisiuntimui
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK}Rodyti AI nustatymus
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Išeiti iš 'OpenTTD'
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Išeiti iš 'OpenCoaster Tycoon'
 
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}Baigti
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}Ar jūs tikrai norite sustabdyti žaidimą ir grįžti į {STRING}?
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}Ar jūs tikrai norite sustabdyti žaidimą ir grįžti į {STRING}?
 STR_QUIT_YES                                                    :{BLACK}Taip
 STR_QUIT_NO                                                     :{BLACK}Ne
 
@@ -1575,7 +1575,7 @@ STR_FACE_SIMPLE                                                 :{BLACK}Paprasta
 STR_FACE_SIMPLE_TOOLTIP                                         :{BLACK}Paprastas veido parinkimas
 STR_FACE_LOAD                                                   :{BLACK}Atverti
 STR_FACE_LOAD_TOOLTIP                                           :{BLACK}Atverti mėgstamą veidą
-STR_FACE_LOAD_DONE                                              :{WHITE}Tavo mėgstamas veidas sėkmingai įkeltas iš OpenTTD nustatymų failo.
+STR_FACE_LOAD_DONE                                              :{WHITE}Tavo mėgstamas veidas sėkmingai įkeltas iš OpenCoaster Tycoon nustatymų failo.
 STR_FACE_FACECODE                                               :{BLACK}Žaidėjo veido nr.
 STR_FACE_FACECODE_TOOLTIP                                       :{BLACK}Tikrinti ir/arba nustatyti žaidėjo veido numerį
 STR_FACE_FACECODE_CAPTION                                       :{WHITE}Tikrinti ir/arba nustatyti žaidėjo veido numerį
@@ -1583,7 +1583,7 @@ STR_FACE_FACECODE_SET                                           :{WHITE}Nustatyt
 STR_FACE_FACECODE_ERR                                           :{WHITE}Prezidento veido numeris nepriskirtas - turi būti skaičius tarp 0 ir 4,294,967,295!
 STR_FACE_SAVE                                                   :{BLACK}Išsaugoti
 STR_FACE_SAVE_TOOLTIP                                           :{BLACK}Išsaugoti mėgstamą veidą
-STR_FACE_SAVE_DONE                                              :{WHITE}Šis veidas bus išsaugotas kaip tavo mėgstamas OpenTTD nustatymų faile.
+STR_FACE_SAVE_DONE                                              :{WHITE}Šis veidas bus išsaugotas kaip tavo mėgstamas OpenCoaster Tycoon nustatymų faile.
 STR_FACE_EUROPEAN                                               :{BLACK}Europietiškas
 STR_FACE_SELECT_EUROPEAN                                        :{BLACK}Pasirinkti europietiškus veidus
 STR_FACE_AFRICAN                                                :{BLACK}Afrikietiškas
@@ -1918,7 +1918,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER}Jūs ne
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}Jūs pasirinkote tai atsisiųsti
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER}Ši priklausomybė buvo pasirinkta atsisiuntimui
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER}Tu jau tai turi
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Šis turinys yra nežinomas ir negali būti parsiųstas su OpenTTD
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Šis turinys yra nežinomas ir negali būti parsiųstas su OpenCoaster Tycoon
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}Tai yra pakeitimas egzistuojančiam {STRING}
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}Vardas: {WHITE}{STRING}
 STR_CONTENT_DETAIL_VERSION                                      :{SILVER}Versija: {WHITE}{STRING}
@@ -1929,7 +1929,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}Siuntin
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER}Pasirinktas nes: {WHITE}{STRING}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER}Priklausomybės: {WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER}Žymės: {WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenTTD pagaminta be "zlib" pagalbos...
+STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenCoaster Tycoon pagaminta be "zlib" pagalbos...
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}... atsiųsti turinio neįmanoma!
 
 # Order of these is important!
@@ -2353,11 +2353,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Švyturys
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :Kompanijos būstinė
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :Kompanijos žemė
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}Apie OpenTTD
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}Apie OpenCoaster Tycoon
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}Pradinės versijos teisės priklauso {COPYRIGHT} 1995 Chris Sawyer, Visos teisės saugomos
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD versija {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT}2002-2012 OpenTTD komanda
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon versija {REV}
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT}2002-2012 OpenCoaster Tycoon komanda
 
 # Save/load game/scenario
 STR_SAVELOAD_SAVE_CAPTION                                       :{WHITE}Išsaugoti žaidimą
@@ -2495,7 +2495,7 @@ STR_NEWGRF_SETTINGS_PARAMETER                                   :{BLACK}Parametr
 STR_NEWGRF_SETTINGS_NO_INFO                                     :{BLACK}Informacijos nėra
 STR_NEWGRF_SETTINGS_NOT_FOUND                                   :{RED}Atitinkamas failas nerastas
 STR_NEWGRF_SETTINGS_DISABLED                                    :{RED}Išjungta
-STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Nesuderinamas su šia OpenTTD versija
+STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Nesuderinamas su šia OpenCoaster Tycoon versija
 
 STR_NEWGRF_SETTINGS_PARAMETER_QUERY                             :{BLACK}Įveskite Papild. grafikos parametrus
 
@@ -2541,13 +2541,13 @@ STR_NEWGRF_ERROR_MSG_WARNING                                    :{RED}Įspėjima
 STR_NEWGRF_ERROR_MSG_ERROR                                      :{RED}Klaida: {SILVER}{STRING}
 STR_NEWGRF_ERROR_MSG_FATAL                                      :{RED}Fatalinė klaida: {SILVER}{STRING}
 STR_NEWGRF_ERROR_FATAL_POPUP                                    :{WHITE}Ištiko nepataisoma NewGRF klaida: {}{STRING}
-STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} neveiks su TTDPatch versija nurodyta pagal OpenTTD.
+STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} neveiks su TTDPatch versija nurodyta pagal OpenCoaster Tycoon.
 STR_NEWGRF_ERROR_DOS_OR_WINDOWS                                 :{1:STRING} skirtas {STRING} TTD versijai.
 STR_NEWGRF_ERROR_UNSET_SWITCH                                   :{1:STRING} yra pritaikytas naudojimui su {STRING}
 STR_NEWGRF_ERROR_INVALID_PARAMETER                              :Neteisingas parametras {1:STRING}: parametras {STRING} ({NUM})
 STR_NEWGRF_ERROR_LOAD_BEFORE                                    :{1:STRING} turi būti įkeltas prieš {STRING}.
 STR_NEWGRF_ERROR_LOAD_AFTER                                     :{1:STRING} turi būti įkeltas po {STRING}.
-STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} reikalauja OpenTTD versijos {STRING} ar naujesnės.
+STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} reikalauja OpenCoaster Tycoon versijos {STRING} ar naujesnės.
 STR_NEWGRF_ERROR_AFTER_TRANSLATED_FILE                          :GRF failas, kurį turėjo išversti
 STR_NEWGRF_ERROR_TOO_MANY_NEWGRFS_LOADED                        :Per daug NewGRF'ų įkelta.
 STR_NEWGRF_ERROR_STATIC_GRF_CAUSES_DESYNC                       :Įkėlimas {2:STRING} kaip statinio NewGRF su {4:STRING} gali sukelti desinchronizacija.
@@ -2563,7 +2563,7 @@ STR_NEWGRF_ERROR_FORCEFULLY_DISABLED                            :{2:STRING} buvo
 
 # NewGRF related 'general' warnings
 STR_NEWGRF_POPUP_CAUTION_CAPTION                                :{WHITE}Įspėjimas!
-STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Jūs norite atlikti pakeitimus veikiančiam žaidimui: OpenTTD gali pakibti.{}Ar jūs tikrai norite tai atlikti?
+STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Jūs norite atlikti pakeitimus veikiančiam žaidimui: OpenCoaster Tycoon gali pakibti.{}Ar jūs tikrai norite tai atlikti?
 
 STR_NEWGRF_DUPLICATE_GRFID                                      :{WHITE}Negalima pridėti failo: pasikartojantis GRF ID
 STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Atitinkamas failas nerastas (panaudotas suderinamas grafikos failas)
@@ -2571,7 +2571,7 @@ STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Atitink
 STR_NEWGRF_COMPATIBLE_LOAD_WARNING                              :{WHITE}Suderinami grafikos failai panaudoti vietoj trūkstamų
 STR_NEWGRF_DISABLED_WARNING                                     :{WHITE}Trūkstami grafikos failai nenaudojami
 STR_NEWGRF_UNPAUSE_WARNING_TITLE                                :{YELLOW}Trūksta GRF failų
-STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Paleidimas gali užlaužti OpenTTD. Neraportuokite šios rūšies gedimų!{}Ar norite paleisti toliau?
+STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Paleidimas gali užlaužti OpenCoaster Tycoon. Neraportuokite šios rūšies gedimų!{}Ar norite paleisti toliau?
 
 # NewGRF status
 STR_NEWGRF_LIST_NONE                                            :Niekas
@@ -3436,7 +3436,7 @@ STR_AI_DEBUG_CONTINUE                                           :{BLACK}Tęsti
 STR_AI_DEBUG_CONTINUE_TOOLTIP                                   :{BLACK}Pratęsti žaidimą ir tęsti simuliatorių
 STR_AI_DEBUG_SELECT_AI_TOOLTIP                                  :{BLACK}Rodyti DI derinimo režimo išeigą
 
-STR_ERROR_NO_AI                                                 :{WHITE}OpenTTD yra paruoštas be DI palaikymo...
+STR_ERROR_NO_AI                                                 :{WHITE}OpenCoaster Tycoon yra paruoštas be DI palaikymo...
 STR_ERROR_NO_AI_SUB                                             :{WHITE}... nerasta jokių prieinamų DI!
 
 STR_ERROR_AI_NO_AI_FOUND                                        :Nerasta jokio tinkamo DI.{}Šis DI yra netikras ir nieko nedarys.{}Galite parsisiųsti keletą DI per 'Turinio internete' sistemą.
@@ -3874,7 +3874,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}Čia že
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}Ženklo pavadinimo keisti negalima...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}Neįmanoma naikinti ženklo...
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :Simuliatoriaus žaidimas kurtas pagal Transport Tycoon Deluxe
 
 ##id 0x2000

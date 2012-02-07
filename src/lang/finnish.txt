@@ -190,7 +190,7 @@ STR_COLOUR_BROWN                                                :Ruskea
 STR_COLOUR_GREY                                                 :Harmaa
 STR_COLOUR_WHITE                                                :Valkoinen
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} mph
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} km/h
 STR_UNITS_VELOCITY_SI                                           :{COMMA} m/s
@@ -316,12 +316,12 @@ STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}Rakenna 
 STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}Avaa maastonmuokkaustyökalupalkki maan kohottamiseen/madaltamiseen, puiden istuttamiseen, jne.
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}Näytä ääni- ja musiikkiasetukset
 STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}Näytä viimeisin viesti/uutisraportti, näytä viestiasetukset
-STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Maa-aluetiedot, konsoli, tekoälyn virheenjäljitys, kuvankaappaukset, tietoja OpenTTD:stä
+STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Maa-aluetiedot, konsoli, tekoälyn virheenjäljitys, kuvankaappaukset, tietoja OpenCoaster Tycoon:stä
 STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}Vaihda työkalupalkkeja
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Tallenna skenaario, lataa skenaario, sulje skenaariomuokkain, poistu
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Skenaariomuokkain
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}Siirrä aloituspäivää vuodella taaksepäin
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}Siirrä aloituspäivää vuodella eteenpäin
@@ -445,7 +445,7 @@ STR_ABOUT_MENU_AI_DEBUG                                         :Tekoälyn virhe
 STR_ABOUT_MENU_SCREENSHOT                                       :Kuvakaappaus
 STR_ABOUT_MENU_ZOOMIN_SCREENSHOT                                :Lähennetty kuvakaappaus
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :Koko kartan kuvakaappaus
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :Tietoja 'OpenTTD':stä
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :Tietoja 'OpenCoaster Tycoon':stä
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :Sprite-kohdistaja
 STR_ABOUT_MENU_TOGGLE_BOUNDING_BOXES                            :Reunat päälle/pois
 ############ range ends here
@@ -1371,7 +1371,7 @@ STR_CONFIG_SETTING_REVERSE_AT_SIGNALS                           :{LTBLUE}Automaa
 STR_CONFIG_SETTING_QUERY_CAPTION                                :{WHITE}Muuta asetusarvo
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}Uusi peli
 STR_INTRO_LOAD_GAME                                             :{BLACK}Lataa peli
@@ -1406,12 +1406,12 @@ STR_INTRO_TOOLTIP_ADVANCED_SETTINGS                             :{BLACK}Näytä 
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}Näytä NewGRF-asetukset
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK}Tarkista uutta ja päivitettyä sisältöä ladattavaksi
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK}Näytä tekoälyasetukset
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Sulje OpenTTD.
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Sulje OpenCoaster Tycoon.
 
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}Sulje
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}Lopetetaanko peli ja palataan {STRING}-järjestelmään?
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}Lopetetaanko peli ja palataan {STRING}-järjestelmään?
 STR_QUIT_YES                                                    :{BLACK}Kyllä
 STR_QUIT_NO                                                     :{BLACK}Ei
 
@@ -1503,7 +1503,7 @@ STR_FACE_SIMPLE                                                 :{BLACK}Yksinker
 STR_FACE_SIMPLE_TOOLTIP                                         :{BLACK}Yksinkertainen kasvojenvalitsin
 STR_FACE_LOAD                                                   :{BLACK}Lataa
 STR_FACE_LOAD_TOOLTIP                                           :{BLACK}Lataa suosikkikasvot
-STR_FACE_LOAD_DONE                                              :{WHITE}Suosikkikasvosi on ladattu OpenTTD:n kokoonpanotiedostosta.
+STR_FACE_LOAD_DONE                                              :{WHITE}Suosikkikasvosi on ladattu OpenCoaster Tycoon:n kokoonpanotiedostosta.
 STR_FACE_FACECODE                                               :{BLACK}Pelaajan kasvot no.
 STR_FACE_FACECODE_TOOLTIP                                       :{BLACK}Tarkastele ja/tai aseta johtajan kasvojen numero
 STR_FACE_FACECODE_CAPTION                                       :{WHITE}Tarkastele ja/tai aseta johtajan kasvojen numero
@@ -1511,7 +1511,7 @@ STR_FACE_FACECODE_SET                                           :{WHITE}Uusi kas
 STR_FACE_FACECODE_ERR                                           :{WHITE}Johtajan kasvojen numeroa ei voitu asettaa - arvon on oltaa numeerinen arvo väliltä 0-4,294,967,295!
 STR_FACE_SAVE                                                   :{BLACK}Tallenna
 STR_FACE_SAVE_TOOLTIP                                           :{BLACK}Tallenna suosikkikasvot
-STR_FACE_SAVE_DONE                                              :{WHITE}Nämä kasvot tallennetaan suosikkikasvoiksesi OpenTTD:n kokoonpanotiedostoon.
+STR_FACE_SAVE_DONE                                              :{WHITE}Nämä kasvot tallennetaan suosikkikasvoiksesi OpenCoaster Tycoon:n kokoonpanotiedostoon.
 STR_FACE_EUROPEAN                                               :{BLACK}Eurooppalainen
 STR_FACE_SELECT_EUROPEAN                                        :{BLACK}Valitse eurooppalaisia kasvoja
 STR_FACE_AFRICAN                                                :{BLACK}Afrikkalainen
@@ -1846,7 +1846,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER}Et ole 
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}Olet valinnut tämän ladattavaksi
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER}Tämä vaatimus on valittu ladattavaksi
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER}Sinulla on jo tämä
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Tämä sisältö on tuntematon, ja sitä ei voida ladata OpenTTD:ssä
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Tämä sisältö on tuntematon, ja sitä ei voida ladata OpenCoaster Tycoon:ssä
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}Tämä korvaa sisällön {STRING}
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}Nimi: {WHITE}{STRING}
 STR_CONTENT_DETAIL_VERSION                                      :{SILVER}Versio: {WHITE}{STRING}
@@ -1857,7 +1857,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}Latauks
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER}Valittu seuraavan takia: {WHITE}{STRING}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER}Vaatimukset: {WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER}Avainsanat: {WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenTTD on käännetty ilman "zlib" tukea...
+STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenCoaster Tycoon on käännetty ilman "zlib" tukea...
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}... sisällön lataus ei ole mahdollista!
 
 # Order of these is important!
@@ -2284,11 +2284,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Majakka
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :Yhtiön päärakennus
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :Yhtiön omistamaa maata
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}Tietoja OpenTTD:stä
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}Tietoja OpenCoaster Tycoon:stä
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}Alkuperäiset oikeudet {COPYRIGHT} 1995 Chris Sawyer, kaikki oikeudet pidätetään
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD-versio {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT} 2002-2012 The OpenTTD team
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon-versio {REV}
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT} 2012 Shaun Andrew Hill
 
 # Save/load game/scenario
 STR_SAVELOAD_SAVE_CAPTION                                       :{WHITE}Tallenna peli
@@ -2428,7 +2428,7 @@ STR_NEWGRF_SETTINGS_PARAMETER                                   :{BLACK}Parametr
 STR_NEWGRF_SETTINGS_NO_INFO                                     :{BLACK}Ei tietoa
 STR_NEWGRF_SETTINGS_NOT_FOUND                                   :{RED}Sopivaa tiedostoa ei löydy
 STR_NEWGRF_SETTINGS_DISABLED                                    :{RED}Ei käytössä
-STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Epäyhteensopiva tämän OpenTTD-version kanssa
+STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Epäyhteensopiva tämän OpenCoaster Tycoon-version kanssa
 
 STR_NEWGRF_SETTINGS_PARAMETER_QUERY                             :{BLACK}Anna NewGRF-parametrit
 # NewGRF parameters window
@@ -2475,13 +2475,13 @@ STR_NEWGRF_ERROR_MSG_WARNING                                    :{RED}Varoitus: 
 STR_NEWGRF_ERROR_MSG_ERROR                                      :{RED}Virhe: {SILVER}{STRING}
 STR_NEWGRF_ERROR_MSG_FATAL                                      :{RED}Virhe: {SILVER}{STRING}
 STR_NEWGRF_ERROR_FATAL_POPUP                                    :{WHITE}Vakava NewGRF-virhe on tapahtunut: {}{STRING}
-STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} ei toimi OpenTTD:n ilmoittaman TTDPatch -version kanssa
+STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} ei toimi OpenCoaster Tycoon:n ilmoittaman TTDPatch -version kanssa
 STR_NEWGRF_ERROR_DOS_OR_WINDOWS                                 :{1:STRING} on TTD:n {STRING}-versiota varten
 STR_NEWGRF_ERROR_UNSET_SWITCH                                   :{1:STRING} ja {STRING} on suunniteltu toimimaan yhdessä
 STR_NEWGRF_ERROR_INVALID_PARAMETER                              :Virheellinen parametri: {1:STRING}: {STRING} ({NUM})
 STR_NEWGRF_ERROR_LOAD_BEFORE                                    :{1:STRING} tulee ladata ennen kuin {STRING}
 STR_NEWGRF_ERROR_LOAD_AFTER                                     :{1:STRING} tulee ladata {STRING} jälkeen
-STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} vaatii OpenTTD:n version {STRING} tai uudemman
+STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} vaatii OpenCoaster Tycoon:n version {STRING} tai uudemman
 STR_NEWGRF_ERROR_AFTER_TRANSLATED_FILE                          :GRF-tiedosto jonka se muuntaa
 STR_NEWGRF_ERROR_TOO_MANY_NEWGRFS_LOADED                        :Liian monta NewGRF:ää on ladattu
 STR_NEWGRF_ERROR_STATIC_GRF_CAUSES_DESYNC                       :NewGRF:n {2:STRING} lataaminen staattisena NewGRF:nä {4:STRING}:n kanssa saattaa aiheuttaa nykimistä
@@ -2497,7 +2497,7 @@ STR_NEWGRF_ERROR_FORCEFULLY_DISABLED                            :{4:STRING} pois
 
 # NewGRF related 'general' warnings
 STR_NEWGRF_POPUP_CAUTION_CAPTION                                :{WHITE}Varoitus!
-STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Olet tekemässä muutoksia käynnissä olevaan peliin. OpenTTD voi kaatua tai nykyinen pelitilanne rikkoutua. Älä tee virheraportteja tästä johtuvista ongelmista.{}Oletko aivan varma?
+STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Olet tekemässä muutoksia käynnissä olevaan peliin. OpenCoaster Tycoon voi kaatua tai nykyinen pelitilanne rikkoutua. Älä tee virheraportteja tästä johtuvista ongelmista.{}Oletko aivan varma?
 
 STR_NEWGRF_DUPLICATE_GRFID                                      :{WHITE}Ei voi lisätä tiedostoa: duplicate GRF ID
 STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Sopivaa tiedostoa ei löytynyt (korvaava GRF ladattu)
@@ -2505,7 +2505,7 @@ STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Sopivaa
 STR_NEWGRF_COMPATIBLE_LOAD_WARNING                              :{WHITE}Yhteensopivat GRF:t ladattu puuttuvien tiedostojen korvaamiseksi
 STR_NEWGRF_DISABLED_WARNING                                     :{WHITE}Puuttuvat GRF tiedostot ovat poistettu käytöstä
 STR_NEWGRF_UNPAUSE_WARNING_TITLE                                :{YELLOW}Puuttuva(t) GRF-tiedosto(t)
-STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Taukotilasta poistuminen saattaa kaataa OpenTTD:n. Älä lähetä virheraportteja tämänjälkeisistä kaatumisista.{}Haluatko todella poistua taukotilasta?
+STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Taukotilasta poistuminen saattaa kaataa OpenCoaster Tycoon:n. Älä lähetä virheraportteja tämänjälkeisistä kaatumisista.{}Haluatko todella poistua taukotilasta?
 
 # NewGRF status
 STR_NEWGRF_LIST_NONE                                            :Ei mitään
@@ -3366,7 +3366,7 @@ STR_AI_DEBUG_CONTINUE                                           :{BLACK}Jatka
 STR_AI_DEBUG_CONTINUE_TOOLTIP                                   :{BLACK}Jatka tekoälyn suorittamista
 STR_AI_DEBUG_SELECT_AI_TOOLTIP                                  :{BLACK}Näytä tämän tekoälyn virheenkorjaustiedot
 
-STR_ERROR_NO_AI                                                 :{WHITE}OpenTTD on käännetty ilman AI-tukea...
+STR_ERROR_NO_AI                                                 :{WHITE}OpenCoaster Tycoon on käännetty ilman AI-tukea...
 STR_ERROR_NO_AI_SUB                                             :{WHITE}... tekoälyt eivät ole saatavilla!
 
 STR_ERROR_AI_NO_AI_FOUND                                        :Sopivaa tekoälyä ei löydetty.{}Tämä tekoäly ei tee mitään.{}Voit ladata tekoälyjä 'Online-sisältö' järjestelmällä
@@ -3804,7 +3804,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}Kylttiä
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}Kyltin nimeä ei voi muuttaa.
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}Kylttiä ei voi poistaa...
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :Transport Tycoon Deluxeen pohjautuva simulaatiopeli
 
 ##id 0x2000

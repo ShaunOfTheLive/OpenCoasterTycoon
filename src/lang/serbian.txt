@@ -378,7 +378,7 @@ STR_COLOUR_BROWN                                                :Braon
 STR_COLOUR_GREY                                                 :Siva
 STR_COLOUR_WHITE                                                :Bela
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} milja na sat
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} km/h
 STR_UNITS_VELOCITY_SI                                           :{COMMA} m/s
@@ -504,12 +504,12 @@ STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}Izgradnj
 STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}Otvaranjem trake za oblikovanje terena moguće je posaditi drveće, menjati reljef, itd.
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}Prikaži prozor za zvuk i muziku
 STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}Prikaži poslednju poruku/izveštaj, prikaži opcije poruka
-STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Podaci o zemljištu, konzola, debag veštačke inteligencije, slika sa ekrana, o OpenTTD-u
+STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Podaci o zemljištu, konzola, debag veštačke inteligencije, slika sa ekrana, o OpenCoaster Tycoon-u
 STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}Zamenjuje trake sa alatima
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Sačuvaj scenario, učitaj scenario, napusti editor, izađi
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Editor scenarija
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}Pomeranje datuma početka za jednu godinu unazad
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}Pomeranje datuma početka za jednu godinu unapred
@@ -633,7 +633,7 @@ STR_ABOUT_MENU_AI_DEBUG                                         :Korekcija vešt
 STR_ABOUT_MENU_SCREENSHOT                                       :Sačuvaj sliku
 STR_ABOUT_MENU_ZOOMIN_SCREENSHOT                                :Sačuvaj sliku približenog terena
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :Sačuvaj sliku celog terena
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :O OpenTTD-u
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :O OpenCoaster Tycoon-u
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :Poravnjavanje sprajta
 STR_ABOUT_MENU_TOGGLE_BOUNDING_BOXES                            :Uključi/isključi granične linije
 ############ range ends here
@@ -1139,7 +1139,7 @@ STR_GAME_OPTIONS_LANGUAGE                                       :{BLACK}Jezik
 STR_GAME_OPTIONS_LANGUAGE_TOOLTIP                               :{BLACK}Odaberite jezik koji će se koristiti
 
 STR_GAME_OPTIONS_FULLSCREEN                                     :{BLACK}Ceo ekran
-STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Pritisnite ovde kako bi ste igrali OpenTTD na celom ekranu
+STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Pritisnite ovde kako bi ste igrali OpenCoaster Tycoon na celom ekranu
 
 STR_GAME_OPTIONS_RESOLUTION                                     :{BLACK}Veličina ekrana
 STR_GAME_OPTIONS_RESOLUTION_TOOLTIP                             :{BLACK}Odaberite željenu veličinu ekrana
@@ -1566,7 +1566,7 @@ STR_CONFIG_SETTING_REVERSE_AT_SIGNALS                           :{LTBLUE}Automat
 STR_CONFIG_SETTING_QUERY_CAPTION                                :{WHITE}Promena vrednosti
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}Nova Partija
 STR_INTRO_LOAD_GAME                                             :{BLACK}Učitavanje Partije
@@ -1601,12 +1601,12 @@ STR_INTRO_TOOLTIP_ADVANCED_SETTINGS                             :{BLACK}Prikazuj
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}Prikazuje NewGRF podešavanja
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK}Pregled novih i ažureiranih dodatka za preuzimanje
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK}Prikazuje VI podešavanja
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Napušta 'OpenTTD'
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Napušta 'OpenCoaster Tycoon'
 
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}Izađi
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}Da li ste sigurni da želite da napustite OpenTTD i vratite se u {STRING}?
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}Da li ste sigurni da želite da napustite OpenCoaster Tycoon i vratite se u {STRING}?
 STR_QUIT_YES                                                    :{BLACK}Da
 STR_QUIT_NO                                                     :{BLACK}Ne
 
@@ -1698,7 +1698,7 @@ STR_FACE_SIMPLE                                                 :{BLACK}Jednosta
 STR_FACE_SIMPLE_TOOLTIP                                         :{BLACK}Jodnostavan odabir lica
 STR_FACE_LOAD                                                   :{BLACK}Učitaj
 STR_FACE_LOAD_TOOLTIP                                           :{BLACK}Učitavanje omiljenog lica
-STR_FACE_LOAD_DONE                                              :{WHITE}Vaše omiljeno lice je učitano iz OpenTTD datoteke podešavanja
+STR_FACE_LOAD_DONE                                              :{WHITE}Vaše omiljeno lice je učitano iz OpenCoaster Tycoon datoteke podešavanja
 STR_FACE_FACECODE                                               :{BLACK}Redni broj lica
 STR_FACE_FACECODE_TOOLTIP                                       :{BLACK}Pregled i/ili postavljanje rednog broja lica vlasnika preduzeća
 STR_FACE_FACECODE_CAPTION                                       :{WHITE}Pregled i/ili postavljanje rednog broja lica vlasnika
@@ -1706,7 +1706,7 @@ STR_FACE_FACECODE_SET                                           :{WHITE}Novi red
 STR_FACE_FACECODE_ERR                                           :{WHITE}Redni broj lica se ne može postaviti - vrednost mora biti broj između 0 i 4,294,967,295!
 STR_FACE_SAVE                                                   :{BLACK}Sačuvaj
 STR_FACE_SAVE_TOOLTIP                                           :{BLACK}Čuvanje omiljenog lica
-STR_FACE_SAVE_DONE                                              :{WHITE}Ovo lice će biti sačuvano kao omiljeno u OpenTTD datoteci podešavanja
+STR_FACE_SAVE_DONE                                              :{WHITE}Ovo lice će biti sačuvano kao omiljeno u OpenCoaster Tycoon datoteci podešavanja
 STR_FACE_EUROPEAN                                               :{BLACK}Evropski
 STR_FACE_SELECT_EUROPEAN                                        :{BLACK}Evropski izgled lica
 STR_FACE_AFRICAN                                                :{BLACK}Afrički
@@ -2041,7 +2041,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER}Dodatak
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}Dodatak je označena za preuzimanje
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER}Ovaj dodatak je označen za preuzimanje zbog zavisnosti
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER}Ovo već imate
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Ovaj dodatak je nepoznat i ne može se preuzeti sa OpenTTD
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Ovaj dodatak je nepoznat i ne može se preuzeti sa OpenCoaster Tycoon
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}Ovaj dodatak je zamena za postojeći {STRING}
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}Naziv: {WHITE}{STRING}
 STR_CONTENT_DETAIL_VERSION                                      :{SILVER}Izdanje: {WHITE}{STRING}
@@ -2052,7 +2052,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}Veliči
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER}Označeno zbog: {WHITE}{STRING}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER}Zavisnosti: {WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER}Oznake: {WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenTTD je napravljen bez podrške za "zlib"...
+STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenCoaster Tycoon je napravljen bez podrške za "zlib"...
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}... preuzimanje dodataka nije moguće!
 
 # Order of these is important!
@@ -2478,11 +2478,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Svetionik
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :Upravna zgrada preduzeća
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :Zemljište u posedu preduzeća
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}O OpenTTD-u
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}O OpenCoaster Tycoon-u
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}Originalni kopirajt {COPYRIGHT} 1995 Chris Sawyer, Sva prava zadržana
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD verzija {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT} 2002-2012 OpenTTD tim
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon verzija {REV}
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT} 2012 Shaun Andrew Hill
 
 # Save/load game/scenario
 STR_SAVELOAD_SAVE_CAPTION                                       :{WHITE}Sačuvaj poziciju
@@ -2619,7 +2619,7 @@ STR_NEWGRF_SETTINGS_PARAMETER                                   :{BLACK}Parametr
 STR_NEWGRF_SETTINGS_NO_INFO                                     :{BLACK}Podaci nepostoje
 STR_NEWGRF_SETTINGS_NOT_FOUND                                   :{RED}Odabrana datoteka nije nađena
 STR_NEWGRF_SETTINGS_DISABLED                                    :{RED}Isključen
-STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Nije kompatibilno sa ovom OpenTTD verzijom
+STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Nije kompatibilno sa ovom OpenCoaster Tycoon verzijom
 
 STR_NEWGRF_SETTINGS_PARAMETER_QUERY                             :{BLACK}Unesite NewGRF parametre
 
@@ -2667,13 +2667,13 @@ STR_NEWGRF_ERROR_MSG_WARNING                                    :{RED}Upozorenje
 STR_NEWGRF_ERROR_MSG_ERROR                                      :{RED}Greška: {SILVER}{STRING}
 STR_NEWGRF_ERROR_MSG_FATAL                                      :{RED}Kobno: {SILVER}{STRING}
 STR_NEWGRF_ERROR_FATAL_POPUP                                    :{WHITE}Došlo je do neotklonljive NewGRF greške: {}{STRING}
-STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} neće raditi sa TTDPatch verzijom prema prijavi OpenTTD-a
+STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} neće raditi sa TTDPatch verzijom prema prijavi OpenCoaster Tycoon-a
 STR_NEWGRF_ERROR_DOS_OR_WINDOWS                                 :{1:STRING} je za {STRING} verziju TTD-a
 STR_NEWGRF_ERROR_UNSET_SWITCH                                   :{1:STRING} je napravljen za korišćenje sa {STRING}
 STR_NEWGRF_ERROR_INVALID_PARAMETER                              :Neispravan parametar za {1:STRING}: parametar {STRING} ({NUM})
 STR_NEWGRF_ERROR_LOAD_BEFORE                                    :{1:STRING} mora biti učitan pre {STRING}
 STR_NEWGRF_ERROR_LOAD_AFTER                                     :{1:STRING} mora biti učitan posle {STRING}
-STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} zahteva {STRING} ili višu verziju OpenTTD-a
+STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} zahteva {STRING} ili višu verziju OpenCoaster Tycoon-a
 STR_NEWGRF_ERROR_AFTER_TRANSLATED_FILE                          :GRF datoteka nije prilagođena za prevod
 STR_NEWGRF_ERROR_TOO_MANY_NEWGRFS_LOADED                        :Previše učitanih NewGRF-ova
 STR_NEWGRF_ERROR_STATIC_GRF_CAUSES_DESYNC                       :Učitavanje {2:STRING} kao statične NewGRF sa {4:STRING} može da izazove desinhronizacije
@@ -2689,7 +2689,7 @@ STR_NEWGRF_ERROR_FORCEFULLY_DISABLED                            :{2:STRING} je i
 
 # NewGRF related 'general' warnings
 STR_NEWGRF_POPUP_CAUTION_CAPTION                                :{WHITE}Oprez!
-STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Upravo ćete načiniti izmene na tekućoj partiji. To može srušiti OpenTTD ili narušiti stanje partije. Oko ovog problema nemojte prijavljivati greške.{}Da li ste apsolutno sigurni da ovo želite?
+STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Upravo ćete načiniti izmene na tekućoj partiji. To može srušiti OpenCoaster Tycoon ili narušiti stanje partije. Oko ovog problema nemojte prijavljivati greške.{}Da li ste apsolutno sigurni da ovo želite?
 
 STR_NEWGRF_DUPLICATE_GRFID                                      :{WHITE}Nemoguće dodati: duplicirani GRF ID
 STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Odabrana datoteka nije nađena (kompatibilan GRF učitan)
@@ -2697,7 +2697,7 @@ STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Odabran
 STR_NEWGRF_COMPATIBLE_LOAD_WARNING                              :{WHITE}Kompatibilni GRF(ovi) učitani umesto nepronađenih datoteka
 STR_NEWGRF_DISABLED_WARNING                                     :{WHITE}Nepronađene GRF datoteke su isključene
 STR_NEWGRF_UNPAUSE_WARNING_TITLE                                :{YELLOW}Nepronađene GRF datoteke
-STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Nastavljenje može da krahira OpenTTD. Nemojte čuvati izveštaje o ovom mogućem krahu.{}Da li stvarno želite da nastavite?
+STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Nastavljenje može da krahira OpenCoaster Tycoon. Nemojte čuvati izveštaje o ovom mogućem krahu.{}Da li stvarno želite da nastavite?
 
 # NewGRF status
 STR_NEWGRF_LIST_NONE                                            :Nema
@@ -3574,7 +3574,7 @@ STR_AI_DEBUG_CONTINUE                                           :{BLACK}Nastavi
 STR_AI_DEBUG_CONTINUE_TOOLTIP                                   :{BLACK}Nastavlja partiju i VI
 STR_AI_DEBUG_SELECT_AI_TOOLTIP                                  :{BLACK}Prikazuje podatke radi korekcije ove VI
 
-STR_ERROR_NO_AI                                                 :{WHITE}Ova OpenTTD verzija nema podršku za VI...
+STR_ERROR_NO_AI                                                 :{WHITE}Ova OpenCoaster Tycoon verzija nema podršku za VI...
 STR_ERROR_NO_AI_SUB                                             :{WHITE}... nijedna VI nije dostupna!
 
 STR_ERROR_AI_NO_AI_FOUND                                        :Nije pronađena nijadna prikladna VI.{}Učitana zamena neće raditi ništa.{}Možete preuzeti nekoliko VI preko sistema za preuzimanje dodataka
@@ -4012,7 +4012,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}Ovde je 
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}Ime znaka se ne može promeniti...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}Nemoguće je izbrisati znak...
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :Simulacija bazirana na igri Transport Tycoon Deluxe
 
 ##id 0x2000

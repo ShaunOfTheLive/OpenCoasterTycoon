@@ -190,7 +190,7 @@ STR_COLOUR_BROWN                                                :Marroia
 STR_COLOUR_GREY                                                 :Grisa
 STR_COLOUR_WHITE                                                :Zuria
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} mph
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} km/h
 STR_UNITS_VELOCITY_SI                                           :{COMMA} m/s
@@ -316,12 +316,12 @@ STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}Aireport
 STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}Zabaldu paisaiko tresna-barra lurra igotzeko/beheratzeko, zuhaitzak landatu, etab.
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}Erakutsi soinu/musika leihoa
 STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}Erakutsi azken mezu/albiste erreportaia, erakutsi mezu aukerak
-STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Lur arearen informazioa, konsola, IA debug, screenshots, OpenTTDri buruz
+STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Lur arearen informazioa, konsola, IA debug, screenshots, OpenCoaster Tycoonri buruz
 STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}Erreminta barra
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Eszenarioa gorde, eszenarioa kargatu, eszenarioaren editorea itxi, irten
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Eszenario Editorea
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}Mugitu hasierako data urte 1 atzerago
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}Mugitu hasierako data urte 1 aurrerago
@@ -445,7 +445,7 @@ STR_ABOUT_MENU_AI_DEBUG                                         :IA debug
 STR_ABOUT_MENU_SCREENSHOT                                       :Pantailan dagoenaren argazkia hartu (Ctrl+S)
 STR_ABOUT_MENU_ZOOMIN_SCREENSHOT                                :Pantailan dagoenaren argazkia hartu zoom-a erabiliz
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :Mapa osoaren argazkia hartu (Ctrl+G)
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :'OpenTTD'-ri buruz
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :'OpenCoaster Tycoon'-ri buruz
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :"Sprit" lerrokatzailea
 ############ range ends here
 
@@ -934,7 +934,7 @@ STR_GAME_OPTIONS_LANGUAGE                                       :{BLACK}Hizkuntz
 STR_GAME_OPTIONS_LANGUAGE_TOOLTIP                               :{BLACK}Aukeratu interfazean erabiltzeko hizkuntza
 
 STR_GAME_OPTIONS_FULLSCREEN                                     :{BLACK}Pantaila osoa
-STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Markatu kaxa hau OpenTTD pantaila osoko moduan jolasteko
+STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Markatu kaxa hau OpenCoaster Tycoon pantaila osoko moduan jolasteko
 
 STR_GAME_OPTIONS_RESOLUTION                                     :{BLACK}Pantailaren resoluzioa
 STR_GAME_OPTIONS_RESOLUTION_TOOLTIP                             :{BLACK}Pantailaren resulozioa aukeratu
@@ -1243,7 +1243,7 @@ STR_CONFIG_SETTING_PATHFINDER_FOR_SHIPS_YAPF                    :YAPF {RED}(Ez g
 
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}Partida Berria
 STR_INTRO_LOAD_GAME                                             :{BLACK}Partida Kargatu
@@ -1478,7 +1478,7 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Itsasargia
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :Konpainiaren egoitza
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :Konpainia jabe den lur saila
 
-# About OpenTTD window
+# About OpenCoaster Tycoon window
 
 # Save/load game/scenario
 STR_SAVELOAD_LOAD_BUTTON                                        :{BLACK}Kargatu
@@ -1519,7 +1519,7 @@ STR_NEWGRF_SETTINGS_RESCAN_FILES_TOOLTIP                        :{BLACK}NewGRF a
 STR_NEWGRF_SETTINGS_VERSION                                     :{BLACK}Bertsioa: {SILVER}{NUM}
 STR_NEWGRF_SETTINGS_MIN_VERSION                                 :{BLACK}Gutxienezko bertsio bateragarria: {SILVER}{NUM}
 
-STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}OpenTTD-ren bertsio honekin bateraezina
+STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}OpenCoaster Tycoon-ren bertsio honekin bateraezina
 
 
 # NewGRF parameters window
@@ -1815,7 +1815,7 @@ STR_AI_DEBUG_CONTINUE                                           :{BLACK}Jarraitu
 STR_AI_DEBUG_CONTINUE_TOOLTIP                                   :{BLACK}Berriz ere jokatu eta IA-rekin jarraitu
 STR_AI_DEBUG_SELECT_AI_TOOLTIP                                  :{BLACK}IA honen depurazio emaitza ikusi
 
-STR_ERROR_NO_AI                                                 :{WHITE}OpenTTD IA euskarririk gabe instalatu da...
+STR_ERROR_NO_AI                                                 :{WHITE}OpenCoaster Tycoon IA euskarririk gabe instalatu da...
 STR_ERROR_NO_AI_SUB                                             :{WHITE}¡... ez dago IA-rik aukeratzeko!
 
 
@@ -1956,7 +1956,7 @@ STR_ERROR_VEHICLE_IS_DESTROYED                                  :{WHITE}... garr
 
 # Sign related errors
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :Transport Tycoon Deluxe-ren simulazio bat
 
 ##id 0x2000

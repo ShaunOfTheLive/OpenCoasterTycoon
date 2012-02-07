@@ -190,7 +190,7 @@ STR_COLOUR_BROWN                                                :तपकिर
 STR_COLOUR_GREY                                                 :करडा
 STR_COLOUR_WHITE                                                :पांढरा
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} mph
 
 
@@ -276,7 +276,7 @@ STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}वि�
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}आवाज/संगीत खिडकी दाखवा
 
 # Extra tooltips for the scenario editor toolbar
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}ओपेन टीटीडी
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}ओपेन टीटीडी
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}सुरुवातीची तारीख एक वर्ष मागे न्या
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}सुरुवातीची तारीख एक वर्ष पुढे न्या
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SET_DATE                           :{BLACK}सुरुवातीचं वर्ष पुरवण्यासाठी क्लिक करा
@@ -365,7 +365,7 @@ STR_NEWS_MENU_MESSAGE_HISTORY_MENU                              :निरोप
 ############ range for about menu starts
 STR_ABOUT_MENU_LAND_BLOCK_INFO                                  :जागाची माहिती
 STR_ABOUT_MENU_SEPARATOR                                        :
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :ओपेन टीटीडी बद्दल
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :ओपेन टीटीडी बद्दल
 ############ range ends here
 
 ############ range for days starts (also used for the place in the highscore window)
@@ -881,8 +881,8 @@ STR_LAI_WATER_DESCRIPTION_RIVER                                 :नदी
 
 
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}ओपेन टीटीडी बद्दल
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}ओपेन टीटीडी बद्दल
 
 # Save/load game/scenario
 STR_SAVELOAD_BYTES_FREE                                         :{BLACK}{BYTES} मोकळ
@@ -1319,7 +1319,7 @@ STR_ERROR_BRIDGE_THROUGH_MAP_BORDER                             :{WHITE}पू�
 
 # Sign related errors
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 
 ##id 0x2000
 # Town building names

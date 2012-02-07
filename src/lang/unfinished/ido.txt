@@ -189,7 +189,7 @@ STR_COLOUR_BROWN                                                :Bruna
 STR_COLOUR_GREY                                                 :Griza
 STR_COLOUR_WHITE                                                :Blanka
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} mph
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} km/h
 STR_UNITS_VELOCITY_SI                                           :{COMMA} m/s
@@ -269,7 +269,7 @@ STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}Montras 
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Salvas cenaro, kargas cenaro, abandonas cenaro-redaktisto, ekiras
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Cenaro-Redaktisto
 STR_SCENEDIT_TOOLBAR_ROAD_CONSTRUCTION                          :{BLACK}Voyo konstruktado
 STR_SCENEDIT_TOOLBAR_PLANT_TREES                                :{BLACK}Plantacas arbori
@@ -555,7 +555,7 @@ STR_INTRO_GAME_OPTIONS                                          :{BLACK}Ludo Sel
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}Livas
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}Kad tu esas certa ke tu volas livar OpenTTD ed rivenar a {STRING}?
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}Kad tu esas certa ke tu volas livar OpenCoaster Tycoon ed rivenar a {STRING}?
 STR_QUIT_YES                                                    :{BLACK}Yes
 STR_QUIT_NO                                                     :{BLACK}Ne
 
@@ -737,9 +737,9 @@ STR_LAND_AREA_INFORMATION_AIRPORTTILE_NAME                      :{BLACK}Nomo di 
 STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Faro
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :Stabeyo di kompanio
 
-# About OpenTTD window
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD versiono {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT}2002-2012 La kruo OpenTTD
+# About OpenCoaster Tycoon window
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon versiono {REV}
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT}2002-2012 La kruo OpenCoaster Tycoon
 
 # Save/load game/scenario
 STR_SAVELOAD_DETAIL_CAPTION                                     :{BLACK}Ludo Detali
@@ -1158,7 +1158,7 @@ STR_ERROR_TOO_MANY_VEHICLES_IN_GAME                             :{WHITE}Tro mult
 
 # Sign related errors
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 
 ##id 0x2000
 # Town building names

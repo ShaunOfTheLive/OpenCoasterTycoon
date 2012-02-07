@@ -191,7 +191,7 @@ STR_COLOUR_BROWN                                                :Bruin
 STR_COLOUR_GREY                                                 :Grys
 STR_COLOUR_WHITE                                                :Wit
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} mph
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} km/h
 STR_UNITS_VELOCITY_SI                                           :{COMMA} m/s
@@ -317,12 +317,12 @@ STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}Bou lugh
 STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}Oppe die landargitekteur werktuigbaan om land te verhoog/verlaag, boome beplant, ens.
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}Vertoon klank/musiek venster
 STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}Vertoon laaste boodskap/nuus verslag, vertoon boodskap opsies
-STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Land gebied informasie, konsool, KI debug, skermskyf, omtrent OpenTTD
+STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Land gebied informasie, konsool, KI debug, skermskyf, omtrent OpenCoaster Tycoon
 STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}Skakel nutsbalke
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Stoor draaiboek, laai draaiboek, verlaat draaiboek redigeerder, verlaat
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Draaiboek Redigeerder
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}Beweeg die begin datum 1 jaar terug
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}Beweeg die begin datum 1 jaar voorentoe
@@ -446,7 +446,7 @@ STR_ABOUT_MENU_AI_DEBUG                                         :AI ontfout
 STR_ABOUT_MENU_SCREENSHOT                                       :Skermskoot (Ctrl-S)
 STR_ABOUT_MENU_ZOOMIN_SCREENSHOT                                :Vergrote skermskoot
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :Groot Skermskoot (Ctrl+G)
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :Oor 'OpenTTD'
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :Oor 'OpenCoaster Tycoon'
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :"Sprite" rigter
 ############ range ends here
 
@@ -941,7 +941,7 @@ STR_GAME_OPTIONS_LANGUAGE                                       :{BLACK}Taal
 STR_GAME_OPTIONS_LANGUAGE_TOOLTIP                               :{BLACK}Kies die koppelvlak taal om te gebruik
 
 STR_GAME_OPTIONS_FULLSCREEN                                     :{BLACK}Volskerm
-STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Kies die blokkie om OpenTTD in volleskerm te speel
+STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Kies die blokkie om OpenCoaster Tycoon in volleskerm te speel
 
 STR_GAME_OPTIONS_RESOLUTION                                     :{BLACK}Skerm resolusie
 STR_GAME_OPTIONS_RESOLUTION_TOOLTIP                             :{BLACK}Kies die skerm resolusie om te gebruik
@@ -1351,7 +1351,7 @@ STR_CONFIG_SETTING_REVERSE_AT_SIGNALS                           :{LTBLUE}Outomat
 STR_CONFIG_SETTING_QUERY_CAPTION                                :{WHITE}Verander stel waarde
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}Nuwe Spel
 STR_INTRO_LOAD_GAME                                             :{BLACK}Laai Spel
@@ -1386,11 +1386,11 @@ STR_INTRO_TOOLTIP_ADVANCED_SETTINGS                             :{BLACK}Toon gev
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}Wys NewGRF stellings
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK}Kyk vir nuwe of bygewerkde inhoud om af te laai
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK}Wys AI stellings
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Verlaat 'OpenTTD'
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Verlaat 'OpenCoaster Tycoon'
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}Verlaat
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}Is u seker u wil OpenTTD verlaat en terug keer na {STRING}?
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}Is u seker u wil OpenCoaster Tycoon verlaat en terug keer na {STRING}?
 STR_QUIT_YES                                                    :{BLACK}Ja
 STR_QUIT_NO                                                     :{BLACK}Nee
 
@@ -1482,7 +1482,7 @@ STR_FACE_SIMPLE                                                 :{BLACK}Eenvoudi
 STR_FACE_SIMPLE_TOOLTIP                                         :{BLACK}Eenvoudig gesig keuse.
 STR_FACE_LOAD                                                   :{BLACK}Laai
 STR_FACE_LOAD_TOOLTIP                                           :{BLACK}Laai gunsteling gesig
-STR_FACE_LOAD_DONE                                              :{WHITE}Jou gunsteling gesig is van die OpenTTD stellings lêer gelaai.
+STR_FACE_LOAD_DONE                                              :{WHITE}Jou gunsteling gesig is van die OpenCoaster Tycoon stellings lêer gelaai.
 STR_FACE_FACECODE                                               :{BLACK}Speler gesig no.
 STR_FACE_FACECODE_TOOLTIP                                       :{BLACK}Toon en/of stel speler gesig nommer
 STR_FACE_FACECODE_CAPTION                                       :{WHITE}Toon en/of stel speler gesig nommer
@@ -1490,7 +1490,7 @@ STR_FACE_FACECODE_SET                                           :{WHITE}Nuwe ges
 STR_FACE_FACECODE_ERR                                           :{WHITE}Kon nie speler gesig nommer stel - moet numeries wees tussen 0 en 4,294,967,295!
 STR_FACE_SAVE                                                   :{BLACK}Spaar
 STR_FACE_SAVE_TOOLTIP                                           :{BLACK}Spaar gunsteling gesig
-STR_FACE_SAVE_DONE                                              :{WHITE}Die gesig sal as u gunsteling gesig in die OpenTTD stellings lêer gespaar word.
+STR_FACE_SAVE_DONE                                              :{WHITE}Die gesig sal as u gunsteling gesig in die OpenCoaster Tycoon stellings lêer gespaar word.
 STR_FACE_EUROPEAN                                               :{BLACK}Europiese
 STR_FACE_SELECT_EUROPEAN                                        :{BLACK}Kies europese gesigte
 STR_FACE_AFRICAN                                                :{BLACK}Afrikaanse
@@ -1821,7 +1821,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER}Jy het 
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}Jy het dit geselekeer om af te laai
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER}Heirde afhanklikheid was gekies om afgelaai te wees
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER}Jy het hierdie reeds
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Heirde inhoud is onbekend en kan afgelaai word in OpenTTD
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Heirde inhoud is onbekend en kan afgelaai word in OpenCoaster Tycoon
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}Hierdie is 'n vervanging van 'n bestaande {STRING}
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}Naam: {WHITE}{STRING}
 STR_CONTENT_DETAIL_VERSION                                      :{SILVER}Weergawe: {WHITE}{STRING}
@@ -1832,7 +1832,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}Aflaai 
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER}Geselekteer weens: {WHITE}{STRING}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER}Afhanklikes: {WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER}Merkers: {WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenTTD is gebou sonder "zlib" hulp...
+STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenCoaster Tycoon is gebou sonder "zlib" hulp...
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}... aflaai van inhoud is nie moentlik nie!
 
 # Order of these is important!
@@ -2244,11 +2244,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Vuurtoring
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :Maatskappy Hoofkwartier
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :Maatskappy-besitte land
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}Oor OpenTTD
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}Oor OpenCoaster Tycoon
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}Oorspronklike kopiereg {COPYRIGHT} 1995 Chris Sawyer, Alle regte voorbehou
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD uitgawe {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT} 2002-2012 Die OpenTTD span
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon uitgawe {REV}
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT} 2012 Shaun Andrew Hill
 
 # Save/load game/scenario
 STR_SAVELOAD_SAVE_CAPTION                                       :{WHITE}Spaar Spel
@@ -2382,7 +2382,7 @@ STR_NEWGRF_SETTINGS_PARAMETER                                   :{BLACK}Paramete
 STR_NEWGRF_SETTINGS_NO_INFO                                     :{BLACK}Geen informasie beskikbaar
 STR_NEWGRF_SETTINGS_NOT_FOUND                                   :{RED}Gelyke lêer nie gevind nie
 STR_NEWGRF_SETTINGS_DISABLED                                    :{RED}Gestrem
-STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Onversoenbaar met hierdie weergawe van OpenTTD
+STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Onversoenbaar met hierdie weergawe van OpenCoaster Tycoon
 
 STR_NEWGRF_SETTINGS_PARAMETER_QUERY                             :{BLACK}Invoer NewGRF parameters
 
@@ -2406,13 +2406,13 @@ STR_NEWGRF_ERROR_MSG_WARNING                                    :{RED}Waarskuwin
 STR_NEWGRF_ERROR_MSG_ERROR                                      :{RED}Fout: {SILVER}{STRING}
 STR_NEWGRF_ERROR_MSG_FATAL                                      :{RED}Fataal: {SILVER}{STRING}
 STR_NEWGRF_ERROR_FATAL_POPUP                                    :{WHITE}n' Fataale NewGRF fout het gebeur: {}{STRING}
-STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} sal nie met die TTDPatch uitgawe rapporteer deur OpenTTD werk nie.
+STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} sal nie met die TTDPatch uitgawe rapporteer deur OpenCoaster Tycoon werk nie.
 STR_NEWGRF_ERROR_DOS_OR_WINDOWS                                 :{1:STRING} is vir die {STRING} uitgawe van TTD.
 STR_NEWGRF_ERROR_UNSET_SWITCH                                   :{1:STRING} is onderwerp om saam met {STRING} gebruik te word
 STR_NEWGRF_ERROR_INVALID_PARAMETER                              :Ongeldig parameter vir {1:STRING}: parameter {STRING} ({NUM})
 STR_NEWGRF_ERROR_LOAD_BEFORE                                    :{1:STRING} moet voor {STRING} gelaai word.
 STR_NEWGRF_ERROR_LOAD_AFTER                                     :{1:STRING} moet na {STRING} gelaai word.
-STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} vereis OpenTTD uitgawe {STRING} of beter.
+STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} vereis OpenCoaster Tycoon uitgawe {STRING} of beter.
 STR_NEWGRF_ERROR_AFTER_TRANSLATED_FILE                          :die GRF lêer dit was ontwerp om te vertaal
 STR_NEWGRF_ERROR_TOO_MANY_NEWGRFS_LOADED                        :Te veel NewGRFs gelaai
 STR_NEWGRF_ERROR_STATIC_GRF_CAUSES_DESYNC                       :Die laai van {2:STRING} as statiese NewGRF met {4:STRING} kan desinkroniesasies veroorsaak.
@@ -2425,7 +2425,7 @@ STR_NEWGRF_ERROR_READ_BOUNDS                                    :Lees verby eind
 
 # NewGRF related 'general' warnings
 STR_NEWGRF_POPUP_CAUTION_CAPTION                                :{WHITE}Versigtig!
-STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Jy is oppad om veranderings te maak op tans loopende spel. Dit kan OpenTTD lat staak. {}Is jy heeltemal seker ?
+STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Jy is oppad om veranderings te maak op tans loopende spel. Dit kan OpenCoaster Tycoon lat staak. {}Is jy heeltemal seker ?
 
 STR_NEWGRF_DUPLICATE_GRFID                                      :{WHITE}Kan nie lêer voeg: duplikaat GRF ID
 STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Gelyke lêer nie gevind nie (versoenbaar GRF gelaai)
@@ -2433,7 +2433,7 @@ STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Gelyke 
 STR_NEWGRF_COMPATIBLE_LOAD_WARNING                              :{WHITE}Versoenbaar GRF(s) gelaai vir vermis lêers
 STR_NEWGRF_DISABLED_WARNING                                     :{WHITE}Vermis GRF lêers is gestrem
 STR_NEWGRF_UNPAUSE_WARNING_TITLE                                :{YELLOW}Vermis GRF leêr(s)
-STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Unpausing kan veroorsaak dat OpenTTD bots. Moet nie daaropeenvolgende botsings verslae rapporteer nie. {}Will jy rêrig unpause?
+STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Unpausing kan veroorsaak dat OpenCoaster Tycoon bots. Moet nie daaropeenvolgende botsings verslae rapporteer nie. {}Will jy rêrig unpause?
 
 # NewGRF status
 STR_NEWGRF_LIST_NONE                                            :Geen
@@ -3263,7 +3263,7 @@ STR_AI_DEBUG_RELOAD                                             :{BLACK}Herlaai 
 STR_AI_DEBUG_RELOAD_TOOLTIP                                     :{BLACK}Maak die AI dood, herlaai die skrif en herlaai die AI
 STR_AI_DEBUG_CONTINUE                                           :{BLACK}Gaan voort
 
-STR_ERROR_NO_AI                                                 :{WHITE}OpenTTD is gebou sonder KI ondersteuning...
+STR_ERROR_NO_AI                                                 :{WHITE}OpenCoaster Tycoon is gebou sonder KI ondersteuning...
 STR_ERROR_NO_AI_SUB                                             :{WHITE}... geen KI's is beskikbaar!
 
 STR_ERROR_AI_NO_AI_FOUND                                        :Geen geskikte KI gevind om te laai.{}Die KI is 'n dom KI en doen niks.{}Jy kan verskeie KI's aflaai deur middel van die 'Aanlyn Inhoud' stelsel.
@@ -3689,7 +3689,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}Kan nie 
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}Kan nie teken naam verander nie...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}Kan nie teken verwyder nie
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 
 ##id 0x2000
 # Town building names

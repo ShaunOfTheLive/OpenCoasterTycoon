@@ -191,7 +191,7 @@ STR_COLOUR_BROWN                                                :갈색
 STR_COLOUR_GREY                                                 :회색
 STR_COLOUR_WHITE                                                :흰색
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA}mph
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA}km/h
 STR_UNITS_VELOCITY_SI                                           :{COMMA}m/s
@@ -317,12 +317,12 @@ STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}공항 �
 STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}땅을 올리기/내리기, 나무 심기가 있는 지형 툴바를 엽니다.
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}사운드/음악 창을 엽니다.
 STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}최근 메시지/뉴스 기록이나 메시지 설정을 엽니다.
-STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}지역 정보, 콘솔, AI 디버그, 스크린샷, OpenTTD에 대하여
+STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}지역 정보, 콘솔, AI 디버그, 스크린샷, OpenCoaster Tycoon에 대하여
 STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}툴바 변경
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}시나리오 저장, 불러오기, 에디터 종료, 게임 종료 등
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}시나리오 에디터
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}시작년도를 1년 앞당깁니다.
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}시작년도를 1년 늦춥니다.
@@ -446,7 +446,7 @@ STR_ABOUT_MENU_AI_DEBUG                                         :AI 디버그
 STR_ABOUT_MENU_SCREENSHOT                                       :스크린샷 찍기
 STR_ABOUT_MENU_ZOOMIN_SCREENSHOT                                :확대된 스크린샷 찍기
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :맵 전체 스크린샷
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :'OpenTTD'에 대해서
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :'OpenCoaster Tycoon'에 대해서
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :스프라이트 정렬도구
 STR_ABOUT_MENU_TOGGLE_BOUNDING_BOXES                            :박스 경계선 토글
 ############ range ends here
@@ -945,7 +945,7 @@ STR_GAME_OPTIONS_LANGUAGE                                       :{BLACK}언어
 STR_GAME_OPTIONS_LANGUAGE_TOOLTIP                               :{BLACK}사용하실 언어를 선택하세요
 
 STR_GAME_OPTIONS_FULLSCREEN                                     :{BLACK}전체화면
-STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}OpenTTD를 전체화면으로 플레이하려면 클릭하세요
+STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}OpenCoaster Tycoon를 전체화면으로 플레이하려면 클릭하세요
 
 STR_GAME_OPTIONS_RESOLUTION                                     :{BLACK}화면 해상도
 STR_GAME_OPTIONS_RESOLUTION_TOOLTIP                             :{BLACK}사용하실 화면 해상도를 선택하세요
@@ -1372,7 +1372,7 @@ STR_CONFIG_SETTING_REVERSE_AT_SIGNALS                           :{LTBLUE}신호�
 STR_CONFIG_SETTING_QUERY_CAPTION                                :{WHITE}설정값 변경
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}새 게임
 STR_INTRO_LOAD_GAME                                             :{BLACK}불러오기
@@ -1407,12 +1407,12 @@ STR_INTRO_TOOLTIP_ADVANCED_SETTINGS                             :{BLACK}고급 �
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}NewGRF 세팅을 봅니다
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK}새로 나왔거나 업데이트된 콘텐츠를 체크하여 다운로드합니다.
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK}인공지능 설정 보기
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}OpenTTD를 종료합니다
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}OpenCoaster Tycoon를 종료합니다
 
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}종료
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}정말 이 게임을 끝내고 {STRING}{G 0 "으" ""}로 돌아가시겠습니까?
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}정말 이 게임을 끝내고 {STRING}{G 0 "으" ""}로 돌아가시겠습니까?
 STR_QUIT_YES                                                    :{BLACK}예
 STR_QUIT_NO                                                     :{BLACK}아니요
 
@@ -1504,7 +1504,7 @@ STR_FACE_SIMPLE                                                 :{BLACK}간단
 STR_FACE_SIMPLE_TOOLTIP                                         :{BLACK}간단한 얼굴 선택
 STR_FACE_LOAD                                                   :{BLACK}불러오기
 STR_FACE_LOAD_TOOLTIP                                           :{BLACK}즐겨찾는 얼굴 불러오기
-STR_FACE_LOAD_DONE                                              :{WHITE}당신이 즐겨찾는 얼굴을 OpenTTD 설정 파일로부터 불러왔습니다.
+STR_FACE_LOAD_DONE                                              :{WHITE}당신이 즐겨찾는 얼굴을 OpenCoaster Tycoon 설정 파일로부터 불러왔습니다.
 STR_FACE_FACECODE                                               :{BLACK}플레이어 얼굴 번호
 STR_FACE_FACECODE_TOOLTIP                                       :{BLACK}플레이어 얼굴 번호 보기/설정
 STR_FACE_FACECODE_CAPTION                                       :{WHITE}플레이어 얼굴 번호 보기/설정
@@ -1512,7 +1512,7 @@ STR_FACE_FACECODE_SET                                           :{WHITE}새 얼�
 STR_FACE_FACECODE_ERR                                           :{WHITE}플레이어 얼굴 번호를 설정할 수 없습니다 - 0에서 4,294,967,295 사이의 값을 입력하십시오!
 STR_FACE_SAVE                                                   :{BLACK}저장
 STR_FACE_SAVE_TOOLTIP                                           :{BLACK}즐겨찾는 얼굴로 저장
-STR_FACE_SAVE_DONE                                              :{WHITE}이 얼굴이 OpenTTD 설정 파일에 즐겨찾는 얼굴로 저장될 것입니다.
+STR_FACE_SAVE_DONE                                              :{WHITE}이 얼굴이 OpenCoaster Tycoon 설정 파일에 즐겨찾는 얼굴로 저장될 것입니다.
 STR_FACE_EUROPEAN                                               :{BLACK}유럽인
 STR_FACE_SELECT_EUROPEAN                                        :{BLACK}유럽인 얼굴 선택
 STR_FACE_AFRICAN                                                :{BLACK}흑인
@@ -1847,7 +1847,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER}당신�
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}당신은 이것을 선택했습니다
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER}이것은 다른 콘텐츠에 종속되어 자동선택되었습니다
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER}당신은 이미 가지고 있습니다
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}이 콘텐츠는 알려지지 않은 콘텐츠이고 OpenTTD 게임 상에서 받을 수 없는 것입니다
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}이 콘텐츠는 알려지지 않은 콘텐츠이고 OpenCoaster Tycoon 게임 상에서 받을 수 없는 것입니다
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}이것은 이미 존재하는 {STRING}를 대체합니다.
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}이름: {WHITE}{STRING}
 STR_CONTENT_DETAIL_VERSION                                      :{SILVER}버젼: {WHITE}{STRING}
@@ -1858,7 +1858,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}파일 
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER}다음에 종속됨: {WHITE}{STRING}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER}종속: {WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER}태그: {WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenTTD는 "zlib" 지원을 포함하지 않고 빌드되었습니다.
+STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenCoaster Tycoon는 "zlib" 지원을 포함하지 않고 빌드되었습니다.
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}... 콘텐츠 다운로드가 불가능합니다!
 
 # Order of these is important!
@@ -2283,11 +2283,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :등대
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :회사 HQ
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :회사 소유지
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}OpenTTD에 대해서
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}OpenCoaster Tycoon에 대해서
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}Original copyright {COPYRIGHT} 1995 Chris Sawyer, All rights reserved
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD 버전 {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT} 2002-2012 OpenTTD 개발팀
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon 버전 {REV}
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT} 2012 Shaun Andrew Hill
 
 # Save/load game/scenario
 STR_SAVELOAD_SAVE_CAPTION                                       :{WHITE}게임 저장
@@ -2425,7 +2425,7 @@ STR_NEWGRF_SETTINGS_PARAMETER                                   :{BLACK}파라�
 STR_NEWGRF_SETTINGS_NO_INFO                                     :{BLACK}사용가능한 정보 없음
 STR_NEWGRF_SETTINGS_NOT_FOUND                                   :{RED}일치하는 파일을 찾을 수 없습니다
 STR_NEWGRF_SETTINGS_DISABLED                                    :{RED}사용안함
-STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}이 OpenTTD 버전과 맞지 않습니다...
+STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}이 OpenCoaster Tycoon 버전과 맞지 않습니다...
 
 STR_NEWGRF_SETTINGS_PARAMETER_QUERY                             :{BLACK}NewGRF 파라미터 입력
 
@@ -2471,13 +2471,13 @@ STR_NEWGRF_ERROR_MSG_WARNING                                    :{RED}경고: {S
 STR_NEWGRF_ERROR_MSG_ERROR                                      :{RED}오류: {SILVER}{STRING}
 STR_NEWGRF_ERROR_MSG_FATAL                                      :{RED}치명적 오류: {SILVER}{STRING}
 STR_NEWGRF_ERROR_FATAL_POPUP                                    :{WHITE}치명적인 NewGRF 오류가 발생했습니다: {}{STRING}
-STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING}은 OpenTTD에서 보고된 TTD패치 버전에서 작동하지 않을 것입니다.
+STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING}은 OpenCoaster Tycoon에서 보고된 TTD패치 버전에서 작동하지 않을 것입니다.
 STR_NEWGRF_ERROR_DOS_OR_WINDOWS                                 :{1:STRING}{G 1 "은" "는"} {STRING} 버전의 TTD를 위한 것입니다.
 STR_NEWGRF_ERROR_UNSET_SWITCH                                   :{1:STRING}{G 1 "은" "는"} {STRING}{G 1 "와" "과"} 같이 사용해야 합니다
 STR_NEWGRF_ERROR_INVALID_PARAMETER                              :{1:STRING}의 부적절한 파라미터: 파라미터 {STRING} ({NUM})
 STR_NEWGRF_ERROR_LOAD_BEFORE                                    :{1:STRING}{G 1 "은" "는"} 반드시 {STRING} 앞에 불러와야 합니다.
 STR_NEWGRF_ERROR_LOAD_AFTER                                     :{1:STRING}{G 1 "은" "는"} 반드시 {STRING} 뒤에 불러와야 합니다.
-STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING}는 OpenTTD {STRING} 버전이나 그 이상이 필요합니다.
+STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING}는 OpenCoaster Tycoon {STRING} 버전이나 그 이상이 필요합니다.
 STR_NEWGRF_ERROR_AFTER_TRANSLATED_FILE                          :GRF 파일 자체는 번역용으로 디자인됨
 STR_NEWGRF_ERROR_TOO_MANY_NEWGRFS_LOADED                        :NewGRF이 너무 많습니다.
 STR_NEWGRF_ERROR_STATIC_GRF_CAUSES_DESYNC                       :{4:STRING}{G 4 "을" "를"} 포함한 정적 NewGRF {2:STRING}{G 2 "을" "를"} 불러오는 것은 비동기화를 일으킬 수 있습니다.
@@ -3360,7 +3360,7 @@ STR_AI_DEBUG_CONTINUE                                           :{BLACK}계속
 STR_AI_DEBUG_CONTINUE_TOOLTIP                                   :{BLACK}AI 재개 및 계속됨
 STR_AI_DEBUG_SELECT_AI_TOOLTIP                                  :{BLACK}이 AI의 디버그된 출력물을 봅니다.
 
-STR_ERROR_NO_AI                                                 :{WHITE}AI 지원 없이 OpenTTD를 빌드합니다...
+STR_ERROR_NO_AI                                                 :{WHITE}AI 지원 없이 OpenCoaster Tycoon를 빌드합니다...
 STR_ERROR_NO_AI_SUB                                             :{WHITE}... 사용 가능한 AI가 없습니다!
 
 STR_ERROR_AI_NO_AI_FOUND                                        :불러올 인공지능이 없습니다.{}이 인공지능은 불용품이며 아무 기능도 하지 않을 것입니다.{}'온라인 컨텐츠 체크' 기능으로 다른 인공지능을 다운받으세요.
@@ -3798,7 +3798,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}여기�
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}팻말 내용을 고칠 수 없습니다...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}팻말을 삭제할 수 없습니다...
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :트랜스포트 타이쿤 디럭스에 기초한 시뮬레이션 게임
 
 ##id 0x2000

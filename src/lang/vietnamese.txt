@@ -190,7 +190,7 @@ STR_COLOUR_BROWN                                                :Nâu
 STR_COLOUR_GREY                                                 :Xám
 STR_COLOUR_WHITE                                                :Trắng
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} mph
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} km/h
 STR_UNITS_VELOCITY_SI                                           :{COMMA} m/s
@@ -316,12 +316,12 @@ STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}Xây sâ
 STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}Mở thanh địa hình để nâng cao/hạ thấp ô đất, trồng cây, etc.
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}Hiện cửa sổ âm thanh/nhạc
 STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}Hiện thông báo/tin tức cuối cùng, hiện tùy chọn thông báo
-STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Thông tin vùng đất, bảng lệnh, AI debug, ảnh chụp, nói về OpenTTD
+STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Thông tin vùng đất, bảng lệnh, AI debug, ảnh chụp, nói về OpenCoaster Tycoon
 STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}Chuyển thanh công cụ
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Lưu, nạp màn chơi kịch bản, thoát trình chỉnh sửa màn chơi, thoát chương trình
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Biên Tập Màn Chơi Kịch Bản
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}Chuyển ngày bắt đầu về phía sau 1 năm
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}Chuyển ngày bắt đầu về phía trước 1 năm
@@ -445,7 +445,7 @@ STR_ABOUT_MENU_AI_DEBUG                                         :AI debug
 STR_ABOUT_MENU_SCREENSHOT                                       :Ảnh chụp màn hình
 STR_ABOUT_MENU_ZOOMIN_SCREENSHOT                                :Phóng to ảnh chụp màn hình
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :Ảnh màn hình toàn bản đồ
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :Về 'OpenTTD'
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :Về 'OpenCoaster Tycoon'
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :Trình điều chỉnh sprite
 STR_ABOUT_MENU_TOGGLE_BOUNDING_BOXES                            :Bật/tắt hiển thị khối nhà
 ############ range ends here
@@ -944,7 +944,7 @@ STR_GAME_OPTIONS_LANGUAGE                                       :{BLACK}Ngôn ng
 STR_GAME_OPTIONS_LANGUAGE_TOOLTIP                               :{BLACK}Lựa chọn sử dụng ngôn ngữ giao diện
 
 STR_GAME_OPTIONS_FULLSCREEN                                     :{BLACK}Toàn màn hình
-STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Đánh dấu vào ô này để chơi OpenTTD ở chế độ fullscreen
+STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Đánh dấu vào ô này để chơi OpenCoaster Tycoon ở chế độ fullscreen
 
 STR_GAME_OPTIONS_RESOLUTION                                     :{BLACK}Độ phân giải màn hình
 STR_GAME_OPTIONS_RESOLUTION_TOOLTIP                             :{BLACK}Chọn độ phân giải màn hình để sử dụng
@@ -1371,7 +1371,7 @@ STR_CONFIG_SETTING_REVERSE_AT_SIGNALS                           :{LTBLUE}Tự đ
 STR_CONFIG_SETTING_QUERY_CAPTION                                :{WHITE}Thay đổi giá trị
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}Màn Chơi Mới
 STR_INTRO_LOAD_GAME                                             :{BLACK}Nạp Ván Chơi
@@ -1406,12 +1406,12 @@ STR_INTRO_TOOLTIP_ADVANCED_SETTINGS                             :{BLACK}Hiển t
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}Hiển thị tùy chỉnh NewGRF
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK}Kiểm tra những nội dung mới & cập nhật để tải về
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK}Hiện thị tùy chỉnh AI
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Thoát 'OpenTTD'
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Thoát 'OpenCoaster Tycoon'
 
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}Thoát
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}Bạn có chắc chắn muốn thoát khỏi OpenTTD và trở lại {STRING}?
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}Bạn có chắc chắn muốn thoát khỏi OpenCoaster Tycoon và trở lại {STRING}?
 STR_QUIT_YES                                                    :{BLACK}Đồng ý
 STR_QUIT_NO                                                     :{BLACK}Không đồng ý
 
@@ -1503,7 +1503,7 @@ STR_FACE_SIMPLE                                                 :{BLACK}Đơn gi
 STR_FACE_SIMPLE_TOOLTIP                                         :{BLACK}Trình chọn vẻ mặt đơn giản.
 STR_FACE_LOAD                                                   :{BLACK}Nạp
 STR_FACE_LOAD_TOOLTIP                                           :{BLACK}Chọn vẻ mặt ưa thích
-STR_FACE_LOAD_DONE                                              :{WHITE}Vẻ mặt ưa thích đã được nạp từ file thiết lập của OpenTTD.
+STR_FACE_LOAD_DONE                                              :{WHITE}Vẻ mặt ưa thích đã được nạp từ file thiết lập của OpenCoaster Tycoon.
 STR_FACE_FACECODE                                               :{BLACK}Vẻ mặt thứ.
 STR_FACE_FACECODE_TOOLTIP                                       :{BLACK}Xem và/hoặc sửa số vẻ mặt của chủ tịch công ty
 STR_FACE_FACECODE_CAPTION                                       :{WHITE}Xem và/hoặc chọn số bộ mặt người chơi
@@ -1511,7 +1511,7 @@ STR_FACE_FACECODE_SET                                           :{WHITE}Mã số
 STR_FACE_FACECODE_ERR                                           :{WHITE}Không thể thiết lập mã số gương mặt - mã số phải trong khoảng từ 0 đến 4,294,967,295!
 STR_FACE_SAVE                                                   :{BLACK}Lưu
 STR_FACE_SAVE_TOOLTIP                                           :{BLACK}Lưu gương mặt yêu thích
-STR_FACE_SAVE_DONE                                              :{WHITE}Gương mặt yêu thích này sẽ được lưu lại trong tập tin cấu hình OpenTTD .
+STR_FACE_SAVE_DONE                                              :{WHITE}Gương mặt yêu thích này sẽ được lưu lại trong tập tin cấu hình OpenCoaster Tycoon .
 STR_FACE_EUROPEAN                                               :{BLACK}Châu Âu
 STR_FACE_SELECT_EUROPEAN                                        :{BLACK}Chọn gương mặt Châu Âu
 STR_FACE_AFRICAN                                                :{BLACK}Châu Phi
@@ -1846,7 +1846,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER}Bạn c
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}Bạn đã chọn cái này để tải về
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER}Cái này phụ thuộc, cần phải chọn để tải về
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER}Bạn đã có cái này rồi
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Nội dung này không có và không thể tải về trong OpenTTD
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Nội dung này không có và không thể tải về trong OpenCoaster Tycoon
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}Cái này thay thế cái đã có {STRING}
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}Tên: {WHITE}{STRING}
 STR_CONTENT_DETAIL_VERSION                                      :{SILVER}Phiên bản: {WHITE}{STRING}
@@ -1857,7 +1857,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}Kích t
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER}Được chọn vì: {WHITE}{STRING}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER}Các phụ thuộc: {WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER}Tags: {WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenTTD không thiết lập hỗ trợ "zlib"...
+STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenCoaster Tycoon không thiết lập hỗ trợ "zlib"...
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}... không thể tải nội dung này
 
 # Order of these is important!
@@ -2283,11 +2283,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Hải đăng
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :Trụ sở công ty
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :Đất công ty sở hữu
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}OpenTTD
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}OpenCoaster Tycoon
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}Nguyên tác bản quyền {COPYRIGHT} 1995 Chris Sawyer, All rights reserved
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD phiên bản {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT} 2002-2012 Nhóm OpenTTD
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon phiên bản {REV}
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT} 2012 Shaun Andrew Hill
 
 # Save/load game/scenario
 STR_SAVELOAD_SAVE_CAPTION                                       :{WHITE}Lưu Ván Chơi
@@ -2425,7 +2425,7 @@ STR_NEWGRF_SETTINGS_PARAMETER                                   :{BLACK}Tham s�
 STR_NEWGRF_SETTINGS_NO_INFO                                     :{BLACK}Không có thông tin gì cả
 STR_NEWGRF_SETTINGS_NOT_FOUND                                   :{RED}File hợp lệ không có
 STR_NEWGRF_SETTINGS_DISABLED                                    :{RED}Tắt
-STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Không tương thích với phiên bản OpenTTD này.
+STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Không tương thích với phiên bản OpenCoaster Tycoon này.
 STR_NEWGRF_SETTINGS_PARAMETER_QUERY                             :{BLACK}Nhập NewGRF tham số
 
 # NewGRF parameters window
@@ -2472,13 +2472,13 @@ STR_NEWGRF_ERROR_MSG_WARNING                                    :{RED}Cảnh bá
 STR_NEWGRF_ERROR_MSG_ERROR                                      :{RED}Lỗi: {SILVER}{STRING}
 STR_NEWGRF_ERROR_MSG_FATAL                                      :{RED}Lỗi nghiêm trọng: {SILVER}{STRING}
 STR_NEWGRF_ERROR_FATAL_POPUP                                    :{WHITE}Xảy ra lỗi NewGRF gây hư hỏng: {}{STRING}
-STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} sẽ không hoạt động với phiên bản TTDPatch version theo như báo cáo của OpenTTD.
+STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} sẽ không hoạt động với phiên bản TTDPatch version theo như báo cáo của OpenCoaster Tycoon.
 STR_NEWGRF_ERROR_DOS_OR_WINDOWS                                 :{1:STRING} để dành cho phiên bản {STRING} của TTD.
 STR_NEWGRF_ERROR_UNSET_SWITCH                                   :{1:STRING} được thiết kế để xài với {STRING}
 STR_NEWGRF_ERROR_INVALID_PARAMETER                              :Tham số không hợp lệ {1:STRING}: tham số {STRING} ({NUM})
 STR_NEWGRF_ERROR_LOAD_BEFORE                                    :{1:STRING} phải được nạp trước {STRING}.
 STR_NEWGRF_ERROR_LOAD_AFTER                                     :{1:STRING} phỉa được nạp sau {STRING}.
-STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} yêu cầu phiên bản OpenTTD {STRING} hoặc cao hơn.
+STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} yêu cầu phiên bản OpenCoaster Tycoon {STRING} hoặc cao hơn.
 STR_NEWGRF_ERROR_AFTER_TRANSLATED_FILE                          :GRF file được thiết kế để phiên dịch
 STR_NEWGRF_ERROR_TOO_MANY_NEWGRFS_LOADED                        :Quá nhiều NewGRFs đã nạp.
 STR_NEWGRF_ERROR_STATIC_GRF_CAUSES_DESYNC                       :Nạp {2:STRING} như là NewGRF tĩnh với {4:STRING} có thể gây mất đồng bộ
@@ -2494,7 +2494,7 @@ STR_NEWGRF_ERROR_FORCEFULLY_DISABLED                            :{2:STRING} bị
 
 # NewGRF related 'general' warnings
 STR_NEWGRF_POPUP_CAUTION_CAPTION                                :{WHITE}Chú Ý!
-STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Bạn định tiến hành thay đổi cho ván chơi đang chơi; việc này có thể làm lỗi hoặc treo OpenTTD. Đừng thông báo vễ những lỗi dạng này.{}Bạn có chắc sẽ thực hiện không?
+STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Bạn định tiến hành thay đổi cho ván chơi đang chơi; việc này có thể làm lỗi hoặc treo OpenCoaster Tycoon. Đừng thông báo vễ những lỗi dạng này.{}Bạn có chắc sẽ thực hiện không?
 
 STR_NEWGRF_DUPLICATE_GRFID                                      :{WHITE}Không thể thêm file: trùng lặp GRF ID
 STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}File hợp lệ không tìm thấy (GRF tương thích được nạp thay)
@@ -2502,7 +2502,7 @@ STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}File h�
 STR_NEWGRF_COMPATIBLE_LOAD_WARNING                              :{WHITE}GRF tương thích được nạp thay cho các file thiếu.
 STR_NEWGRF_DISABLED_WARNING                                     :{WHITE}Các GRF file thiếu bị bỏ qua
 STR_NEWGRF_UNPAUSE_WARNING_TITLE                                :{YELLOW}Thiếu GRF file
-STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Tiếp tục có thể làm treo OpenTTD. Không nên báo cáo lỗi sau khi bị treo.{}Bạn có chắc là tiếp tục chơi?
+STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Tiếp tục có thể làm treo OpenCoaster Tycoon. Không nên báo cáo lỗi sau khi bị treo.{}Bạn có chắc là tiếp tục chơi?
 
 # NewGRF status
 STR_NEWGRF_LIST_NONE                                            :Không
@@ -3363,7 +3363,7 @@ STR_AI_DEBUG_CONTINUE                                           :{BLACK}Tiếp t
 STR_AI_DEBUG_CONTINUE_TOOLTIP                                   :{BLACK}Cho máy tiếp tục chơi
 STR_AI_DEBUG_SELECT_AI_TOOLTIP                                  :{BLACK}Xem thông tin debug của AI này
 
-STR_ERROR_NO_AI                                                 :{WHITE}OpenTTD biên dịch không hỗ trợ AI...
+STR_ERROR_NO_AI                                                 :{WHITE}OpenCoaster Tycoon biên dịch không hỗ trợ AI...
 STR_ERROR_NO_AI_SUB                                             :{WHITE}... Không có AI thích hợp!
 
 STR_ERROR_AI_NO_AI_FOUND                                        :Không có AI phù hợp để nạp.{}AI này là AI giả và sẽ không làm gì cả.{}Bạn có thể tải các AI tại mục 'Nội dung trực tuyến'.
@@ -3801,7 +3801,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}Không t
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}Không thể đổi tên biển hiệu...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}Không thể xoá biển hiệu...
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :Một trò chơi mô phỏng dựa trên Transport Tycoon Deluxe
 
 ##id 0x2000

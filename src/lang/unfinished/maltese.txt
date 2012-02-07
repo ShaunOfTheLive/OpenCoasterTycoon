@@ -139,7 +139,7 @@ STR_COLOUR_BROWN                                                :Kannella
 STR_COLOUR_GREY                                                 :Griż
 STR_COLOUR_WHITE                                                :Abjad
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 
 
 
@@ -572,7 +572,7 @@ STR_OBJECT_BUILD_CLASS_TOOLTIP                                  :{BLACK}Aghzel i
 
 
 
-# About OpenTTD window
+# About OpenCoaster Tycoon window
 
 # Save/load game/scenario
 
@@ -599,7 +599,7 @@ STR_NEWGRF_SETTINGS_RESCAN_FILES_TOOLTIP                        :{BLACK}Aġġorn
 
 
 
-STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Ma jaqblux ma din il-verzjoni ta' OpenTTD
+STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Ma jaqblux ma din il-verzjoni ta' OpenCoaster Tycoon
 
 
 # NewGRF parameters window
@@ -947,7 +947,7 @@ STR_ERROR_CAN_T_SKIP_ORDER                                      :{WHITE}Ma tista
 
 # Sign related errors
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :Klonu ta' Transport Tycoon Deluxe
 
 ##id 0x2000

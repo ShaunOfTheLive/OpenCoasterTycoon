@@ -253,7 +253,7 @@ STR_COLOUR_BROWN                                                :Barna
 STR_COLOUR_GREY                                                 :Szürke
 STR_COLOUR_WHITE                                                :Fehér
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} mi/h
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} km/h
 STR_UNITS_VELOCITY_SI                                           :{COMMA} m/s
@@ -379,12 +379,12 @@ STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}Repülő
 STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}Nyisd meg a tájrendező ablakot a talaj emeléséhez vagy süllyesztéséhez, faültetéshez, stb.
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}Hang/zene beállításai
 STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}Legutóbbi üzenet/újsághír, üzenetek beállításai
-STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Terület-információ, konzol, MI debug, képmentések, az OpenTTD-ről
+STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Terület-információ, konzol, MI debug, képmentések, az OpenCoaster Tycoon-ről
 STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}Eszköztár váltás
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Pálya betöltése, mentése, kilépés a szerkesztőből, kilépés
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Pályaszerkesztő
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}A kezdődátum hátrébb állítása egy évvel
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}A kezdődátum előrébb állítása egy évvel
@@ -508,7 +508,7 @@ STR_ABOUT_MENU_AI_DEBUG                                         :MI debug
 STR_ABOUT_MENU_SCREENSHOT                                       :Képmentés
 STR_ABOUT_MENU_ZOOMIN_SCREENSHOT                                :Kinagyított képmentés
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :Képmentés teljes térképről
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :Az 'OpenTTD'-ről
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :Az 'OpenCoaster Tycoon'-ről
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :Sprite elhelyező
 STR_ABOUT_MENU_TOGGLE_BOUNDING_BOXES                            :Befoglaló doboz ki/bekapcsolása
 ############ range ends here
@@ -1008,7 +1008,7 @@ STR_GAME_OPTIONS_LANGUAGE                                       :{BLACK}Nyelv
 STR_GAME_OPTIONS_LANGUAGE_TOOLTIP                               :{BLACK}Válassz nyelvet
 
 STR_GAME_OPTIONS_FULLSCREEN                                     :{BLACK}Teljes képernyő
-STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Jelöld be ezt, ha teljes képernyős módban szeretnél játszani az OpenTTD-vel
+STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Jelöld be ezt, ha teljes képernyős módban szeretnél játszani az OpenCoaster Tycoon-vel
 
 STR_GAME_OPTIONS_RESOLUTION                                     :{BLACK}Képernyő felbontás
 STR_GAME_OPTIONS_RESOLUTION_TOOLTIP                             :{BLACK}Válaszd ki, milyen felbontást szeretnél a játékhoz
@@ -1435,7 +1435,7 @@ STR_CONFIG_SETTING_REVERSE_AT_SIGNALS                           :{LTBLUE}Automat
 STR_CONFIG_SETTING_QUERY_CAPTION                                :{WHITE}Válassz beállítási értéket
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}Új játék
 STR_INTRO_LOAD_GAME                                             :{BLACK}Játék betöltése
@@ -1470,12 +1470,12 @@ STR_INTRO_TOOLTIP_ADVANCED_SETTINGS                             :{BLACK}Haladó 
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}NewGRF beállítások megjelenítése
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK}Új és frissített tartalmak megtekintése és letöltése
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK}A gépi ellenfelek beállításainak megjelenítése
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Kilépés az OpenTTD-ből
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Kilépés az OpenCoaster Tycoon-ből
 
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}Kilépés
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}Biztosan bezárod ezt a programot és kilépsz a {STRING}ba?
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}Biztosan bezárod ezt a programot és kilépsz a {STRING}ba?
 STR_QUIT_YES                                                    :{BLACK}Igen
 STR_QUIT_NO                                                     :{BLACK}Nem
 
@@ -1567,7 +1567,7 @@ STR_FACE_SIMPLE                                                 :{BLACK}Egyszer�
 STR_FACE_SIMPLE_TOOLTIP                                         :{BLACK}Egyszerű arcválasztó
 STR_FACE_LOAD                                                   :{BLACK}Betölt
 STR_FACE_LOAD_TOOLTIP                                           :{BLACK}Kedvenc arcod betöltése
-STR_FACE_LOAD_DONE                                              :{WHITE}A kedvenc arcod az OpenTTD konfig-fájlból be lett töltve.
+STR_FACE_LOAD_DONE                                              :{WHITE}A kedvenc arcod az OpenCoaster Tycoon konfig-fájlból be lett töltve.
 STR_FACE_FACECODE                                               :{BLACK}Játékos arcszám
 STR_FACE_FACECODE_TOOLTIP                                       :{BLACK}Az elnök portréjának kódjánakmegtekintése, módosítása
 STR_FACE_FACECODE_CAPTION                                       :{WHITE}Elnöki portré kód megtekintése, módosítása
@@ -1575,7 +1575,7 @@ STR_FACE_FACECODE_SET                                           :{WHITE}Az új p
 STR_FACE_FACECODE_ERR                                           :{WHITE}Elnöki portré kód beállítás sikertelen - a megadott értéknek 0 és 4.294.967.295 között kell lennie!
 STR_FACE_SAVE                                                   :{BLACK}Mentés
 STR_FACE_SAVE_TOOLTIP                                           :{BLACK}Kedvenc arc elmentése
-STR_FACE_SAVE_DONE                                              :{WHITE}Ez az arc mint a kedvenc arcod kerül az OpenTTD konfig-fájlba mentésre.
+STR_FACE_SAVE_DONE                                              :{WHITE}Ez az arc mint a kedvenc arcod kerül az OpenCoaster Tycoon konfig-fájlba mentésre.
 STR_FACE_EUROPEAN                                               :{BLACK}Európai
 STR_FACE_SELECT_EUROPEAN                                        :{BLACK}Európai arc választása
 STR_FACE_AFRICAN                                                :{BLACK}Afrikai
@@ -1910,7 +1910,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER}Nem jel
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}Kijelölted letöltésre
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER}Ez a függőség ki lett jelölve letöltésre
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER}Már rendelkezel ezzel a tartalommal
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Ismeretlen tartalom, nem tölthető le az OpenTTD-hez
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Ismeretlen tartalom, nem tölthető le az OpenCoaster Tycoon-hez
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}Ez a tartalom egy meglévő {STRING} helyettesítése
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}Név: {WHITE}{STRING}
 STR_CONTENT_DETAIL_VERSION                                      :{SILVER}Verzió: {WHITE}{STRING}
@@ -1921,7 +1921,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}Letölt
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER}Kijelölés oka: {WHITE}{STRING}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER}Függőségek: {WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER}Címkék: {WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}Az OpenTTD "zlib" támogatás nélkül lett fordítva...
+STR_CONTENT_NO_ZLIB                                             :{WHITE}Az OpenCoaster Tycoon "zlib" támogatás nélkül lett fordítva...
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}... nem lehet letölteni a tartalmat!
 
 # Order of these is important!
@@ -2348,11 +2348,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Világítótoro
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :Vállalat székháza
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :Vállalat által birtokolt föld
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}Az OpenTTD-ről
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}Az OpenCoaster Tycoon-ről
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}Eredeti copyright {COPYRIGHT} 1995 Chris Sawyer, Minden jog fenntartva
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD {REV} verzió
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT}2002-2012 Az OpenTTD csapat
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon {REV} verzió
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT}2002-2012 Az OpenCoaster Tycoon csapat
 
 # Save/load game/scenario
 STR_SAVELOAD_SAVE_CAPTION                                       :{WHITE}Játék mentése
@@ -2492,7 +2492,7 @@ STR_NEWGRF_SETTINGS_PARAMETER                                   :{BLACK}Paramét
 STR_NEWGRF_SETTINGS_NO_INFO                                     :{BLACK}Nem érhető el információ
 STR_NEWGRF_SETTINGS_NOT_FOUND                                   :{RED}Fájl nem található
 STR_NEWGRF_SETTINGS_DISABLED                                    :{RED}Kikapcsolva
-STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Nem kompatibilis az OpenTTD ezen verziójával
+STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Nem kompatibilis az OpenCoaster Tycoon ezen verziójával
 
 STR_NEWGRF_SETTINGS_PARAMETER_QUERY                             :{BLACK}Adj meg NewGRF paramétereket
 # NewGRF parameters window
@@ -2539,13 +2539,13 @@ STR_NEWGRF_ERROR_MSG_WARNING                                    :{RED}Figyelmezt
 STR_NEWGRF_ERROR_MSG_ERROR                                      :{RED}Hiba: {SILVER}{STRING}
 STR_NEWGRF_ERROR_MSG_FATAL                                      :{RED}Végzetes hiba: {SILVER}{STRING}
 STR_NEWGRF_ERROR_FATAL_POPUP                                    :{WHITE}Végzetes NewGRF hiba történt: {}{STRING}
-STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} nem fog működni az OpenTTD által jelentett TTDPatch verzióval
+STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} nem fog működni az OpenCoaster Tycoon által jelentett TTDPatch verzióval
 STR_NEWGRF_ERROR_DOS_OR_WINDOWS                                 :{1:STRING} a TTD {STRING} verziójához van
 STR_NEWGRF_ERROR_UNSET_SWITCH                                   :{1:STRING} úgy lett tervezve, hogy együtt lesz használva ezzel: {STRING}
 STR_NEWGRF_ERROR_INVALID_PARAMETER                              :Hibás paraméterérték ehhez: {1:STRING}: paraméter {STRING} ({NUM})
 STR_NEWGRF_ERROR_LOAD_BEFORE                                    :{1:STRING} muszáj, hogy betöltődjön ezelőtt: {STRING}
 STR_NEWGRF_ERROR_LOAD_AFTER                                     :{1:STRING} muszáj, hogy ezután töltődjön be: {STRING}
-STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} csak a {STRING} vagy újabb verziójú OpenTTD-vel működik
+STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} csak a {STRING} vagy újabb verziójú OpenCoaster Tycoon-vel működik
 STR_NEWGRF_ERROR_AFTER_TRANSLATED_FILE                          :az adott GRF fájl célja egy másik lefordítása
 STR_NEWGRF_ERROR_TOO_MANY_NEWGRFS_LOADED                        :Túl sok NewGRF van betöltve
 STR_NEWGRF_ERROR_STATIC_GRF_CAUSES_DESYNC                       :{2:STRING} betöltése mint statikus NewGRF {4:STRING} mellett ütközést okozhat
@@ -2561,7 +2561,7 @@ STR_NEWGRF_ERROR_FORCEFULLY_DISABLED                            :{2:STRING} kika
 
 # NewGRF related 'general' warnings
 STR_NEWGRF_POPUP_CAUTION_CAPTION                                :{WHITE}Figyelem!
-STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Te éppen egy jelenleg futó játékon akarsz változtatni; ettől elszállhat az OpenTTD. Ezekről ne tegyél hibajelentést.{}Teljesen biztos vagy ebben?
+STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Te éppen egy jelenleg futó játékon akarsz változtatni; ettől elszállhat az OpenCoaster Tycoon. Ezekről ne tegyél hibajelentést.{}Teljesen biztos vagy ebben?
 
 STR_NEWGRF_DUPLICATE_GRFID                                      :{WHITE}Nem lehetséges a fájl hozzáadása: duplikált GRF azonosító
 STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Pontosan megegyező fájlt nem találtam (kompatibilis GRF-fel helyettesítve)
@@ -2569,7 +2569,7 @@ STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Pontosa
 STR_NEWGRF_COMPATIBLE_LOAD_WARNING                              :{WHITE}Kompatibilis GRFek betöltve a hiányzó fájlok helyett
 STR_NEWGRF_DISABLED_WARNING                                     :{WHITE}Hiányzó GRF fájlokat kikapcsoltam
 STR_NEWGRF_UNPAUSE_WARNING_TITLE                                :{YELLOW}Hiányzó GRF fájlok
-STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}A játék folytatásától az OpenTTD lefagyhat.{}Ne jelentsd be az ismétlődő lefagyásokat egyesével.{}Biztosan folytatni akarod?
+STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}A játék folytatásától az OpenCoaster Tycoon lefagyhat.{}Ne jelentsd be az ismétlődő lefagyásokat egyesével.{}Biztosan folytatni akarod?
 
 # NewGRF status
 STR_NEWGRF_LIST_NONE                                            :Nincs
@@ -3430,7 +3430,7 @@ STR_AI_DEBUG_CONTINUE                                           :{BLACK}Folytat�
 STR_AI_DEBUG_CONTINUE_TOOLTIP                                   :{BLACK}Játék folytatása és MI visszakapcsolása
 STR_AI_DEBUG_SELECT_AI_TOOLTIP                                  :{BLACK}A MI kimeneti nyomonkövetésének megtekintése
 
-STR_ERROR_NO_AI                                                 :{WHITE}Az OpenTTD MI támogatás nélül lett fordítva...
+STR_ERROR_NO_AI                                                 :{WHITE}Az OpenCoaster Tycoon MI támogatás nélül lett fordítva...
 STR_ERROR_NO_AI_SUB                                             :{WHITE}... nincs elérhető MI!
 
 STR_ERROR_AI_NO_AI_FOUND                                        :Nincs MI, amit be lehetne tölteni.{}A jelenlegi MI csak dísz és nem fog semmit csinálni.{}MI-k letöltéséhez használd a tartalomletöltő rendszert
@@ -3868,7 +3868,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}Nem rakh
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}Nem változtathatod meg a feliratot...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}A felirat nem törölhető...
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :Transport Tycoon Deluxe alapokon nyugvó szimulációs játék
 
 ##id 0x2000

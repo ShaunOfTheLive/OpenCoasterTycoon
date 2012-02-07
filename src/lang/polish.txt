@@ -569,7 +569,7 @@ STR_COLOUR_BROWN                                                :Brązowy
 STR_COLOUR_GREY                                                 :Szary
 STR_COLOUR_WHITE                                                :Biały
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} mph
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} km/h
 STR_UNITS_VELOCITY_SI                                           :{COMMA} m/s
@@ -695,12 +695,12 @@ STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}Budowa l
 STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}Zmiana terenu, podwyższanie/obniżanie lądu, sadzenie drzew, itp.
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}Pokaż okno dźwięk/muzyka
 STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}Pokaż ostatnią wiadomość/ogłoszenie, pokaż ustawienia wiadomości
-STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Informacje o terenie, konsola, ustawienia SI, zrzut ekranu, o grze OpenTTD
+STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Informacje o terenie, konsola, ustawienia SI, zrzut ekranu, o grze OpenCoaster Tycoon
 STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}Przełącz paski narzędzi
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Zapis scenariusza, wczytanie scenariusza, wyjście z edytora, wyjście
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Edytor scenariuszy
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}Zmień datę początkową do tyłu o 1 rok
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}Zmień datę początkową do przodu o 1 rok
@@ -824,7 +824,7 @@ STR_ABOUT_MENU_AI_DEBUG                                         :Odpluskwianie S
 STR_ABOUT_MENU_SCREENSHOT                                       :Zrzut ekranu
 STR_ABOUT_MENU_ZOOMIN_SCREENSHOT                                :Zrzut powiększenia bez okien
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :Zrzut ekranu całej mapy
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :Info o 'OpenTTD'
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :Info o 'OpenCoaster Tycoon'
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :Wyrównywanie sprite-ów
 STR_ABOUT_MENU_TOGGLE_BOUNDING_BOXES                            :Wł./wył. ramki
 ############ range ends here
@@ -1324,7 +1324,7 @@ STR_GAME_OPTIONS_LANGUAGE                                       :{BLACK}Język
 STR_GAME_OPTIONS_LANGUAGE_TOOLTIP                               :{BLACK}Wybierz język interfejsu
 
 STR_GAME_OPTIONS_FULLSCREEN                                     :{BLACK}Pełny ekran
-STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Zaznacz, jeśli chcesz grać w OpenTTD w trybie pełnoekranowym
+STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Zaznacz, jeśli chcesz grać w OpenCoaster Tycoon w trybie pełnoekranowym
 
 STR_GAME_OPTIONS_RESOLUTION                                     :{BLACK}Rozdzielczość ekranu
 STR_GAME_OPTIONS_RESOLUTION_TOOLTIP                             :{BLACK}Wybierz rozdzielczość ekranu
@@ -1751,7 +1751,7 @@ STR_CONFIG_SETTING_REVERSE_AT_SIGNALS                           :{LTBLUE}Automat
 STR_CONFIG_SETTING_QUERY_CAPTION                                :{WHITE}Zmiana wartości
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}Nowa gra
 STR_INTRO_LOAD_GAME                                             :{BLACK}Wczytaj grę
@@ -1786,12 +1786,12 @@ STR_INTRO_TOOLTIP_ADVANCED_SETTINGS                             :{BLACK}Wyświet
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}Wyświetl ustawienia NewGRF
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK}Poszukaj nowych lub zaktualizowanych dodatków do pobrania
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK}Wyświetl ustawienia SI
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Wyjdź z 'OpenTTD'
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Wyjdź z 'OpenCoaster Tycoon'
 
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}Wyjście
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}Czy jesteś pewien, że chcesz zakończyć tę grę i wrócić do {STRING}?
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}Czy jesteś pewien, że chcesz zakończyć tę grę i wrócić do {STRING}?
 STR_QUIT_YES                                                    :{BLACK}Tak
 STR_QUIT_NO                                                     :{BLACK}Nie
 
@@ -1883,7 +1883,7 @@ STR_FACE_SIMPLE                                                 :{BLACK}Prosty w
 STR_FACE_SIMPLE_TOOLTIP                                         :{BLACK}Prosty widok wyboru twarzy
 STR_FACE_LOAD                                                   :{BLACK}Wczytaj
 STR_FACE_LOAD_TOOLTIP                                           :{BLACK}Wczytaj ulubioną twarz
-STR_FACE_LOAD_DONE                                              :{WHITE}Twoja ulubiona twarz została wczytana z pliku konfiguracyjnego OpenTTD
+STR_FACE_LOAD_DONE                                              :{WHITE}Twoja ulubiona twarz została wczytana z pliku konfiguracyjnego OpenCoaster Tycoon
 STR_FACE_FACECODE                                               :{BLACK}Numer twarzy gracza
 STR_FACE_FACECODE_TOOLTIP                                       :{BLACK}Obejrzyj i/lub ustaw numer twarzy prezesa firmy
 STR_FACE_FACECODE_CAPTION                                       :{WHITE}Obejrzyj i/lub ustaw numer twarzy prezesa
@@ -1891,7 +1891,7 @@ STR_FACE_FACECODE_SET                                           :{WHITE}Ustawion
 STR_FACE_FACECODE_ERR                                           :{WHITE}Nie można ustawić numeru twarzy prezesa - musi być liczbą pomiędzy 0 a 4'294'967'295!
 STR_FACE_SAVE                                                   :{BLACK}Zapisz
 STR_FACE_SAVE_TOOLTIP                                           :{BLACK}Zapisz ulubioną twarz
-STR_FACE_SAVE_DONE                                              :{WHITE}Ta twarz będzie zapisana w pliku konfiguracyjnym OpenTTD jako Twoja ulubiona
+STR_FACE_SAVE_DONE                                              :{WHITE}Ta twarz będzie zapisana w pliku konfiguracyjnym OpenCoaster Tycoon jako Twoja ulubiona
 STR_FACE_EUROPEAN                                               :{BLACK}Europejska
 STR_FACE_SELECT_EUROPEAN                                        :{BLACK}Wybierz twarz o karnacji europejskiej
 STR_FACE_AFRICAN                                                :{BLACK}Afrykańska
@@ -2226,7 +2226,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER}Ten dod
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}Dodatek ten został wybrany do pobrania
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER}Zależność ta została wybrana do pobrania
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER}Już to posiadasz
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Ta zawartość jest nieznana i nie może zostać pobrana do OpenTTD
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Ta zawartość jest nieznana i nie może zostać pobrana do OpenCoaster Tycoon
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}Jest to uaktualnienie dla dodatku {STRING}
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}Nazwa: {WHITE}{STRING}
 STR_CONTENT_DETAIL_VERSION                                      :{SILVER}Wersja: {WHITE}{STRING}
@@ -2662,11 +2662,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Latarnia morska
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :Siedziba firmy
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :Teren w posiadaniu firmy
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}OpenTTD
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}OpenCoaster Tycoon
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}Prawa Autorskie {COPYRIGHT} 1995 Chris Sawyer, Wszelkie prawa zastrzeżone
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD wersja {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT}2002-2012 Zespół OpenTTD
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon wersja {REV}
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT}2002-2012 Zespół OpenCoaster Tycoon
 
 # Save/load game/scenario
 STR_SAVELOAD_SAVE_CAPTION                                       :{WHITE}Zapisz grę
@@ -2804,7 +2804,7 @@ STR_NEWGRF_SETTINGS_PARAMETER                                   :{BLACK}Parametr
 STR_NEWGRF_SETTINGS_NO_INFO                                     :{BLACK}Brak dostępnych informacji
 STR_NEWGRF_SETTINGS_NOT_FOUND                                   :{RED}Nie znaleziono pasującego pliku
 STR_NEWGRF_SETTINGS_DISABLED                                    :{RED}Niedostępny
-STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{G=n}{RED}Niekompatybilne z tą wersją OpenTTD
+STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{G=n}{RED}Niekompatybilne z tą wersją OpenCoaster Tycoon
 
 STR_NEWGRF_SETTINGS_PARAMETER_QUERY                             :{BLACK}Wprowadź parametry NewGRF
 
@@ -2850,13 +2850,13 @@ STR_NEWGRF_ERROR_MSG_WARNING                                    :{RED}Ostrzeżen
 STR_NEWGRF_ERROR_MSG_ERROR                                      :{RED}Błąd: {SILVER}{STRING}
 STR_NEWGRF_ERROR_MSG_FATAL                                      :{RED}Błąd krytyczny: {SILVER}{STRING}
 STR_NEWGRF_ERROR_FATAL_POPUP                                    :{WHITE}Wystąpił błąd krytyczny NewGRF: {}{STRING}
-STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} nie zadziała z wersją TTDPatcha zgłoszoną przez OpenTTD
+STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} nie zadziała z wersją TTDPatcha zgłoszoną przez OpenCoaster Tycoon
 STR_NEWGRF_ERROR_DOS_OR_WINDOWS                                 :{1:STRING} jest przeznaczony dla TTD wersji {STRING}
 STR_NEWGRF_ERROR_UNSET_SWITCH                                   :{1:STRING} jest zaprojektowany do użycia z {STRING}
 STR_NEWGRF_ERROR_INVALID_PARAMETER                              :Niewłaściwy parametr dla {1:STRING}: parametr {STRING} ({NUM})
 STR_NEWGRF_ERROR_LOAD_BEFORE                                    :{1:STRING} musi być wczytany przed {STRING}
 STR_NEWGRF_ERROR_LOAD_AFTER                                     :{1:STRING} musi być wczytany po {STRING}
-STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} wymaga OpenTTD w wersji {STRING} lub nowszej
+STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} wymaga OpenCoaster Tycoon w wersji {STRING} lub nowszej
 STR_NEWGRF_ERROR_AFTER_TRANSLATED_FILE                          :pliku GRF który miał być tłumaczony
 STR_NEWGRF_ERROR_TOO_MANY_NEWGRFS_LOADED                        :Wczytano zbyt wiele NewGRF
 STR_NEWGRF_ERROR_STATIC_GRF_CAUSES_DESYNC                       :Ładowanie {2:STRING} jako statyczne NewGRF z {4:STRING} może spowodować desynchronizacje
@@ -2872,7 +2872,7 @@ STR_NEWGRF_ERROR_FORCEFULLY_DISABLED                            :{2:STRING} zost
 
 # NewGRF related 'general' warnings
 STR_NEWGRF_POPUP_CAUTION_CAPTION                                :{WHITE}Uwaga!
-STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Zamierzasz wprowadzić zmiany do uruchomionej gry; to może zawiesić OpenTTD lub uszkodzić stan gry. W takim przypadku nie wysyłaj raportów o błędach.{}Czy jesteś całkowicie pewien?
+STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Zamierzasz wprowadzić zmiany do uruchomionej gry; to może zawiesić OpenCoaster Tycoon lub uszkodzić stan gry. W takim przypadku nie wysyłaj raportów o błędach.{}Czy jesteś całkowicie pewien?
 
 STR_NEWGRF_DUPLICATE_GRFID                                      :{WHITE}Nie można dodać pliku: taki sam GRF ID
 STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Nie znaleziono pasującego pliku (wczytano kompatybilny GRF)
@@ -2880,7 +2880,7 @@ STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Nie zna
 STR_NEWGRF_COMPATIBLE_LOAD_WARNING                              :{WHITE}Wczytano kompatybilne GRF dla brakujących plików
 STR_NEWGRF_DISABLED_WARNING                                     :{WHITE}Brakujące pliki GRF zostały wyłączone
 STR_NEWGRF_UNPAUSE_WARNING_TITLE                                :{YELLOW}Brakujące pliki GRF
-STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Wyłączenie pauzy może zawiesić OpenTTD. Nie zgłaszaj błędów o powtarzających się zawieszeniach.{}Czy na pewno chcesz wyłączyć pauzę?
+STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Wyłączenie pauzy może zawiesić OpenCoaster Tycoon. Nie zgłaszaj błędów o powtarzających się zawieszeniach.{}Czy na pewno chcesz wyłączyć pauzę?
 
 # NewGRF status
 STR_NEWGRF_LIST_NONE                                            :Nic
@@ -3745,7 +3745,7 @@ STR_AI_DEBUG_CONTINUE                                           :{BLACK}Kontynuu
 STR_AI_DEBUG_CONTINUE_TOOLTIP                                   :{BLACK}Odpauzowanie i kontynuuowanie SI
 STR_AI_DEBUG_SELECT_AI_TOOLTIP                                  :{BLACK}Pokaż okno debugowania tej SI
 
-STR_ERROR_NO_AI                                                 :{WHITE}OpenTTD został zbudowany bez wsparcia dla SI...
+STR_ERROR_NO_AI                                                 :{WHITE}OpenCoaster Tycoon został zbudowany bez wsparcia dla SI...
 STR_ERROR_NO_AI_SUB                                             :{WHITE}... żadna SI nie jest dostępna!
 
 STR_ERROR_AI_NO_AI_FOUND                                        :Nie znaleziono SI do wczytania.{}SI jest nieaktywne i nic nie robi.{}Możesz ściągnąć SI z 'Dodatki Online' w głównym menu gry
@@ -4183,7 +4183,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}Nie moż
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}Nie można zmienić nazwy napisu...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}Nie można usunąć napisu...
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :Gra symulacyjna oparta na Transport Tycoon Deluxe
 
 ##id 0x2000

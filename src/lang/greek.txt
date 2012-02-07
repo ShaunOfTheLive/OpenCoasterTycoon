@@ -254,7 +254,7 @@ STR_COLOUR_BROWN                                                :Καφέ
 STR_COLOUR_GREY                                                 :Γκρι
 STR_COLOUR_WHITE                                                :Λευκό
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} μαω
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} χλμ/ώρα
 STR_UNITS_VELOCITY_SI                                           :{COMMA} μ/δ
@@ -380,12 +380,12 @@ STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}Κατα
 STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}Ανοίξτε την μπάρα εργαλείων μορφοποίησης εδάφους για ανύψωση/βύθιση γης, δενδροφύτευση, κλπ.
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}Εμφάνιση παραθύρου ήχου/μουσικής
 STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}Εμφάνιση τελευταίου μηνύματος/αναφοράς νέων, επιλογές μηνυμάτων
-STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Πληροφορίες περιοχής, κονσόλα, αποσφαλμάτωση AI, φωτογραφίες οθόνης, περί του OpenTTD
+STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Πληροφορίες περιοχής, κονσόλα, αποσφαλμάτωση AI, φωτογραφίες οθόνης, περί του OpenCoaster Tycoon
 STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}Εναλλάγη μπαρών εργασίας
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Αποθήκευση σεναρίου, φόρτωση, παραίτηση πρόγραμμα επεξεργασίας, έξοδος
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Πρόγραμμα Επεξεργασίας Σεναρίου
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}Μετακίνηση ημ/νίας εκκίνησης 1 χρόνο πίσω
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}Μετακίνηση ημ/νίας εκκίνησης 1 χρόνο μπροστά
@@ -509,7 +509,7 @@ STR_ABOUT_MENU_AI_DEBUG                                         :Αποσφαλ�
 STR_ABOUT_MENU_SCREENSHOT                                       :Στιγμιότυπο οθόνης
 STR_ABOUT_MENU_ZOOMIN_SCREENSHOT                                :Μεγένθυση στη φωτογραφία εικόνας
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :Στιγμιότυπο οθόνης για ολο το χάρτη(Ctrl-G)
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :Σχετικά με το 'OpenTTD'
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :Σχετικά με το 'OpenCoaster Tycoon'
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :Ευθυγραμμιστής Sprite
 ############ range ends here
 
@@ -1036,7 +1036,7 @@ STR_GAME_OPTIONS_LANGUAGE                                       :{BLACK}Γλώσ
 STR_GAME_OPTIONS_LANGUAGE_TOOLTIP                               :{BLACK}Επιλογή της γλώσσας σε χρήση
 
 STR_GAME_OPTIONS_FULLSCREEN                                     :{BLACK}Σε όλη την οθόνη
-STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Τσεκάρεται αυτό το κουτάκι ωστε να παίξετε το OpenTTD σε όλη την οθόνη
+STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Τσεκάρεται αυτό το κουτάκι ωστε να παίξετε το OpenCoaster Tycoon σε όλη την οθόνη
 
 STR_GAME_OPTIONS_RESOLUTION                                     :{BLACK}Ανάλυση οθόνης
 STR_GAME_OPTIONS_RESOLUTION_TOOLTIP                             :{BLACK}Διαλέξτε την ανάλυση της οθόνης που θέλετε
@@ -1463,7 +1463,7 @@ STR_CONFIG_SETTING_REVERSE_AT_SIGNALS                           :{LTBLUE}Αυτ�
 STR_CONFIG_SETTING_QUERY_CAPTION                                :{WHITE}Αλλαγή τιμής ρύθμισης
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}Νέο Παιχνίδι
 STR_INTRO_LOAD_GAME                                             :{BLACK}Φόρτωση Παιχνιδιού
@@ -1498,12 +1498,12 @@ STR_INTRO_TOOLTIP_ADVANCED_SETTINGS                             :{BLACK}Εμφά
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}Εμφάνιση ρυθμίσεων NewGRF
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK}Έλεγχος για νέο και ανανεωμένο περιεχόμενο για κατέβασμα
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK}Εμφάνιση ρυθμίσεων AI
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Έξοδος από το 'OpenTTD'
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Έξοδος από το 'OpenCoaster Tycoon'
 
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}Έξοδος
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}Είστε σίγουρος/η ότι θέλετε να εγκαταλείψετε το OpenTTD και να επιστρέψετε στο {STRING};
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}Είστε σίγουρος/η ότι θέλετε να εγκαταλείψετε το OpenCoaster Tycoon και να επιστρέψετε στο {STRING};
 STR_QUIT_YES                                                    :{BLACK}Ναι
 STR_QUIT_NO                                                     :{BLACK}Όχι
 
@@ -1595,7 +1595,7 @@ STR_FACE_SIMPLE                                                 :{BLACK}Απλή
 STR_FACE_SIMPLE_TOOLTIP                                         :{BLACK}Απλή επιλογή προσώπου
 STR_FACE_LOAD                                                   :{BLACK}Φόρτωση
 STR_FACE_LOAD_TOOLTIP                                           :{BLACK}Φόρτωση αγαπημένου προσώπου
-STR_FACE_LOAD_DONE                                              :{WHITE}Το αγαπημένο πρόσωπο έχει φορτωθεί από το αρχείο ρυθμίσεων του OpenTTD
+STR_FACE_LOAD_DONE                                              :{WHITE}Το αγαπημένο πρόσωπο έχει φορτωθεί από το αρχείο ρυθμίσεων του OpenCoaster Tycoon
 STR_FACE_FACECODE                                               :{BLACK}Αρ. προσώπου παίκτη
 STR_FACE_FACECODE_TOOLTIP                                       :{BLACK}Εμφάνιση και/ή επιλογή του αριθμού του προσώπου του παίκτη
 STR_FACE_FACECODE_CAPTION                                       :{WHITE}Προβολη και/ή ορισμός του αριθμού του προσώπου του παίκτη
@@ -1603,7 +1603,7 @@ STR_FACE_FACECODE_SET                                           :{WHITE}Ο νέ�
 STR_FACE_FACECODE_ERR                                           :{WHITE}Δεν μπορεί να οριστεί ο αριθμός προσώπου του παίκτη - πρέπει να είναι αριθμητικός μεταξύ του 0 και του 4.294.967.295!
 STR_FACE_SAVE                                                   :{BLACK}Αποθήκευση
 STR_FACE_SAVE_TOOLTIP                                           :{BLACK}Αποθήκευση αγαπημένου προσώπου
-STR_FACE_SAVE_DONE                                              :{WHITE}Αυτό το πρόσωπο θα αποθηκεύτει ως αγαπημένο στο αρχείο ρυθμίσεων του OpenTTD
+STR_FACE_SAVE_DONE                                              :{WHITE}Αυτό το πρόσωπο θα αποθηκεύτει ως αγαπημένο στο αρχείο ρυθμίσεων του OpenCoaster Tycoon
 STR_FACE_EUROPEAN                                               :{BLACK}Ευρωπαϊκό
 STR_FACE_SELECT_EUROPEAN                                        :{BLACK}Επιλογή ευρωπαϊκών προσώπων
 STR_FACE_AFRICAN                                                :{BLACK}Αφρικάνικο
@@ -1938,7 +1938,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER}Δεν 
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}Έχετε επιλέξει αυτό για να κατέβει
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER}Αυτή η εξάρτηση έχει επιλεχτεί για κατέβασμα
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER}Το έχετε ήδη αυτό
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Αυτό το περιεχόμενο είναι άγνωστο και δεν μπόρει να κατέβει από το OpenTTD
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Αυτό το περιεχόμενο είναι άγνωστο και δεν μπόρει να κατέβει από το OpenCoaster Tycoon
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}Αυτό είναι αντικατάσταση ενός υπάρχοντος {STRING}
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}Όνομα: {WHITE}{STRING}
 STR_CONTENT_DETAIL_VERSION                                      :{SILVER}Έκδοση: {WHITE}{STRING}
@@ -1949,7 +1949,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}Μέγ�
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER}Επιλεγμένο γιατί: {WHITE}{STRING}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER}Εξαρτήσεις: {WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER}ετικέτες: {WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenTTD είναι χτισμένο χωρίς την υποστηριξη "zlib"...
+STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenCoaster Tycoon είναι χτισμένο χωρίς την υποστηριξη "zlib"...
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}... το κατέβασμα περιεχομένου δεν είναι δυνατό!
 
 # Order of these is important!
@@ -2374,11 +2374,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Φάρος
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :Κεντρικά Γραφεία Εταιρίας
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :Ιδιόκτητη γή από εταιρία
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}Σχετικά με το OpenTTD
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}Σχετικά με το OpenCoaster Tycoon
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}Αρχικά Πνευματικά Δικαιώματα {COPYRIGHT} 1995 Chris Sawyer, Όλα τα δικαιώματα διατηρούνται
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD έκδοση {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT} 2002-2012 Η ομάδα του OpenTTD
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon έκδοση {REV}
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT} 2012 Shaun Andrew Hill
 
 # Save/load game/scenario
 STR_SAVELOAD_SAVE_CAPTION                                       :{WHITE}Αποθήκευση Παιχνιδιού
@@ -2516,7 +2516,7 @@ STR_NEWGRF_SETTINGS_PARAMETER                                   :{BLACK}Παρά
 STR_NEWGRF_SETTINGS_NO_INFO                                     :{BLACK}Δεν υπάρχουν διαθέσιμες πληροφορίες
 STR_NEWGRF_SETTINGS_NOT_FOUND                                   :{RED}Δεν βρέθηκε το ταυτοποιημένο αρχείο
 STR_NEWGRF_SETTINGS_DISABLED                                    :{RED}Απενεργοποιημένο
-STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Μη συμβατό με αυτή την έκδοση του OpenTTD
+STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Μη συμβατό με αυτή την έκδοση του OpenCoaster Tycoon
 
 STR_NEWGRF_SETTINGS_PARAMETER_QUERY                             :{BLACK}Εισαγώγη παραμέτρων NewGRF
 
@@ -2562,13 +2562,13 @@ STR_NEWGRF_ERROR_MSG_WARNING                                    :{RED}Προει
 STR_NEWGRF_ERROR_MSG_ERROR                                      :{RED}Λάθος: {SILVER}{STRING}
 STR_NEWGRF_ERROR_MSG_FATAL                                      :{RED}Καταστροφικό: {SILVER}{STRING}
 STR_NEWGRF_ERROR_FATAL_POPUP                                    :{WHITE}Ένα καταστροφικό λάθος για τα NewGRF έχει συμβεί: {}{STRING}
-STR_NEWGRF_ERROR_VERSION_NUMBER                                 :Το {1:STRING} δεν θα δουλέψει με την έκδοση του TTDPatch οπώς αναφέρεται από το OpenTTD
+STR_NEWGRF_ERROR_VERSION_NUMBER                                 :Το {1:STRING} δεν θα δουλέψει με την έκδοση του TTDPatch οπώς αναφέρεται από το OpenCoaster Tycoon
 STR_NEWGRF_ERROR_DOS_OR_WINDOWS                                 :Το {1:STRING} είναι για την έκδοση {STRING} του TTD.
 STR_NEWGRF_ERROR_UNSET_SWITCH                                   :{1:STRING} είναι σχεδιασμένο να δουλέψει με το {STRING}
 STR_NEWGRF_ERROR_INVALID_PARAMETER                              :Λάθος παράμετρος για το {1:STRING}: Παράμετρος {STRING} ({NUM})
 STR_NEWGRF_ERROR_LOAD_BEFORE                                    :Το {1:STRING} πρέπει να φόρτωθει πριν από το {STRING}.
 STR_NEWGRF_ERROR_LOAD_AFTER                                     :Το {1:STRING} πρέπει να φόρτωθει μετά από το {STRING}.
-STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :Το {1:STRING} απαιτεί έκδοση OpenTTD {STRING} ή καλύτερη
+STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :Το {1:STRING} απαιτεί έκδοση OpenCoaster Tycoon {STRING} ή καλύτερη
 STR_NEWGRF_ERROR_AFTER_TRANSLATED_FILE                          :Το αρχείο GRF είναι σχεδιασμένο για να μεταφράζει
 STR_NEWGRF_ERROR_TOO_MANY_NEWGRFS_LOADED                        :Έχουν φορτωθεί πολλά NewGRF.
 STR_NEWGRF_ERROR_STATIC_GRF_CAUSES_DESYNC                       :Η φόρτωση του {2:STRING} ως στατικό NewGRF με {4:STRING} μπόρει να προκαλέσει αποσυγχρονισμούς
@@ -2583,7 +2583,7 @@ STR_NEWGRF_ERROR_FORCEFULLY_DISABLED                            :Το {2:STRING}
 
 # NewGRF related 'general' warnings
 STR_NEWGRF_POPUP_CAUTION_CAPTION                                :{WHITE}Προσοχή!
-STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Πρόκειται να κάνετε αλλαγές σε ένα παιχνίδι σε εξέλιξη· αυτό μπορεί να κρασάρει το OpenTTD.{}Είστε απόλυτα σίγουρος/η για την ενέργεια αυτή;
+STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Πρόκειται να κάνετε αλλαγές σε ένα παιχνίδι σε εξέλιξη· αυτό μπορεί να κρασάρει το OpenCoaster Tycoon.{}Είστε απόλυτα σίγουρος/η για την ενέργεια αυτή;
 
 STR_NEWGRF_DUPLICATE_GRFID                                      :{WHITE}Δεν μπορεί να γίνει η προσθηκη του αρχείου: διπλότυπο GRF ID
 STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Δεν βρέθηκε αρχείο ταυτοποιημένο (φορτώθηκε συμβατό GRF)
@@ -2591,7 +2591,7 @@ STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Δεν 
 STR_NEWGRF_COMPATIBLE_LOAD_WARNING                              :{WHITE}Φόρτωση συμβατών GRF(s) για χαμένα αρχεία.
 STR_NEWGRF_DISABLED_WARNING                                     :{WHITE}Ανύπαρκτο/α αρχείο/α GRF έχουν απενεργοποιηθεί
 STR_NEWGRF_UNPAUSE_WARNING_TITLE                                :{YELLOW}Ανύπαρκτο/α αρχείο/α GRF
-STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Συνέχιση λειτουργίας μπόρει να κρασάρει το OpenTTD. Μην δώσετε αναφορές σφαλμάτων για συνεχόμενα κρασαρίσματα.{}Θέλετε πραγματικά να συνεχίσετε την λειτουργία;
+STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Συνέχιση λειτουργίας μπόρει να κρασάρει το OpenCoaster Tycoon. Μην δώσετε αναφορές σφαλμάτων για συνεχόμενα κρασαρίσματα.{}Θέλετε πραγματικά να συνεχίσετε την λειτουργία;
 
 # NewGRF status
 STR_NEWGRF_LIST_NONE                                            :Κανένα
@@ -3454,7 +3454,7 @@ STR_AI_DEBUG_CONTINUE                                           :{BLACK}Συνέ
 STR_AI_DEBUG_CONTINUE_TOOLTIP                                   :{BLACK}Συνέχιση του παιχνιδιού και της λειτουργίας του AI
 STR_AI_DEBUG_SELECT_AI_TOOLTIP                                  :{BLACK}Εμφάνιση της εξόδου αποσφαλμάτωσης για αυτό το AI
 
-STR_ERROR_NO_AI                                                 :{WHITE}Στο OpenTTD δεν ενσωματώθηκε υποστήριξη ΤΝ...
+STR_ERROR_NO_AI                                                 :{WHITE}Στο OpenCoaster Tycoon δεν ενσωματώθηκε υποστήριξη ΤΝ...
 STR_ERROR_NO_AI_SUB                                             :{WHITE}... καμία ΤΝ δεν είναι διαθέσιμη!
 
 STR_ERROR_AI_NO_AI_FOUND                                        :Δεν βρέθηκε κατάλληλο AI για φόρτωση.{}Αυτό το AI είναι ένα ψεύτικο AI και δεν θα κάνει τίποτα.{}Μπορείτε να κατεβάσετε διάφορα AΙ από το σύστημα 'Online περιεχομένου'
@@ -3888,7 +3888,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}Δεν �
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}Δεν γίνεται να αλλαχθεί το όνομα της πινακίδας...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}Δεν μπορεί να διαγραφεί η πινακίδα...
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :Ένα παιχνίδι εξομοίωσης βασισμένο στο Transport Tycoon Deluxe
 
 ##id 0x2000

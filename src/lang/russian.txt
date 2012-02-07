@@ -316,7 +316,7 @@ STR_COLOUR_BROWN                                                :Коричне�
 STR_COLOUR_GREY                                                 :Серый
 STR_COLOUR_WHITE                                                :Белый
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} мил{P я и ь}/ч
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} км/ч
 STR_UNITS_VELOCITY_SI                                           :{COMMA} м/с
@@ -447,7 +447,7 @@ STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}Пере
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Сохранить, загрузить сценарий, выход из редактора
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Редактор сценариев
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}Уменьшить год начала игры на 1
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}Увеличить год начала игры на 1
@@ -571,7 +571,7 @@ STR_ABOUT_MENU_AI_DEBUG                                         :Отладка 
 STR_ABOUT_MENU_SCREENSHOT                                       :Снимок экрана
 STR_ABOUT_MENU_ZOOMIN_SCREENSHOT                                :Снимок экрана в обычном масштабе
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :Снимок всей карты
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :Об игре
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :Об игре
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :Выравнивание спрайтов
 STR_ABOUT_MENU_TOGGLE_BOUNDING_BOXES                            :Переключить ограничивающие рамки
 ############ range ends here
@@ -1525,7 +1525,7 @@ STR_CONFIG_SETTING_REVERSE_AT_SIGNALS                           :{LTBLUE}Авт�
 STR_CONFIG_SETTING_QUERY_CAPTION                                :{WHITE}Изменить значение
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}Новая игра
 STR_INTRO_LOAD_GAME                                             :{BLACK}Загрузить игру
@@ -1560,12 +1560,12 @@ STR_INTRO_TOOLTIP_ADVANCED_SETTINGS                             :{BLACK}Пока
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}Показать настройки NewGRF
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK}Найти новый и обновлённый контент для загрузки
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK}Показать настройки искусственного интеллекта
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Выйти из OpenTTD
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Выйти из OpenCoaster Tycoon
 
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}Выход
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}Вы уверены, что хотите прервать игру и вернуться в {STRING}?
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}Вы уверены, что хотите прервать игру и вернуться в {STRING}?
 STR_QUIT_YES                                                    :{BLACK}Да
 STR_QUIT_NO                                                     :{BLACK}Нет
 
@@ -2000,7 +2000,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER}Не в
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}Будет загружен
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER}Этот модуль зависит от другого и будет загружен
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER}Уже установлен
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Этот модуль неизвестен и не может быть загружен в OpenTTD
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Этот модуль неизвестен и не может быть загружен в OpenCoaster Tycoon
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}Это обновление имеющ{G его ей его их}ся {STRING.gen}
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}Наименование: {WHITE}{STRING}
 STR_CONTENT_DETAIL_VERSION                                      :{SILVER}Версия: {WHITE}{STRING}
@@ -2011,7 +2011,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}Раз�
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER}Выбрано вместе с {WHITE}{STRING}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER}Зависимости: {WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER}Теги: {WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenTTD собрана без поддержки библиотеки «zlib»...
+STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenCoaster Tycoon собрана без поддержки библиотеки «zlib»...
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}... загрузка контента невозможна!
 
 # Order of these is important!
@@ -2458,11 +2458,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Маяк
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :Штаб-квартира компании
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :Земля в собственности компании
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}Об OpenTTD
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}Об OpenCoaster Tycoon
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}Оригинальные авторские права {COPYRIGHT} 1995 Chris Sawyer. Все права защищены.
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD версия {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT} 2002-2012 Команда разработчиков OpenTTD
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon версия {REV}
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT} 2012 Shaun Andrew Hill
 
 # Save/load game/scenario
 STR_SAVELOAD_SAVE_CAPTION                                       :{WHITE}Сохранить игру
@@ -2602,7 +2602,7 @@ STR_NEWGRF_SETTINGS_PARAMETER                                   :{BLACK}Пара
 STR_NEWGRF_SETTINGS_NO_INFO                                     :{BLACK}Нет доступной информации
 STR_NEWGRF_SETTINGS_NOT_FOUND                                   :{RED}Файл не найден
 STR_NEWGRF_SETTINGS_DISABLED                                    :{RED}Отключено
-STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Несовместимо с данной версией OpenTTD
+STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Несовместимо с данной версией OpenCoaster Tycoon
 
 STR_NEWGRF_SETTINGS_PARAMETER_QUERY                             :{BLACK}Введите параметры файла NewGRF
 # NewGRF parameters window
@@ -2649,13 +2649,13 @@ STR_NEWGRF_ERROR_MSG_WARNING                                    :{RED}Внима
 STR_NEWGRF_ERROR_MSG_ERROR                                      :{RED}Ошибка: {SILVER}{STRING}
 STR_NEWGRF_ERROR_MSG_FATAL                                      :{RED}Критическая ошибка: {SILVER}{STRING}
 STR_NEWGRF_ERROR_FATAL_POPUP                                    :{WHITE}Ошибка при работе с NewGRF:{}{STRING}
-STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} не будет работать с версией TTDPatch, сообщенной OpenTTD.
+STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} не будет работать с версией TTDPatch, сообщенной OpenCoaster Tycoon.
 STR_NEWGRF_ERROR_DOS_OR_WINDOWS                                 :Файл {1:STRING} требует {STRING}-версию TTD.
 STR_NEWGRF_ERROR_UNSET_SWITCH                                   :{1:STRING} сделан для использования совместно с {STRING}
 STR_NEWGRF_ERROR_INVALID_PARAMETER                              :Неверный параметр {1:STRING}: параметр {STRING} ({NUM})
 STR_NEWGRF_ERROR_LOAD_BEFORE                                    :{1:STRING} должен быть загружен перед {STRING}.
 STR_NEWGRF_ERROR_LOAD_AFTER                                     :{1:STRING} должен быть загружен после {STRING}.
-STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} требует OpenTTD версии {STRING} или выше.
+STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} требует OpenCoaster Tycoon версии {STRING} или выше.
 STR_NEWGRF_ERROR_AFTER_TRANSLATED_FILE                          :файл GRF, который им переводится.
 STR_NEWGRF_ERROR_TOO_MANY_NEWGRFS_LOADED                        :Загружено слишком много модулей NewGRF
 STR_NEWGRF_ERROR_STATIC_GRF_CAUSES_DESYNC                       :Загрузка {2:STRING} в качестве статического NewGRF с {4:STRING} может вызвать рассинхронизацию.
@@ -2671,7 +2671,7 @@ STR_NEWGRF_ERROR_FORCEFULLY_DISABLED                            :{2:STRING} бы
 
 # NewGRF related 'general' warnings
 STR_NEWGRF_POPUP_CAUTION_CAPTION                                :{WHITE}Осторожно!
-STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Вы модифицируете запущенную игру - это может закрыть OpenTTD или привести к нестабильной работе. Не присылайте отчёты с ошибками в этом случае.{}Вы действительно хотите это сделать?
+STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Вы модифицируете запущенную игру - это может закрыть OpenCoaster Tycoon или привести к нестабильной работе. Не присылайте отчёты с ошибками в этом случае.{}Вы действительно хотите это сделать?
 
 STR_NEWGRF_DUPLICATE_GRFID                                      :{WHITE}Невозможно добавить файл: дублируются GRF ID
 STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Соответствующий файл не найден (загружен совместимый GRF)
@@ -2679,7 +2679,7 @@ STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Соо�
 STR_NEWGRF_COMPATIBLE_LOAD_WARNING                              :{WHITE}Вместо отсутствующих загружены совместимые файлы NewGRF
 STR_NEWGRF_DISABLED_WARNING                                     :{WHITE}Отсутствующие файлы NewGRF были отключены
 STR_NEWGRF_UNPAUSE_WARNING_TITLE                                :{YELLOW}Недостающие GRF файлы
-STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Снятие с паузы может привести к ошибке OpenTTD.{}Вы хотите запустить игру?
+STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Снятие с паузы может привести к ошибке OpenCoaster Tycoon.{}Вы хотите запустить игру?
 
 # NewGRF status
 STR_NEWGRF_LIST_NONE                                            :Нет
@@ -3550,7 +3550,7 @@ STR_AI_DEBUG_CONTINUE                                           :{BLACK}Прод
 STR_AI_DEBUG_CONTINUE_TOOLTIP                                   :{BLACK}Продолжить игру
 STR_AI_DEBUG_SELECT_AI_TOOLTIP                                  :{BLACK}Просмотр отладочной информации модуля ИИ
 
-STR_ERROR_NO_AI                                                 :{WHITE}Поддержка ИИ отключена в этой сборке OpenTTD...
+STR_ERROR_NO_AI                                                 :{WHITE}Поддержка ИИ отключена в этой сборке OpenCoaster Tycoon...
 STR_ERROR_NO_AI_SUB                                             :{WHITE}... отсутствуют модули ИИ!
 
 STR_ERROR_AI_NO_AI_FOUND                                        :Не найдено подходящих модулей ИИ, поэтому конкуренты ничего делать не будут.{}Вы можете скачать модули ИИ через систему онлайн-контента.
@@ -3988,7 +3988,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}Не у�
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}Не удалось изменить табличку...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}Не удалось удалить метку...
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :Экономический симулятор на основе игры «Transport Tycoon Deluxe»
 
 ##id 0x2000

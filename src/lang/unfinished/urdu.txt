@@ -160,7 +160,7 @@ STR_COLOUR_BROWN                                                :بھورا
 STR_COLOUR_GREY                                                 :سلیٹی
 STR_COLOUR_WHITE                                                :سفید
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} میل فی گھنٹھ
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} کلو میٹر فی گھنٹھ
 STR_UNITS_VELOCITY_SI                                           :{COMMA} میٹر فی سیکنڈ
@@ -288,7 +288,7 @@ STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK} ٹول 
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK} منظر بچایئے، منظر کھولیں، منظر دست بردار کیجیئے، منظر چھوڑیئے
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW} منظر نامھ
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}شروع کرنے کی تاریخ کو ایک سال پیچھے کرو
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}شروع کرنے کی تاریخ کو ایک سال آگے کرو
@@ -406,7 +406,7 @@ STR_ABOUT_MENU_TOGGLE_CONSOLE                                   :حائطھ تد
 STR_ABOUT_MENU_AI_DEBUG                                         :AI debug
 STR_ABOUT_MENU_SCREENSHOT                                       :Screenshot (Ctrl+S)
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :بڑا screenshot (Ctrl+G)
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :Open TTD کے بارے میں
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :Open TTD کے بارے میں
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :sprite صف بندھ
 ############ range ends here
 
@@ -855,8 +855,8 @@ STR_FOUND_TOWN_SELECT_LAYOUT_RANDOM                             :{G=f}{BLACK}ک�
 
 
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}اوپن ٹی ٹی ڈی کے متعلق
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}اوپن ٹی ٹی ڈی کے متعلق
 
 # Save/load game/scenario
 
@@ -1313,7 +1313,7 @@ STR_ERROR_CAN_T_CHANGE_SERVICING                                :{WHITE}مرمت
 
 # Sign related errors
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :Transport Tycoon Deluxe کا ھم جنس
 
 ##id 0x2000

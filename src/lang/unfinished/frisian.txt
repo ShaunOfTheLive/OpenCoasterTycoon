@@ -189,7 +189,7 @@ STR_COLOUR_BROWN                                                :Brún
 STR_COLOUR_GREY                                                 :Griis
 STR_COLOUR_WHITE                                                :Wyt
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} m/o
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} km/o
 STR_UNITS_VELOCITY_SI                                           :{COMMA} m/s
@@ -317,7 +317,7 @@ STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}Skeakelj
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Sla scenario op, laad scenario, slût ôf
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Lânskipferbouer
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}Set it startjier 1 jier efterút
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}Set it startjier 1 jier foarút
@@ -438,7 +438,7 @@ STR_ABOUT_MENU_AI_DEBUG                                         :AI debug
 STR_ABOUT_MENU_SCREENSHOT                                       :Skermfoto (Ctrl-S)
 STR_ABOUT_MENU_ZOOMIN_SCREENSHOT                                :tichtby helje skermfoto
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :skermfoto fan de hiele wrald (Ctrl+G)
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :Oer 'OpenTTD'
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :Oer 'OpenCoaster Tycoon'
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :Flakken rjochtsje
 ############ range ends here
 
@@ -1043,7 +1043,7 @@ STR_CONFIG_SETTING_STATUSBAR_POS_RIGHT                          :Rjochts
 
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}Nei Spul
 STR_INTRO_LOAD_GAME                                             :{BLACK}Laad Spul
@@ -1069,11 +1069,11 @@ STR_INTRO_TOOLTIP_TOYLAND_LANDSCAPE                             :{BLACK}Selektea
 
 STR_INTRO_TOOLTIP_GAME_OPTIONS                                  :{BLACK}Lit spul opsjes sjen
 STR_INTRO_TOOLTIP_DIFFICULTY_OPTIONS                            :{BLACK}Lit swierrichheid opsjes sjen
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Slút 'OpenTTD' ôf
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Slút 'OpenCoaster Tycoon' ôf
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}Ôfslúte
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}Witte jo seker dat jo dit spul ôfslúte wolle en werom gean wolle nei {STRING}?
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}Witte jo seker dat jo dit spul ôfslúte wolle en werom gean wolle nei {STRING}?
 STR_QUIT_YES                                                    :{BLACK}Ja
 STR_QUIT_NO                                                     :{BLACK}Nee
 
@@ -1546,11 +1546,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Fjoertoer
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :Haadkantoar Bedriuw
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :Lân fan bedriuw
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}Oer OpenTTD
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}Oer OpenCoaster Tycoon
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}Orizjineel copyright {COPYRIGHT} 1995 Chris Sawyer, All rights reserved
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD-ferzje {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT}2002-2012 It OpenTTD team
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon-ferzje {REV}
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT}2002-2012 It OpenCoaster Tycoon team
 
 # Save/load game/scenario
 STR_SAVELOAD_SAVE_CAPTION                                       :{WHITE}Spul Opslaan
@@ -2025,7 +2025,7 @@ STR_AI_DEBUG_SETTINGS                                           :{BLACK}AI ynste
 STR_AI_DEBUG_CONTINUE                                           :{BLACK}Trjochgean
 STR_AI_DEBUG_SELECT_AI_TOOLTIP                                  :{BLACK}Lit debug output fan dizze AI sjen
 
-STR_ERROR_NO_AI                                                 :{WHITE}OpenTTD is bout sûnder AI ûndersteuning...
+STR_ERROR_NO_AI                                                 :{WHITE}OpenCoaster Tycoon is bout sûnder AI ûndersteuning...
 STR_ERROR_NO_AI_SUB                                             :{WHITE}... gjin AIs beskikber!
 
 STR_ERROR_AI_NO_AI_FOUND                                        :Gjin geskikte compjûterspiler fûn.{}Disse compjûterspiler is in dummy en docht neat.{}Jo kinne compjûterspilers delhelje fan 'Online Inhâld' ôf.
@@ -2345,7 +2345,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}Kin hjir
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}Kin tekst net feroarje...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}Kin stopljocht net foarthelje...
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :Spul basjeare op Transport Tycoon Deluxe
 
 ##id 0x2000

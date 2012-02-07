@@ -190,7 +190,7 @@ STR_COLOUR_BROWN                                                :Donn
 STR_COLOUR_GREY                                                 :Liath
 STR_COLOUR_WHITE                                                :Bán
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} m/u
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} km/u
 STR_UNITS_VELOCITY_SI                                           :{COMMA} m/s
@@ -316,12 +316,12 @@ STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}Tóg aer
 STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}Oscail an barra uirlisí tírdhreacha chun talamh a ardú/ísliú, crainnte a chur, srl.
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}Taispeáin an fhuinneoig fuaime/ceoil
 STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}Taispeáin an teachtaireacht/tuairisc nuachta deiridh, taispeáin roghanna do theachtaireachtaí
-STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Faisnéis faoin talamh, consól, dífhabhtú AI, seatanna scáileáin, maidir le OpenTTD
+STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Faisnéis faoin talamh, consól, dífhabhtú AI, seatanna scáileáin, maidir le OpenCoaster Tycoon
 STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}Athraigh barraí uirlisí
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Sábháil scéal, lódáil scéal, fág eagarthóir na scéalta, scoir
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}Oscail TTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}Oscail TTD
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Eagarthóir Scéalta
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}Cuir an dáta tosaigh siar bliain amháin
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}Cuir an dáta tosaigh ar aghaidh bliain amháin
@@ -445,7 +445,7 @@ STR_ABOUT_MENU_AI_DEBUG                                         :Dífhabhtú AI
 STR_ABOUT_MENU_SCREENSHOT                                       :Seat scáileáin
 STR_ABOUT_MENU_ZOOMIN_SCREENSHOT                                :Seat scáileáin zúmáilte isteach
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :Seat scáileáin den léarscáil ar fad
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :Maidir le 'OpenTTD'
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :Maidir le 'OpenCoaster Tycoon'
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :Ailínóir spriteanna
 ############ range ends here
 
@@ -941,7 +941,7 @@ STR_GAME_OPTIONS_LANGUAGE                                       :{BLACK}Teanga
 STR_GAME_OPTIONS_LANGUAGE_TOOLTIP                               :{BLACK}Roghnaigh an teanga comhéadain le húsáid
 
 STR_GAME_OPTIONS_FULLSCREEN                                     :{BLACK}Lánscáileán
-STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Cuir tic sa bhosca seo chun OpenTTD a imirt sa mhód lánscáileáin
+STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Cuir tic sa bhosca seo chun OpenCoaster Tycoon a imirt sa mhód lánscáileáin
 
 STR_GAME_OPTIONS_RESOLUTION                                     :{BLACK}Taifeach scáileáin
 STR_GAME_OPTIONS_RESOLUTION_TOOLTIP                             :{BLACK}Roghnaigh an taifeach scáileáin le húsáid
@@ -1366,7 +1366,7 @@ STR_CONFIG_SETTING_REVERSE_AT_SIGNALS                           :{LTBLUE}Aisiomp
 STR_CONFIG_SETTING_QUERY_CAPTION                                :{WHITE}Athraigh luach an tsocraithe
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}Cluiche Nua
 STR_INTRO_LOAD_GAME                                             :{BLACK}Lódáil Cluiche
@@ -1401,11 +1401,11 @@ STR_INTRO_TOOLTIP_ADVANCED_SETTINGS                             :{BLACK}Taispeá
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}Taispeáin socruithe NewGRF
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK}Seiceáil le haghaidh inneachar nua agus nuashonruithe le híoslódáil
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK}Taispeáin socruithe AI
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Téigh amach as 'OpenTTD'
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Téigh amach as 'OpenCoaster Tycoon'
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}Amach
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}An bhfuil tú cinnte gur mhaith leat dul amach as OpenTTD agus filleadh ar {STRING}?
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}An bhfuil tú cinnte gur mhaith leat dul amach as OpenCoaster Tycoon agus filleadh ar {STRING}?
 STR_QUIT_YES                                                    :{BLACK}Tá
 STR_QUIT_NO                                                     :{BLACK}Níl
 
@@ -1497,7 +1497,7 @@ STR_FACE_SIMPLE                                                 :{BLACK}Simplí
 STR_FACE_SIMPLE_TOOLTIP                                         :{BLACK}Roghnú aghaidhe simplí
 STR_FACE_LOAD                                                   :{BLACK}Lódáil
 STR_FACE_LOAD_TOOLTIP                                           :{BLACK}Lódáil an aghaidh is fearr leat
-STR_FACE_LOAD_DONE                                              :{WHITE}Lódáladh an aghaidh is fearr leat ó chomhad cumraíochta OpenTTD
+STR_FACE_LOAD_DONE                                              :{WHITE}Lódáladh an aghaidh is fearr leat ó chomhad cumraíochta OpenCoaster Tycoon
 STR_FACE_FACECODE                                               :{BLACK}Uimh. aghaidh an imreora
 STR_FACE_FACECODE_TOOLTIP                                       :{BLACK}Amharc ar agus/nó socraigh uimhir aghaidh uachtarán na cuideachta
 STR_FACE_FACECODE_CAPTION                                       :{WHITE}Amharc ar agus/nó socraigh uimhir aghaidh an uachtaráin
@@ -1505,7 +1505,7 @@ STR_FACE_FACECODE_SET                                           :{WHITE}Socraío
 STR_FACE_FACECODE_ERR                                           :{WHITE}Níorbh fhéidir uimhir aghaidhe an imreora a shocrú - ní mór dó a bheith ina uimhir idir 0 agus 4,294,967,295!
 STR_FACE_SAVE                                                   :{BLACK}Sábháil
 STR_FACE_SAVE_TOOLTIP                                           :{BLACK}Sábháil aghaidh is fearr leat
-STR_FACE_SAVE_DONE                                              :{WHITE}Sábhálfar an aghaidh mar an ceann is fearr leat i gcomhad cumraíochta OpenTTD
+STR_FACE_SAVE_DONE                                              :{WHITE}Sábhálfar an aghaidh mar an ceann is fearr leat i gcomhad cumraíochta OpenCoaster Tycoon
 STR_FACE_EUROPEAN                                               :{BLACK}Eorpach
 STR_FACE_SELECT_EUROPEAN                                        :{BLACK}Roghnaigh aghaidheanna Eorpacha
 STR_FACE_AFRICAN                                                :{BLACK}Afraiceach
@@ -1840,7 +1840,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER}Roghnai
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}Roghnaigh tú é seo a íoslódáil
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER}Roghnaíodh go bhfuil an spleáchas seo le híoslódáil
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER}Tá sé seo agat cheana féin
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Is inneachar anaithnid é seo agus ní féidir é a íoslódáil in OpenTTD
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Is inneachar anaithnid é seo agus ní féidir é a íoslódáil in OpenCoaster Tycoon
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}Téann sé seo in ionad {STRING} reatha
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}Ainm: {WHITE}{STRING}
 STR_CONTENT_DETAIL_VERSION                                      :{SILVER}Leagan: {WHITE}{STRING}
@@ -1851,7 +1851,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}Méid �
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER}Roghnaithe mar gheall ar: {WHITE}{STRING}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER}Nithe atá spleách air: {WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER}Clibeanna: {WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}Tá OpenTTD tógtha gan tacaíocht "zlib"...
+STR_CONTENT_NO_ZLIB                                             :{WHITE}Tá OpenCoaster Tycoon tógtha gan tacaíocht "zlib"...
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}... ní féidir inneachar a íoslódáil!
 
 # Order of these is important!
@@ -2276,11 +2276,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Teach solais
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :Ceanncheathrú cuideachta
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :Talamh faoi úinéireacht cuideachta
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}Maidir le OpenTTD
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}Maidir le OpenCoaster Tycoon
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}Cóipcheart bunaidh {COPYRIGHT} 1995 Chris Sawyer, Gach ceart ar cosaint
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD leagan {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT} 2002-2012 An fhoireann OpenTTD
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon leagan {REV}
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT} 2012 Shaun Andrew Hill
 
 # Save/load game/scenario
 STR_SAVELOAD_SAVE_CAPTION                                       :{WHITE}Sábháil an Cluiche
@@ -2418,7 +2418,7 @@ STR_NEWGRF_SETTINGS_PARAMETER                                   :{BLACK}Paraimé
 STR_NEWGRF_SETTINGS_NO_INFO                                     :{BLACK}Níl aon fhaisnéis ar fáil
 STR_NEWGRF_SETTINGS_NOT_FOUND                                   :{RED}Níor aimsíodh comhad a mheaitseálann
 STR_NEWGRF_SETTINGS_DISABLED                                    :{RED}Díchumasaithe
-STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Neamhchomhoiriúnach leis an leagan seo de OpenTTD
+STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Neamhchomhoiriúnach leis an leagan seo de OpenCoaster Tycoon
 
 STR_NEWGRF_SETTINGS_PARAMETER_QUERY                             :{BLACK}Iontráil paraiméadair NewGRF
 
@@ -2464,13 +2464,13 @@ STR_NEWGRF_ERROR_MSG_WARNING                                    :{RED}Rabhadh: {
 STR_NEWGRF_ERROR_MSG_ERROR                                      :{RED}Earráid: {SILVER}{STRING}
 STR_NEWGRF_ERROR_MSG_FATAL                                      :{RED}Marfach: {SILVER}{STRING}
 STR_NEWGRF_ERROR_FATAL_POPUP                                    :{WHITE}Tharla earráid mharfach NewGRF: {}{STRING}
-STR_NEWGRF_ERROR_VERSION_NUMBER                                 :Ní oibreoidh {1:STRING} leis an leagan de TTDPatch a thuairiscigh OpenTTD.
+STR_NEWGRF_ERROR_VERSION_NUMBER                                 :Ní oibreoidh {1:STRING} leis an leagan de TTDPatch a thuairiscigh OpenCoaster Tycoon.
 STR_NEWGRF_ERROR_DOS_OR_WINDOWS                                 :{1:STRING}: Is don leagan {STRING} de TTD é
 STR_NEWGRF_ERROR_UNSET_SWITCH                                   :Tá {1:STRING} deartha le húsáid le {STRING}
 STR_NEWGRF_ERROR_INVALID_PARAMETER                              :Paraiméadar neamhbhailí le haghaidh {1:STRING}: paraiméadar {STRING} ({NUM})
 STR_NEWGRF_ERROR_LOAD_BEFORE                                    :Ní mór {1:STRING} a lódáil roimh {STRING}.
 STR_NEWGRF_ERROR_LOAD_AFTER                                     :Ní mór {1:STRING} a lódáil tar éis {STRING}.
-STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING}: Tá an leagan {STRING} nó níos fearr de OpenTTD de dhíth uaidh
+STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING}: Tá an leagan {STRING} nó níos fearr de OpenCoaster Tycoon de dhíth uaidh
 STR_NEWGRF_ERROR_AFTER_TRANSLATED_FILE                          :an comhad GRF a bhí sé deartha a aistriú
 STR_NEWGRF_ERROR_TOO_MANY_NEWGRFS_LOADED                        :Tá an iomarca NewGRF lódáilte.
 STR_NEWGRF_ERROR_STATIC_GRF_CAUSES_DESYNC                       :D'fhéadfaí go mbeidh díshioncronú ann má dhéantar {2:STRING} a lódáil mar NewGRF statach le {4:STRING}.
@@ -2484,7 +2484,7 @@ STR_NEWGRF_ERROR_MISSING_SPRITES                                :{WHITE}Tá roin
 
 # NewGRF related 'general' warnings
 STR_NEWGRF_POPUP_CAUTION_CAPTION                                :{WHITE}Rabhadh!
-STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Tá tú ar tí athruithe a dhéanamh ar chluiche atá ar rith. D'fhéadfadh sé go gclisfidh OpenTTD dá bharr. Ná seol isteach tuairiscí ar fhabhtanna maidir leis na ceisteanna seo.{}An bhfuil tú cinnte dearfa faoi seo?
+STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Tá tú ar tí athruithe a dhéanamh ar chluiche atá ar rith. D'fhéadfadh sé go gclisfidh OpenCoaster Tycoon dá bharr. Ná seol isteach tuairiscí ar fhabhtanna maidir leis na ceisteanna seo.{}An bhfuil tú cinnte dearfa faoi seo?
 
 STR_NEWGRF_DUPLICATE_GRFID                                      :{WHITE}Ní féidir comhad a chur leis: ID GRF dúbailte
 STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Níor aimsíodh comhad a mheaitseálann (GRF comhoiriúnach lódáilte)
@@ -2492,7 +2492,7 @@ STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Níor a
 STR_NEWGRF_COMPATIBLE_LOAD_WARNING                              :{WHITE}Lódáladh GRF(anna) comhoiriúnacha do na comhaid atá ar lár
 STR_NEWGRF_DISABLED_WARNING                                     :{WHITE}Díchumasaíodh na comha(i)d GRF atá ar lár
 STR_NEWGRF_UNPAUSE_WARNING_TITLE                                :{YELLOW}Comha(i)d GRF ar lár
-STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Is féidir go ndéanfar OpenTTD a thuairteáil má chuirtear deireadh leis an sos. Ná seol isteach tuairiscí ar fabhtanna le haghaidh tuairteálacha ina dhiaidh seo.{}An bhfuil tú cinnte gur mian leat deireadh a chur leis an sos?
+STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Is féidir go ndéanfar OpenCoaster Tycoon a thuairteáil má chuirtear deireadh leis an sos. Ná seol isteach tuairiscí ar fabhtanna le haghaidh tuairteálacha ina dhiaidh seo.{}An bhfuil tú cinnte gur mian leat deireadh a chur leis an sos?
 
 # NewGRF status
 STR_NEWGRF_LIST_NONE                                            :Ceann ar bith
@@ -3347,7 +3347,7 @@ STR_AI_DEBUG_CONTINUE                                           :{BLACK}Lean ar 
 STR_AI_DEBUG_CONTINUE_TOOLTIP                                   :{BLACK}Cuir deireadh leis an sos agus lean leis an AI
 STR_AI_DEBUG_SELECT_AI_TOOLTIP                                  :{BLACK}Amharc ar aschur dífhabhtaithe an AI seo
 
-STR_ERROR_NO_AI                                                 :{WHITE}Tá OpenTTD gan tacaíocht do AIanna...
+STR_ERROR_NO_AI                                                 :{WHITE}Tá OpenCoaster Tycoon gan tacaíocht do AIanna...
 STR_ERROR_NO_AI_SUB                                             :{WHITE}... níl aon AI ar fáil!
 
 STR_ERROR_AI_NO_AI_FOUND                                        :Níor aimsíodh AI feiliúnach le lódáil.{}Is AI caoch é an AI seo agus ní dhéanfaidh sé aon rud.{}Is féidir leat roinnt AI a íoslódáil leis an gcóras 'Inneachar Ar Líne'..
@@ -3783,7 +3783,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}Ní féi
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}Ní féidir ainm an chomhartha a athrú...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}Ní féidir an comhartha a scriosadh...
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :Cluiche ionsamhlúcháin bunaithe ar Transport Tycoon Deluxe
 
 ##id 0x2000

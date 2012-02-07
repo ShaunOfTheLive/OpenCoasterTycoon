@@ -204,7 +204,7 @@ STR_COLOUR_BROWN                                                :חום
 STR_COLOUR_GREY                                                 :אפור
 STR_COLOUR_WHITE                                                :לבן
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} מייל לשעה
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} קמ"ש
 STR_UNITS_VELOCITY_SI                                           :{COMMA} מטר\שניה
@@ -329,12 +329,12 @@ STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}בניי
 STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}'הצג את סרגל פני השטח לעיצוב פני הקרקע, נטיעת עצים וכו
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}הצג את חלון הצלילים/מנגינת רקע
 STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}הצג הודעה אחרונה/מבזק חדשות אחרון, הצג הגדרות הודעה
-STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}מידע על איזור קרקע, קונסולה, דיבאג של בינה מלאכותית, צילומי מסך, אודות OpenTTD
+STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}מידע על איזור קרקע, קונסולה, דיבאג של בינה מלאכותית, צילומי מסך, אודות OpenCoaster Tycoon
 STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}החלף סרגל כלים
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}שמור תרחיש, טען תרחיש, צא מעורך התרחישים, צא מהמשחק
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}עורך התרחישים
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}שנה את שנת ההתחלה לשנה 1 פחות
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}שנה את שנת ההתחלה לשנה 1 יותר
@@ -456,7 +456,7 @@ STR_ABOUT_MENU_TOGGLE_CONSOLE                                   :פתח/סגור
 STR_ABOUT_MENU_AI_DEBUG                                         :דיבאג לבינה מלאכותית
 STR_ABOUT_MENU_SCREENSHOT                                       :צילום מסך
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :צילום מסך ענק
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :'OpenTTD'{NBSP}אודות
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :'OpenCoaster Tycoon'{NBSP}אודות
 ############ range ends here
 
 ############ range for days starts (also used for the place in the highscore window)
@@ -947,7 +947,7 @@ STR_GAME_OPTIONS_LANGUAGE                                       :{BLACK}שפה
 STR_GAME_OPTIONS_LANGUAGE_TOOLTIP                               :{BLACK}בחר את שפת הממשק
 
 STR_GAME_OPTIONS_FULLSCREEN                                     :{BLACK}מסך מלא
-STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}סמן תיבה זו כדי לשחק OpenTTD על כל המסך
+STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}סמן תיבה זו כדי לשחק OpenCoaster Tycoon על כל המסך
 
 STR_GAME_OPTIONS_RESOLUTION                                     :{BLACK}רזלוציית המסך
 STR_GAME_OPTIONS_RESOLUTION_TOOLTIP                             :{BLACK}בחר את רזולוציית המסך
@@ -1348,7 +1348,7 @@ STR_CONFIG_SETTING_PATHFINDER_FOR_SHIPS_YAPF                    :YAPF {RED}(לא
 STR_CONFIG_SETTING_QUERY_CAPTION                                :{WHITE}שנה ערך
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}משחק חדש
 STR_INTRO_LOAD_GAME                                             :{BLACK}טען משחק
@@ -1383,11 +1383,11 @@ STR_INTRO_TOOLTIP_ADVANCED_SETTINGS                             :{BLACK}הצג �
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}הצג הגדרות שדרוג גראפי
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK} חפש תוכן חדש/מעודכן להורדה
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK}הצג הגדרות בינה-מלאכותית
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}'OpenTTD'- צא מ
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}'OpenCoaster Tycoon'- צא מ
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}צא
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}אתה בטוח שברצונך לצאת ולחזור ל{STRING}?
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}אתה בטוח שברצונך לצאת ולחזור ל{STRING}?
 STR_QUIT_YES                                                    :{BLACK}כן
 STR_QUIT_NO                                                     :{BLACK}לא
 
@@ -1816,7 +1816,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER}לא ב
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}בחרת בפריט זה להורדה
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER} פריט תלוי זה נבחר להורדה
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER} כבר יש לך את זה
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER} תוכן זה לא מוכר ואינו ניתן להורדה ב-OpenTTD
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER} תוכן זה לא מוכר ואינו ניתן להורדה ב-OpenCoaster Tycoon
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}זוהי חלופה ל{STRING} קיים
 STR_CONTENT_DETAIL_NAME                                         :{WHITE}{STRING}{SILVER} :שם
 STR_CONTENT_DETAIL_VERSION                                      :{WHITE}{STRING}{SILVER} :גירסה
@@ -1827,7 +1827,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{WHITE}{BYTES}{
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{WHITE}{STRING}{SILVER} :נבחר בגלל
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{WHITE}{STRING}{SILVER} :תלויות
 STR_CONTENT_DETAIL_TAGS                                         :{WHITE}{STRING}{SILVER} :תגים
-STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenTTD נבנה ללא תמיכה ב-"zlib"...
+STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenCoaster Tycoon נבנה ללא תמיכה ב-"zlib"...
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}... הורדת תוכן אינה אפשרית
 
 # Order of these is important!
@@ -2238,11 +2238,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :מיגדלור
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :מטה החברה
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :שטח בבעלות חברה
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}OpenTTD אודות
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}OpenCoaster Tycoon אודות
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}כל הזכויות שמורות , {COPYRIGHT}1995 כריס סויר - {NBSP}זכויות יוצרים מקוריות
-STR_ABOUT_VERSION                                               :{BLACK}{REV} גירסה , OpenTTD
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT}2002-2012 The OpenTTD team
+STR_ABOUT_VERSION                                               :{BLACK}{REV} גירסה , OpenCoaster Tycoon
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT}2002-2012 The OpenCoaster Tycoon team
 
 # Save/load game/scenario
 STR_SAVELOAD_SAVE_CAPTION                                       :{WHITE}שמור משחק
@@ -2405,13 +2405,13 @@ STR_NEWGRF_ERROR_MSG_WARNING                                    :{RED}אזהרה
 STR_NEWGRF_ERROR_MSG_ERROR                                      :{SILVER}{STRING}{RED}: שגיאה
 STR_NEWGRF_ERROR_MSG_FATAL                                      :{SILVER}{STRING}{RED} :שגיאה חמורה
 STR_NEWGRF_ERROR_FATAL_POPUP                                    :{WHITE}התרחשה שגיאה קריטית ב-NewGRF: {}{STRING}
-STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} לא יעבוד עם גרסת ה-TTDPatch שדווחה ע"י OpenTTD.
+STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} לא יעבוד עם גרסת ה-TTDPatch שדווחה ע"י OpenCoaster Tycoon.
 STR_NEWGRF_ERROR_DOS_OR_WINDOWS                                 :{1:STRING} היא עבור גרסת {STRING} של TTD.
 STR_NEWGRF_ERROR_UNSET_SWITCH                                   :{1:STRING} תוכנן עבור {NBSP}{2:STRING}
 STR_NEWGRF_ERROR_INVALID_PARAMETER                              :פרמטר לא חוקי עבור {1:STRING}: פרמטר {STRING} ({NUM})
 STR_NEWGRF_ERROR_LOAD_BEFORE                                    :{1:STRING} לפני הטענת {NBSP}{2:STRING} יש להטעין את
 STR_NEWGRF_ERROR_LOAD_AFTER                                     :{1:STRING} לאחר הטענת {NBSP}{2:STRING} יש להטעין את
-STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} דורש גרסת {STRING} של OpenTTD ומעלה.
+STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} דורש גרסת {STRING} של OpenCoaster Tycoon ומעלה.
 STR_NEWGRF_ERROR_AFTER_TRANSLATED_FILE                          :קובץ השדרוג הגראפי אותו יועד לתרגם
 STR_NEWGRF_ERROR_TOO_MANY_NEWGRFS_LOADED                        :יותר מידי קבצי שדרוג גראפי פתוחים בן זמנית
 STR_NEWGRF_ERROR_STATIC_GRF_CAUSES_DESYNC                       :Loading {2:STRING} as static NewGRF with {4:STRING} could cause desyncs.
@@ -3690,7 +3690,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}לא נ�
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}... ניתן לשנות את שם הסימניה
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}לא ניתן למחוק סימניה...
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :משחק סימולציה המבוסס על תחבורה, הון ופאר
 
 ##id 0x2000

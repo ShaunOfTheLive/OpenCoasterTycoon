@@ -190,7 +190,7 @@ STR_COLOUR_BROWN                                                :茶色
 STR_COLOUR_GREY                                                 :灰色
 STR_COLOUR_WHITE                                                :白色
 
-# Units used in OpenTTD
+# Units used in OpenCoaster Tycoon
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA}mi/h
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA}km/h
 STR_UNITS_VELOCITY_SI                                           :{COMMA}m/s
@@ -293,7 +293,7 @@ STR_SORT_BY_CARGO_CAPACITY                                      :積載容量
 STR_TOOLBAR_TOOLTIP_PAUSE_GAME                                  :{BLACK}ゲームをポーズします。
 STR_TOOLBAR_TOOLTIP_FORWARD                                     :{BLACK}ゲームスピードを早くします。
 STR_TOOLBAR_TOOLTIP_OPTIONS                                     :{BLACK}ゲームオプションの設定画面を開きます。
-STR_TOOLBAR_TOOLTIP_SAVE_GAME_ABANDON_GAME                      :{BLACK}データのセーブ、ゲームの中断、OpenTTDの終了ができます。
+STR_TOOLBAR_TOOLTIP_SAVE_GAME_ABANDON_GAME                      :{BLACK}データのセーブ、ゲームの中断、OpenCoaster Tycoonの終了ができます。
 STR_TOOLBAR_TOOLTIP_DISPLAY_MAP                                 :{BLACK}地図の表示、ビューポートの表示、看板のリストの表示ができます。
 STR_TOOLBAR_TOOLTIP_DISPLAY_TOWN_DIRECTORY                      :{BLACK}町の名簿を表示します。
 STR_TOOLBAR_TOOLTIP_DISPLAY_SUBSIDIES                           :{BLACK}助成金のリストを表示します。
@@ -316,12 +316,12 @@ STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}空港�
 STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}地形のツールバーを開きます。整地や植林などを行うことができます。
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}音楽／効果音のウィンドウを表示します。
 STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}最後のメッセージとニュースの表示と、メッセージオプションの設定ができます。
-STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}地域の情報、コンソール、AIのデバッグ、スクリーンショット、OpenTTDについて、などのツール群です。
+STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}地域の情報、コンソール、AIのデバッグ、スクリーンショット、OpenCoaster Tycoonについて、などのツール群です。
 STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}ツールバーの切り替えをします。
 
 # Extra tooltips for the scenario editor toolbar
-STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}シナリオのセーブ、シナリオのロード、シナリオエディタの終了、OpenTTDの終了ができます。
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}シナリオのセーブ、シナリオのロード、シナリオエディタの終了、OpenCoaster Tycoonの終了ができます。
+STR_SCENEDIT_TOOLBAR_OPENCOTY                                    :{YELLOW}OpenCoaster Tycoon
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}シナリオエディタ
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}開始年月日を1年戻します。
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}開始年月日を1年進めます。
@@ -341,7 +341,7 @@ STR_SCENEDIT_FILE_MENU_LOAD_SCENARIO                            :シナリオを
 STR_SCENEDIT_FILE_MENU_LOAD_HEIGHTMAP                           :ハイトマップをロード
 STR_SCENEDIT_FILE_MENU_QUIT_EDITOR                              :タイトルに戻る
 STR_SCENEDIT_FILE_MENU_SEPARATOR                                :
-STR_SCENEDIT_FILE_MENU_QUIT                                     :OpenTTDを終了
+STR_SCENEDIT_FILE_MENU_QUIT                                     :OpenCoaster Tycoonを終了
 ############ range for SE file menu starts
 
 ############ range for settings menu starts
@@ -365,7 +365,7 @@ STR_SETTINGS_MENU_TRANSPARENT_SIGNS                             :駅の看板の
 STR_FILE_MENU_SAVE_GAME                                         :ゲームデータをセーブ
 STR_FILE_MENU_LOAD_GAME                                         :ゲームデータをロード
 STR_FILE_MENU_QUIT_GAME                                         :タイトルに戻る
-STR_FILE_MENU_EXIT                                              :OpenTTDを終了
+STR_FILE_MENU_EXIT                                              :OpenCoaster Tycoonを終了
 ############ range ends here
 
 ############ range for map menu starts
@@ -445,7 +445,7 @@ STR_ABOUT_MENU_AI_DEBUG                                         :AI のデバッ
 STR_ABOUT_MENU_SCREENSHOT                                       :スクリーンショットを取る
 STR_ABOUT_MENU_ZOOMIN_SCREENSHOT                                :高解像度のスクリーンショットを取る
 STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :全体のスクリーンショットを取る
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :OpenTTDについて
+STR_ABOUT_MENU_ABOUT_OPENCOTY                                    :OpenCoaster Tycoonについて
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :スプライトを整列
 ############ range ends here
 
@@ -943,7 +943,7 @@ STR_GAME_OPTIONS_LANGUAGE                                       :{BLACK}言語
 STR_GAME_OPTIONS_LANGUAGE_TOOLTIP                               :{BLACK}ゲームの言語を選択します
 
 STR_GAME_OPTIONS_FULLSCREEN                                     :{BLACK}フルスクリーン
-STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}OpenTTD をフルスクリーンでプレイするにはチックします
+STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}OpenCoaster Tycoon をフルスクリーンでプレイするにはチックします
 
 STR_GAME_OPTIONS_RESOLUTION                                     :{BLACK}画面の解像度
 STR_GAME_OPTIONS_RESOLUTION_TOOLTIP                             :{BLACK}画面の解像度を選択します
@@ -1370,7 +1370,7 @@ STR_CONFIG_SETTING_REVERSE_AT_SIGNALS                           :{LTBLUE}信号�
 STR_CONFIG_SETTING_QUERY_CAPTION                                :{WHITE}設定を変更します
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}OpenCoaster Tycoon {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}新しいゲーム
 STR_INTRO_LOAD_GAME                                             :{BLACK}ロード
@@ -1405,12 +1405,12 @@ STR_INTRO_TOOLTIP_ADVANCED_SETTINGS                             :{BLACK}パッ�
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}NewGRF の設定を表示
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK}コンテンツの新規追加または更新のチェックとダウンロード
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK}AI の設定を表示します
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}OpenTTD を終了します
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}OpenCoaster Tycoon を終了します
 
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}終了
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}このゲームを終了して、{}{STRING}に戻してもよろしいですか？
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY                  :{YELLOW}このゲームを終了して、{}{STRING}に戻してもよろしいですか？
 STR_QUIT_YES                                                    :{BLACK}はい
 STR_QUIT_NO                                                     :{BLACK}いいえ
 
@@ -1502,7 +1502,7 @@ STR_FACE_SIMPLE                                                 :{BLACK}簡単
 STR_FACE_SIMPLE_TOOLTIP                                         :{BLACK}顔を簡単に選択します。
 STR_FACE_LOAD                                                   :{BLACK}開く
 STR_FACE_LOAD_TOOLTIP                                           :{BLACK}お好みの顔を開きます。
-STR_FACE_LOAD_DONE                                              :{WHITE}お好みの顔を OpenTTD の設定ファイルから読み込みました。
+STR_FACE_LOAD_DONE                                              :{WHITE}お好みの顔を OpenCoaster Tycoon の設定ファイルから読み込みました。
 STR_FACE_FACECODE                                               :{BLACK}プレーヤーの顔番号
 STR_FACE_FACECODE_TOOLTIP                                       :{BLACK}プレヤーの顔番号を表示／変更
 STR_FACE_FACECODE_CAPTION                                       :{WHITE}プレヤーの顔番号を表示／変更
@@ -1510,7 +1510,7 @@ STR_FACE_FACECODE_SET                                           :{WHITE}新し�
 STR_FACE_FACECODE_ERR                                           :{WHITE}顔番号が設定できませんでした - 0 と 4,294,967,295 の間の数値ではありません。
 STR_FACE_SAVE                                                   :{BLACK}保存
 STR_FACE_SAVE_TOOLTIP                                           :{BLACK}お好みの顔を保存します。
-STR_FACE_SAVE_DONE                                              :{WHITE}この顔をお好みの顔として OpenTTD の設定ファイルに保存します。
+STR_FACE_SAVE_DONE                                              :{WHITE}この顔をお好みの顔として OpenCoaster Tycoon の設定ファイルに保存します。
 STR_FACE_EUROPEAN                                               :{BLACK}白人
 STR_FACE_SELECT_EUROPEAN                                        :{BLACK}白人の顔を選択します
 STR_FACE_AFRICAN                                                :{BLACK}黒人
@@ -1845,7 +1845,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER}これ�
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}これをダウンロードをするために選択しました
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER}依存性によりダウンロードを選択されます
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER}これはもうダウンロードされました
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}不明なコンテンツの為、OpenTTDでダウンロード出来ません。
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}不明なコンテンツの為、OpenCoaster Tycoonでダウンロード出来ません。
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}現在の物と取り替えます{STRING}
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}項目名：{WHITE}{STRING}
 STR_CONTENT_DETAIL_VERSION                                      :{SILVER}バージョン：{WHITE}{STRING}
@@ -1856,7 +1856,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}サイ�
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER}この選択をすると: {WHITE}{STRING}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER}前提項目：{WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER}タグ：{WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenTTDは、"zlib"のサポートをしていません。
+STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenCoaster Tycoonは、"zlib"のサポートをしていません。
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}... ダウンロードすることができません！
 
 # Order of these is important!
@@ -2281,11 +2281,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :灯台
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :交通会社本部ビル
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :会社が所有している地域
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}OpenTTD について
+# About OpenCoaster Tycoon window
+STR_ABOUT_OPENCOTY                                               :{WHITE}OpenCoaster Tycoon について
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}オリジナル版権{COPYRIGHT} 1995 Chris Sawyer、不許複製
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD バージョン {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT}2002-2012 The OpenTTD team
+STR_ABOUT_VERSION                                               :{BLACK}OpenCoaster Tycoon バージョン {REV}
+STR_ABOUT_COPYRIGHT_OPENCOTY                                     :{BLACK}OpenCoaster Tycoon {COPYRIGHT}2002-2012 The OpenCoaster Tycoon team
 
 # Save/load game/scenario
 STR_SAVELOAD_SAVE_CAPTION                                       :{WHITE}ゲームを保存
@@ -2423,7 +2423,7 @@ STR_NEWGRF_SETTINGS_PARAMETER                                   :{BLACK}設定�
 STR_NEWGRF_SETTINGS_NO_INFO                                     :{BLACK}情報はありません
 STR_NEWGRF_SETTINGS_NOT_FOUND                                   :{RED}一致しているファイルが見つかりません
 STR_NEWGRF_SETTINGS_DISABLED                                    :{RED}切
-STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}このバージョンのOpenTTDと適合しません。
+STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}このバージョンのOpenCoaster Tycoonと適合しません。
 
 STR_NEWGRF_SETTINGS_PARAMETER_QUERY                             :{BLACK}NewGRF設定を入力
 
@@ -2469,13 +2469,13 @@ STR_NEWGRF_ERROR_MSG_WARNING                                    :{RED}警告：{
 STR_NEWGRF_ERROR_MSG_ERROR                                      :{RED}エラー：{SILVER}{STRING}
 STR_NEWGRF_ERROR_MSG_FATAL                                      :{RED}エラー：{SILVER}{STRING}
 STR_NEWGRF_ERROR_FATAL_POPUP                                    :{WHITE}致命的な NewGRF エラーが発生しました: {}{STRING}
-STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING}はOpenTTDのTTDPatchバージョンに対応していません。
+STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING}はOpenCoaster TycoonのTTDPatchバージョンに対応していません。
 STR_NEWGRF_ERROR_DOS_OR_WINDOWS                                 :{1:STRING}はTTDの{STRING}バージョンのみに対応しています。
 STR_NEWGRF_ERROR_UNSET_SWITCH                                   :{1:STRING}を使用時に、{STRING}を入にしなければなりません
 STR_NEWGRF_ERROR_INVALID_PARAMETER                              :{1:STRING}のパラメータが不正：パラメータ　{STRING}（{NUM}）
 STR_NEWGRF_ERROR_LOAD_BEFORE                                    :{2:STRING}を読み込む前、{1:STRING}を読み込まなければなりません。
 STR_NEWGRF_ERROR_LOAD_AFTER                                     :{1:STRING}は{STRING}の読み込み後のみに読み込めます。
-STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} は OpenTTD バージョン {STRING} もしくはそれ以降のバージョンが必要です。
+STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} は OpenCoaster Tycoon バージョン {STRING} もしくはそれ以降のバージョンが必要です。
 STR_NEWGRF_ERROR_AFTER_TRANSLATED_FILE                          :訳しにデザインされたGRFファイル
 STR_NEWGRF_ERROR_TOO_MANY_NEWGRFS_LOADED                        :読み込んだ NewGRF が多すぎます。
 STR_NEWGRF_ERROR_STATIC_GRF_CAUSES_DESYNC                       :{4:STRING} を {2:STRING} を含む固定的な NewGRF として開くと、同期エラーを起こす可能性があります。
@@ -2499,7 +2499,7 @@ STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}一致�
 STR_NEWGRF_COMPATIBLE_LOAD_WARNING                              :{WHITE}見つからないファイルの代わりに対応している代替 GRF ファイルを使用しています
 STR_NEWGRF_DISABLED_WARNING                                     :{WHITE}見つからない GRF ファイルを切にしています
 STR_NEWGRF_UNPAUSE_WARNING_TITLE                                :{YELLOW}GRF ファイルが見つかりません
-STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}ポーズを解除した場合は、OpenTTD の安定性に悪影響を与える可能性があります。この後クラッシュが行った場合は、バグレポートの報告をご遠慮ください。{}ポーズを解除してもよろしいですか？
+STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}ポーズを解除した場合は、OpenCoaster Tycoon の安定性に悪影響を与える可能性があります。この後クラッシュが行った場合は、バグレポートの報告をご遠慮ください。{}ポーズを解除してもよろしいですか？
 
 # NewGRF status
 STR_NEWGRF_LIST_NONE                                            :なし
@@ -3358,7 +3358,7 @@ STR_AI_DEBUG_CONTINUE                                           :{BLACK}続け�
 STR_AI_DEBUG_CONTINUE_TOOLTIP                                   :{BLACK}AIの一時中断を解く
 STR_AI_DEBUG_SELECT_AI_TOOLTIP                                  :{BLACK}AIのコンソールを見る
 
-STR_ERROR_NO_AI                                                 :{WHITE}この OpenTTD は AI のサポートが入っていません...
+STR_ERROR_NO_AI                                                 :{WHITE}この OpenCoaster Tycoon は AI のサポートが入っていません...
 STR_ERROR_NO_AI_SUB                                             :{WHITE}... 使用可能なAIがありません！
 
 STR_ERROR_AI_NO_AI_FOUND                                        :読み込む適切なAIが見つかりません。{}このAIはダミーAIで何も行いません。{}幾つかのAIを'オンラインコンテンツ'システム経由でダウンロード可能です。
@@ -3796,7 +3796,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}ここ�
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}標示のテキストを変更できません...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}標示を削除できません
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for OpenCoaster Tycoon's desktop shortcut
 STR_DESKTOP_SHORTCUT_COMMENT                                    :Transport Tycoon Deluxeを基にしたシミュレーションゲーム
 
 ##id 0x2000
