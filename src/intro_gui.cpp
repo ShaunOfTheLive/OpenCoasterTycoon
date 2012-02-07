@@ -279,7 +279,7 @@ void AskExitGame()
 #endif
 	ShowQuery(
 		STR_QUIT_CAPTION,
-		STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD,
+		STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENCOTY,
 		NULL,
 		AskExitGameCallback
 	);
