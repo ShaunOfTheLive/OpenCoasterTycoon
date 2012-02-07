@@ -3,7 +3,7 @@
 # $Id: completeness.sh 15062 2009-01-13 16:30:24Z smatz $
 
 if ! [ -f ai/regression/regression.nut ]; then
-	echo "Make sure you are in the root of OpenTTD before starting this script."
+	echo "Make sure you are in the root of OpenCoaster Tycoon before starting this script."
 	exit 1
 fi
 

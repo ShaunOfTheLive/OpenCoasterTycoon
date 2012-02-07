@@ -1,4 +1,4 @@
-Multiplayer manual for OpenTTD
+Multiplayer manual for OpenCoaster Tycoon
 Last updated:    2011-02-16
 ------------------------------------------------------------------------
 
@@ -128,7 +128,7 @@ Table of contents
    about 1.5 kilobytes per second up and down. To decrease this amount, setting
    'frame_freq' to 1 will reduce it to roughly 1 kilobyte per second per client.
 
- - OpenTTD's default settings for maximum number of clients, and amount of data
+ - OpenCoaster Tycoon's default settings for maximum number of clients, and amount of data
    from clients to process are chosen to not influence the normal playing of
    people, but to prevent or at least make it less likely that someone can
    perform a (distributed) denial-of-service attack on your server by causing
@@ -140,16 +140,16 @@ Table of contents
    that need to be sent will be created.
    To prevent clients from exploiting this "explosion" of packets to send we
    limit the number of incoming data, resulting in effectively limiting the
-   amount of data that OpenTTD will send to the clients. Even with the default
+   amount of data that OpenCoaster Tycoon will send to the clients. Even with the default
    limits it is possible to generate about 70.000 packets per second, or about
    7 megabit per second of traffic.
-   Given that OpenTTD kicks clients after they have not reacted within about 9
-   seconds from sending a frame update packet it would be possible that OpenTTD
+   Given that OpenCoaster Tycoon kicks clients after they have not reacted within about 9
+   seconds from sending a frame update packet it would be possible that OpenCoaster Tycoon
    keeps about 600.000 packets in memory, using about 50 megabytes of memory.
-   Given that OpenTTD allows short bursts of packets, you can have slightly
+   Given that OpenCoaster Tycoon allows short bursts of packets, you can have slightly
    more packets in memory in case of a distributed denial of service attack.
    When increasing the amount of incoming data, or the maximum number of
-   clients the amount of memory OpenTTD needs in case of a distributed denial
+   clients the amount of memory OpenCoaster Tycoon needs in case of a distributed denial
    of service attack is linearly related to the amount of incoming data and
    quadratic to the amount of clients. In short, a rule of thumb for, the
    maximum memory usage for packets is:
@@ -215,5 +215,5 @@ Table of contents
      Run openttd with the '-d net=2' parameter. That will show which incoming
      communication is received, whether the replies from the master server or
      communication from an admin tool reach the programme. See section 1
-     'Starting a server' further up for the ports and protocols used by OpenTTD.
+     'Starting a server' further up for the ports and protocols used by OpenCoaster Tycoon.
      The ports can be configured in the config file.

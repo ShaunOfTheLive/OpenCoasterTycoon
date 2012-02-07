@@ -1,7 +1,7 @@
 Scripting
 ---------
 
-OpenTTD supports scripts.
+OpenCoaster Tycoon supports scripts.
 
 local scripts:
  - 'autoexec.scr' is executed on gamestart [all - use this for custom aliases per ex.]

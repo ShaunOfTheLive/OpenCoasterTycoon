@@ -46,7 +46,7 @@ set_default() {
 	man_dir="1"
 	menu_dir="1"
 	menu_group="Game;"
-	menu_name="OpenTTD"
+	menu_name="OpenCoaster Tycoon"
 	binary_name="openttd"
 	enable_debug="0"
 	enable_desync_debug="0"
@@ -771,7 +771,7 @@ check_params() {
 
 	if [ "$with_zlib" = "0" ] || [ -z "$zlib" ]; then
 		log 1 "WARNING: zlib was not detected or disabled"
-		log 1 "WARNING: OpenTTD doesn't require zlib, but it does mean that many features"
+		log 1 "WARNING: OpenCoaster Tycoon doesn't require zlib, but it does mean that many features"
 		log 1 "WARNING: (like loading most old savegames/scenarios, loading heightmaps,"
 		log 1 "WARNING: using PNG, or using fonts, ...) will be disabled."
 		if [ "$pre_detect_with_zlib" = "0" ]; then
@@ -788,7 +788,7 @@ check_params() {
 
 	if [ "$with_lzma" = "0" ] || [ -z "$lzma_config" ]; then
 		log 1 "WARNING: lzma was not detected or disabled"
-		log 1 "WARNING: OpenTTD doesn't require lzma, but it does mean that many features"
+		log 1 "WARNING: OpenCoaster Tycoon doesn't require lzma, but it does mean that many features"
 		log 1 "WARNING: (like loading most savegames/scenarios and joining most servers)"
 		log 1 "WARNING: will be disabled."
 		if [ "$pre_detect_with_lzma" = "0" ]; then
@@ -805,7 +805,7 @@ check_params() {
 
 	if [ "$with_lzo2" = "0" ] || [ -z "$lzo2" ]; then
 		log 1 "WARNING: liblzo2 was not detected or disabled"
-		log 1 "WARNING: OpenTTD doesn't require liblzo2, but it does mean that"
+		log 1 "WARNING: OpenCoaster Tycoon doesn't require liblzo2, but it does mean that"
 		log 1 "WARNING: loading old savegames/scenarios will be disabled."
 		if [ "$pre_detect_with_lzo2" = "0" ]; then
 			log 1 "WARNING: We strongly suggest you to install liblzo2."
@@ -1022,7 +1022,7 @@ check_params() {
 		revision=""
 		log 1 "checking revision... no detection"
 		log 1 "WARNING: there is no means to determine the version."
-		log 1 "WARNING: please use a subversion, mercurial, or git checkout of OpenTTD."
+		log 1 "WARNING: please use a subversion, mercurial, or git checkout of OpenCoaster Tycoon."
 		log 1 "WARNING: you can only join game servers that have been compiled without"
 		log 1 "WARNING:   version detection."
 		log 1 "WARNING: there is a great chance you desync."
@@ -1165,11 +1165,11 @@ make_compiler_cflags() {
 			first_time_icc_check=no
 			if [ $cc_version -lt 90 ]; then
 				log 1 "WARNING: you seem to be using very old version of ICC"
-				log 1 "WARNING: OpenTTD hasn't been tested with this version"
+				log 1 "WARNING: OpenCoaster Tycoon hasn't been tested with this version"
 				sleep 5
 			elif [ $cc_version -lt 120 ]; then
 				log 1 "WARNING: you seem to be using unsupported ICC version"
-				log 1 "WARNING: ICC older than 12.0 is known to fail to compile OpenTTD"
+				log 1 "WARNING: ICC older than 12.0 is known to fail to compile OpenCoaster Tycoon"
 				sleep 5
 			fi
 		fi
@@ -1246,7 +1246,7 @@ make_compiler_cflags() {
 		cc_version=`$1 -dumpversion | cut -c 1,3`
 
 		if [ $cc_version -lt 33 ]; then
-			log 1 "configure: error: gcc older than 3.3 can't compile OpenTTD because of its poor template support"
+			log 1 "configure: error: gcc older than 3.3 can't compile OpenCoaster Tycoon because of its poor template support"
 			exit 1
 		fi
 
@@ -3325,7 +3325,7 @@ generate_src() {
 }
 
 showhelp() {
-	echo "'configure' configures OpenTTD."
+	echo "'configure' configures OpenCoaster Tycoon."
 	echo ""
 	echo "Usage: $0 [OPTION]... [VAR=VALUE]..."
 	echo ""
@@ -3414,7 +3414,7 @@ showhelp() {
 	echo "                                 (OSX ONLY)"
 	echo "  --without-menu-entry           Don't generate a menu item (Freedesktop based only)"
 	echo "  --menu-group=group             Category in which the menu item will be placed (Freedesktop based only)"
-	echo "  --menu-name=name               Name of the menu item when placed [OpenTTD]"
+	echo "  --menu-name=name               Name of the menu item when placed [OpenCoaster Tycoon]"
 	echo "  --with-direct-music            enable direct music support (Win32 ONLY)"
 	echo "  --with-sort=sort               define a non-default location for sort"
 	echo "  --with-midi=midi               define which midi-player to use"

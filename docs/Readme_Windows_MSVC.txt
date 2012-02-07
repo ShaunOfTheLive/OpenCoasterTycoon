@@ -1,4 +1,4 @@
-Compiling OpenTTD using Microsoft Visual C++
+Compiling OpenCoaster Tycoon using Microsoft Visual C++
 Last updated: 2010-01-03
 --------------------------------------------
 PLEASE READ THE ENTIRE DOCUMENT BEFORE DOING ANY ACTUAL CHANGES!!
@@ -6,7 +6,7 @@ PLEASE READ THE ENTIRE DOCUMENT BEFORE DOING ANY ACTUAL CHANGES!!
 
 SUPPORTED MSVC COMPILERS
 ------------------------
-OpenTTD includes projects for MSVC 2005.NET and MSVC 2008.NET. Both will
+OpenCoaster Tycoon includes projects for MSVC 2005.NET and MSVC 2008.NET. Both will
 compile out of the box, providing you have the required libraries/headers;
 which ones, see below. There is no support for VS6 or MSVC 2002, or
 MSVC 2003.NET. You are therefore strongly encouraged to either upgrade to

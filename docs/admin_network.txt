@@ -1,4 +1,4 @@
-OpenTTD's admin network
+OpenCoaster Tycoon's admin network
 Last updated:    2011-01-20
 ------------------------------------------------------------------------
 
@@ -19,12 +19,12 @@ Table of contents
 1.0) Preface
 ---- -------
   The admin network provides a dedicated network protocol designed for other
-  applications to communicate with OpenTTD. Connected applications can execute
+  applications to communicate with OpenCoaster Tycoon. Connected applications can execute
   console commands remotely (rcon commands) with no further authentication.
   Furthermore information about clients and companies can be provided.
 
   Admin applications remain connected when starting a new game or loading a saved
-  game in contrast to normal OpenTTD clients that get disconnected.
+  game in contrast to normal OpenCoaster Tycoon clients that get disconnected.
 
   This document describes the admin network and its protocol.
 
@@ -207,5 +207,5 @@ Table of contents
   ADMIN_PACKET_SERVER_CMD_NAMES and ADMIN_PACKET_SERVER_CMD_LOGGING
     Data provided with these packets is not stable and will not be
     treated as such. Do not rely on IDs or names to be constant
-    across different versions / revisions of OpenTTD.
+    across different versions / revisions of OpenCoaster Tycoon.
     Data provided in this packet is for logging purposes only.

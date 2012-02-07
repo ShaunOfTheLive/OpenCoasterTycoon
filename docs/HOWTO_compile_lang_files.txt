@@ -1,4 +1,4 @@
-OpenTTD and strgen
+OpenCoaster Tycoon and strgen
 Last updated:    2009-06-30
 ------------------------------------------------------------------------
 
@@ -14,7 +14,7 @@ Table of contents
 ---- ------------
 This guide is only interesting for people who want to alter something
 themselves without access to translator.openttd.org. Please note that
-your compiled language file will only be compatible with the OpenTTD version
+your compiled language file will only be compatible with the OpenCoaster Tycoon version
 you have downloaded english.txt, the master language file, for. While this is
 not always true, namely when changes in the code have not touched language
 files, your safest bet is to assume this 'limitation'.
@@ -23,7 +23,7 @@ As a first step you need to compile strgen. This is as easy as typing
 http://www.openttd.org/download-strgen
 
 strgen takes as argument a txt file and translates it to a lng file, allowing
-it to be used inside OpenTTD. strgen needs the master language file
+it to be used inside OpenCoaster Tycoon. strgen needs the master language file
 english.txt to work. Below are some examples of strgen usage.
 
 1.1) Examples

@@ -1,13 +1,13 @@
-OpenTTD: OS/2 version
+OpenCoaster Tycoon: OS/2 version
 =====================
 
-OpenTTD has been ported to work on OS/2 4.x or later (including
+OpenCoaster Tycoon has been ported to work on OS/2 4.x or later (including
 eComStation). The game should work as well as it does on Windows
 or other platforms: the main issues you may encounter are graphics
 card problems, but that is really the fault of SDL.
 
 =========================
-USING OPENTTD FOR OS/2
+USING OPENCOASTER TYCOON FOR OS/2
 =========================
 
 LIBRARIES REQUIRED FOR END USERS
@@ -20,7 +20,7 @@ Version 20051222 of SDL or later is required. This can be found at
 http://sdl.netlabs.org/.
 
 Please note that earlier SDL releases will probably NOT work with
-OpenTTD. If you experience problems with OpenTTD, please check
+OpenCoaster Tycoon. If you experience problems with OpenCoaster Tycoon, please check
 your SDL and FSLib.dll versions (both must match).
 
 Note that to actually play the game, I have found in my own
@@ -38,12 +38,12 @@ KNOWN ISSUES
 A NOTE ABOUT MUSIC
 ------------------
 
-OpenTTD includes a music driver which uses the MCI MIDI system. Unfortunately,
+OpenCoaster Tycoon includes a music driver which uses the MCI MIDI system. Unfortunately,
 due to the lack of proper MIDI hardware myself, I have been unable to test it,
 but during testing, I found that when MIDI was enabled, I got no sound
 effects. I therefore decided to DISABLE music by default.
 
-To enable music, start OpenTTD with the command line:
+To enable music, start OpenCoaster Tycoon with the command line:
 
    openttd -m os2
 
@@ -58,7 +58,7 @@ A NOTE ABOUT DEDICATED MULTIPLAYER SERVERS
 ------------------------------------------
 
 To start a dedicated multiplayer server, you should run the dedicated.cmd
-file. This enables OpenTTD to open up a VIO console window to display
+file. This enables OpenCoaster Tycoon to open up a VIO console window to display
 its output and gather any necessary input. Running "openttd -D"
 directly will result in the console not being displayed. You may
 still pass any other parameters ('-D' is already passed) to
@@ -73,9 +73,9 @@ BUILDING THE OS/2 VERSION
 Compiler
 --------
 
-Innotek GCC, an OS/2 port of the popular GCC compiler, was used to build OpenTTD.
+Innotek GCC, an OS/2 port of the popular GCC compiler, was used to build OpenCoaster Tycoon.
 See www.innotek.de for more information. You WILL need a reasonably UNIX-like
-build environment in order to build OpenTTD successfully - the following link
+build environment in order to build OpenCoaster Tycoon successfully - the following link
 may help to set one up (although some of the links from that page are broken):
 
    http://www.mozilla.org/ports/os2/gccsetup.html
@@ -94,12 +94,12 @@ configure cannot always detect OS/2 correctly.
 A note on Open Watcom
 ---------------------
 
-Open Watcom C/C++ was previously used to build OpenTTD (version 0.4.x and earlier).
-However, due to advanced C++ features used in the YAPF portion of OpenTTD 0.5
+Open Watcom C/C++ was previously used to build OpenCoaster Tycoon (version 0.4.x and earlier).
+However, due to advanced C++ features used in the YAPF portion of OpenCoaster Tycoon 0.5
 in particular, the compiler is no longer able to build the game at the moment.
 Hopefully one day Open Watcom will be able to catch up and we will be able to build
 the game once again (it's easier than getting an OS/2 UNIX-like environment set up
-in my opinion!), but until then, OpenTTD 0.5 and later can only be built with GCC.
+in my opinion!), but until then, OpenCoaster Tycoon 0.5 and later can only be built with GCC.
 
 Libraries Required
 ------------------
@@ -123,7 +123,7 @@ provided, they are not designed for Watcom (apart from SDL):
   http://freetype.sourceforge.net/
 
 Currently, there are no pre-built libraries available for GCC. If you manage to get
-OpenTTD working on Watcom though (do let us know if this is the case!), pre-built
+OpenCoaster Tycoon working on Watcom though (do let us know if this is the case!), pre-built
 versions can be downloaded from the Files section at
 http://sourceforge.net/projects/openttd/ - see "os2-useful-v1.1.zip".
 
@@ -131,9 +131,9 @@ Contact Information
 -------------------
 
 If you have any questions regarding OS/2 issues, please contact me
-(owen@owenrudge.net) and I'll try to help you out. For general OpenTTD
+(owen@owenrudge.net) and I'll try to help you out. For general OpenCoaster Tycoon
 issues, see the Contacting section of readme.txt.
 
-Thanks to Paul Smedley for his help with getting OpenTTD to compile under GCC on OS/2.
+Thanks to Paul Smedley for his help with getting OpenCoaster Tycoon to compile under GCC on OS/2.
 
 - Owen Rudge, 24th June 2007

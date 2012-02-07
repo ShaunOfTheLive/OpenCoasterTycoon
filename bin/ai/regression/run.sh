@@ -3,7 +3,7 @@
 # $Id: run.sh 22601 2011-06-18 19:43:51Z rubidium $
 
 if ! [ -f ai/regression/regression.nut ]; then
-	echo "Make sure you are in the root of OpenTTD before starting this script."
+	echo "Make sure you are in the root of OpenCoaster Tycoon before starting this script."
 	exit 1
 fi
 

@@ -6,7 +6,7 @@
 // OpenCoaster Tycoon is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 // See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with OpenCoaster Tycoon. If not, see <http://www.gnu.org/licenses/>.
 //
-// This is the DOS 2CC translation map which OpenTTD translates if needed upon loading.
+// This is the DOS 2CC translation map which OpenCoaster Tycoon translates if needed upon loading.
 //
    -1 * 0	 0C "2CC map"
    -1 * 0	 05 0A FF 00 01
