@@ -64,7 +64,7 @@ END
 101 DIALOG DISCARDABLE  0, 0, 600, 400
 STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
 STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "OpenTTD command line help"
+CAPTION "OpenCoaster Tycoon command line help"
 FONT 8, "MS Sans Serif"
 BEGIN
     DEFPUSHBUTTON   "&OK",12,274,378,50,14,BS_CENTER
@@ -79,8 +79,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 1,1,5,!!REVISION!!
- PRODUCTVERSION 1,1,5,!!REVISION!!
+ FILEVERSION 0,0,1,!!REVISION!!
+ PRODUCTVERSION 0,0,1,!!REVISION!!
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -96,15 +96,15 @@ BEGIN
         BLOCK "000004b0"
         BEGIN
             VALUE "Comments", "This program is licensed under the GNU General Public License version 2.\0"
-            VALUE "CompanyName", "OpenTTD Development Team\0"
-            VALUE "FileDescription", "OpenTTD\0"
+            VALUE "CompanyName", "OpenCoaster Tycoon Development Team\0"
+            VALUE "FileDescription", "OpenCoaster Tycoon\0"
             VALUE "FileVersion", "!!VERSION!!\0"
             VALUE "InternalName", "openttd\0"
-            VALUE "LegalCopyright", "Copyright \xA9 OpenTTD Developers 2002-2012. All Rights Reserved.\0"
+            VALUE "LegalCopyright", "Copyright \xA9 Shaun Andrew Hill 2012. All Rights Reserved.\0"
             VALUE "LegalTrademarks", "\0"
             VALUE "OriginalFilename", "openttd.exe\0"
             VALUE "PrivateBuild", "\0"
-            VALUE "ProductName", "OpenTTD\0"
+            VALUE "ProductName", "OpenCoaster Tycoon\0"
             VALUE "ProductVersion", "!!VERSION!!\0"
             VALUE "SpecialBuild", "-\0"
         END
