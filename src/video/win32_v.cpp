@@ -22,6 +22,9 @@
 #include "win32_v.h"
 #include <windows.h>
 
+#include "../strings_func.h"
+#include "table/strings.h"
+
 static struct {
 	HWND main_wnd;
 	HBITMAP dib_sect;
@@ -301,11 +304,11 @@ bool VideoDriver_Win32::MakeWindow(bool full_screen)
 			ShowWindow(_wnd.main_wnd, SW_SHOWNORMAL); // remove maximize-flag
 			SetWindowPos(_wnd.main_wnd, 0, x, y, w, h, SWP_NOACTIVATE | SWP_NOOWNERZORDER | SWP_NOZORDER);
 		} else {
-			TCHAR Windowtitle[50];
+      char Windowtitle[50];
 
-			_sntprintf(Windowtitle, lengthof(Windowtitle), _T("OpenTTD %s"), MB_TO_WIDE(_openttd_revision));
+      GetString(Windowtitle, STR_INTRO_CAPTION, lastof(Windowtitle));
 
-			_wnd.main_wnd = CreateWindow(_T("OTTD"), Windowtitle, style, x, y, w, h, 0, 0, GetModuleHandle(NULL), 0);
+			_wnd.main_wnd = CreateWindow(_T("OTTD"), MB_TO_WIDE(Windowtitle)+1, style, x, y, w, h, 0, 0, GetModuleHandle(NULL), 0);
 			if (_wnd.main_wnd == NULL) usererror("CreateWindow failed");
 			ShowWindow(_wnd.main_wnd, showstyle);
 		}
