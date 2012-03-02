@@ -54,7 +54,7 @@ static uint16 _introduced_railtypes;
 const uint8 _engine_counts[4] = {
 	lengthof(_orig_rail_vehicle_info),
 	lengthof(_orig_road_vehicle_info),
-	lengthof(_orig_ship_vehicle_info),
+//	lengthof(_orig_ship_vehicle_info),
 	lengthof(_orig_aircraft_vehicle_info),
 };
 
@@ -63,12 +63,15 @@ const uint8 _engine_offsets[4] = {
 	0,
 	lengthof(_orig_rail_vehicle_info),
 	lengthof(_orig_rail_vehicle_info) + lengthof(_orig_road_vehicle_info),
-	lengthof(_orig_rail_vehicle_info) + lengthof(_orig_road_vehicle_info) + lengthof(_orig_ship_vehicle_info),
+	lengthof(_orig_rail_vehicle_info) + lengthof(_orig_road_vehicle_info)
+ // + lengthof(_orig_ship_vehicle_info),
 };
 
-assert_compile(lengthof(_orig_rail_vehicle_info) + lengthof(_orig_road_vehicle_info) + lengthof(_orig_ship_vehicle_info) + lengthof(_orig_aircraft_vehicle_info) == lengthof(_orig_engine_info));
+assert_compile(lengthof(_orig_rail_vehicle_info) + lengthof(_orig_road_vehicle_info) 
+//+ lengthof(_orig_ship_vehicle_info)
++ lengthof(_orig_aircraft_vehicle_info) == lengthof(_orig_engine_info));
 
-const uint EngineOverrideManager::NUM_DEFAULT_ENGINES = _engine_counts[VEH_TRAIN] + _engine_counts[VEH_ROAD] + _engine_counts[VEH_SHIP] + _engine_counts[VEH_AIRCRAFT];
+const uint EngineOverrideManager::NUM_DEFAULT_ENGINES = _engine_counts[VEH_TRAIN] + _engine_counts[VEH_ROAD] + _engine_counts[VEH_AIRCRAFT];
 
 Engine::Engine() :
 	name(NULL),
@@ -97,7 +100,6 @@ Engine::Engine(VehicleType type, EngineID base)
 		switch (type) {
 			case VEH_TRAIN: this->u.rail.visual_effect = VE_DEFAULT; break;
 			case VEH_ROAD:  this->u.road.visual_effect = VE_DEFAULT; break;
-			case VEH_SHIP:  this->u.ship.visual_effect = VE_DEFAULT; break;
 			default: break; // The aircraft, disasters and especially visual effects have no NewGRF configured visual effects
 		}
 		return;
@@ -124,12 +126,6 @@ Engine::Engine(VehicleType type, EngineID base)
 			this->u.road = _orig_road_vehicle_info[base];
 			this->original_image_index = this->u.road.image_index;
 			this->info.string_id = STR_VEHICLE_NAME_ROAD_VEHICLE_MPS_REGAL_BUS + base;
-			break;
-
-		case VEH_SHIP:
-			this->u.ship = _orig_ship_vehicle_info[base];
-			this->original_image_index = this->u.ship.image_index;
-			this->info.string_id = STR_VEHICLE_NAME_SHIP_MPS_OIL_TANKER + base;
 			break;
 
 		case VEH_AIRCRAFT:
@@ -176,7 +172,6 @@ bool Engine::CanCarryCargo() const
 			if (this->u.road.capacity == 0) return false;
 			break;
 
-		case VEH_SHIP:
 		case VEH_AIRCRAFT:
 			break;
 
@@ -207,9 +202,6 @@ uint Engine::GetDisplayDefaultCapacity(uint16 *mail_capacity) const
 
 		case VEH_ROAD:
 			return GetEngineProperty(this->index, PROP_ROADVEH_CARGO_CAPACITY, this->u.road.capacity);
-
-		case VEH_SHIP:
-			return GetEngineProperty(this->index, PROP_SHIP_CARGO_CAPACITY, this->u.ship.capacity);
 
 		case VEH_AIRCRAFT: {
 			uint capacity = GetEngineProperty(this->index, PROP_AIRCRAFT_PASSENGER_CAPACITY, this->u.air.passenger_capacity);
@@ -252,11 +244,6 @@ Money Engine::GetRunningCost() const
 			cost_factor = GetEngineProperty(this->index, PROP_TRAIN_RUNNING_COST_FACTOR, this->u.rail.running_cost);
 			break;
 
-		case VEH_SHIP:
-			base_price = PR_RUNNING_SHIP;
-			cost_factor = GetEngineProperty(this->index, PROP_SHIP_RUNNING_COST_FACTOR, this->u.ship.running_cost);
-			break;
-
 		case VEH_AIRCRAFT:
 			base_price = PR_RUNNING_AIRCRAFT;
 			cost_factor = GetEngineProperty(this->index, PROP_AIRCRAFT_RUNNING_COST_FACTOR, this->u.air.running_cost);
@@ -292,11 +279,6 @@ Money Engine::GetCost() const
 			}
 			break;
 
-		case VEH_SHIP:
-			base_price = PR_BUILD_VEHICLE_SHIP;
-			cost_factor = GetEngineProperty(this->index, PROP_SHIP_COST_FACTOR, this->u.ship.cost_factor);
-			break;
-
 		case VEH_AIRCRAFT:
 			base_price = PR_BUILD_VEHICLE_AIRCRAFT;
 			cost_factor = GetEngineProperty(this->index, PROP_AIRCRAFT_COST_FACTOR, this->u.air.cost_factor);
@@ -322,9 +304,6 @@ uint Engine::GetDisplayMaxSpeed() const
 			uint max_speed = GetEngineProperty(this->index, PROP_ROADVEH_SPEED, 0);
 			return (max_speed != 0) ? max_speed * 2 : this->u.road.max_speed / 2;
 		}
-
-		case VEH_SHIP:
-			return GetEngineProperty(this->index, PROP_SHIP_SPEED, this->u.ship.max_speed) / 2;
 
 		case VEH_AIRCRAFT: {
 			uint max_speed = GetEngineProperty(this->index, PROP_AIRCRAFT_SPEED, 0);
@@ -708,7 +687,6 @@ static void AcceptEnginePreview(EngineID eid, CompanyID company)
 
 	/* Update the toolbar. */
 	if (e->type == VEH_ROAD) InvalidateWindowData(WC_BUILD_TOOLBAR, TRANSPORT_ROAD);
-	if (e->type == VEH_SHIP) InvalidateWindowData(WC_BUILD_TOOLBAR, TRANSPORT_WATER);
 }
 
 /**
@@ -819,7 +797,7 @@ static void NewVehicleAvailable(Engine *e)
 			c->block_preview = 20;
 
 			FOR_ALL_VEHICLES(v) {
-				if (v->type == VEH_TRAIN || v->type == VEH_ROAD || v->type == VEH_SHIP ||
+				if (v->type == VEH_TRAIN || v->type == VEH_ROAD ||
 						(v->type == VEH_AIRCRAFT && Aircraft::From(v)->IsNormalAircraft())) {
 					if (v->owner == c->index && v->engine_type == index) {
 						/* The user did prove me wrong, so restore old value */
@@ -858,7 +836,6 @@ static void NewVehicleAvailable(Engine *e)
 
 	/* Update the toolbar. */
 	if (e->type == VEH_ROAD) InvalidateWindowData(WC_BUILD_TOOLBAR, TRANSPORT_ROAD);
-	if (e->type == VEH_SHIP) InvalidateWindowData(WC_BUILD_TOOLBAR, TRANSPORT_WATER);
 }
 
 void EnginesMonthlyLoop()

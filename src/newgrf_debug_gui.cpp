@@ -574,7 +574,6 @@ GrfSpecFeature GetGrfSpecFeature(VehicleType type)
 	switch (type) {
 		case VEH_TRAIN:    return GSF_TRAINS;
 		case VEH_ROAD:     return GSF_ROADVEHICLES;
-		case VEH_SHIP:     return GSF_SHIPS;
 		case VEH_AIRCRAFT: return GSF_AIRCRAFT;
 		default:           return GSF_INVALID;
 	}

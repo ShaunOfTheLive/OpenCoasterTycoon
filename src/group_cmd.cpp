@@ -233,7 +233,6 @@ CommandCost CmdAddVehicleGroup(TileIndex tile, DoCommandFlag flags, uint32 p1, u
 				SetTrainGroupID(Train::From(v), new_g);
 				break;
 			case VEH_ROAD:
-			case VEH_SHIP:
 			case VEH_AIRCRAFT:
 				if (v->IsEngineCountable()) UpdateNumEngineGroup(v->engine_type, v->group_id, new_g);
 				v->group_id = new_g;

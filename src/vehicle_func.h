@@ -83,7 +83,6 @@ static inline bool IsCompanyBuildableVehicleType(VehicleType type)
 	switch (type) {
 		case VEH_TRAIN:
 		case VEH_ROAD:
-		case VEH_SHIP:
 		case VEH_AIRCRAFT:
 			return true;
 

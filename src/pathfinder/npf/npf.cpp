@@ -1101,7 +1101,7 @@ static void NPFFillWithOrderData(NPFFindStationOrTileData *fstd, const Vehicle *
 	 * dest_tile, not just any stop of that station.
 	 * So only for train orders to stations we fill fstd->station_index, for all
 	 * others only dest_coords */
-	if (v->type != VEH_SHIP && (v->current_order.IsType(OT_GOTO_STATION) || v->current_order.IsType(OT_GOTO_WAYPOINT))) {
+	if ((v->current_order.IsType(OT_GOTO_STATION) || v->current_order.IsType(OT_GOTO_WAYPOINT))) {
 		assert(v->IsGroundVehicle());
 		fstd->station_index = v->current_order.GetDestination();
 		fstd->station_type = (v->type == VEH_TRAIN) ? (v->current_order.IsType(OT_GOTO_STATION) ? STATION_RAIL : STATION_WAYPOINT) : (RoadVehicle::From(v)->IsBus() ? STATION_BUS : STATION_TRUCK);
@@ -1156,27 +1156,6 @@ Trackdir NPFRoadVehicleChooseTrack(const RoadVehicle *v, TileIndex tile, DiagDir
 	 * to the tile closest to our target. */
 	path_found = (ftd.best_bird_dist == 0);
 	return ftd.best_trackdir;
-}
-
-/*** Ships ***/
-
-Track NPFShipChooseTrack(const Ship *v, TileIndex tile, DiagDirection enterdir, TrackBits tracks, bool &path_found)
-{
-	NPFFindStationOrTileData fstd;
-	Trackdir trackdir = v->GetVehicleTrackdir();
-	assert(trackdir != INVALID_TRACKDIR); // Check that we are not in a depot
-
-	NPFFillWithOrderData(&fstd, v);
-
-	NPFFoundTargetData ftd = NPFRouteToStationOrTile(tile - TileOffsByDiagDir(enterdir), trackdir, true, &fstd, TRANSPORT_WATER, 0, v->owner, INVALID_RAILTYPES);
-
-	/* If ftd.best_bird_dist is 0, we found our target and ftd.best_trackdir contains
-	 * the direction we need to take to get there, if ftd.best_bird_dist is not 0,
-	 * we did not find our target, but ftd.best_trackdir contains the direction leading
-	 * to the tile closest to our target. */
-	path_found = (ftd.best_bird_dist == 0);
-	if (ftd.best_trackdir == 0xff) return INVALID_TRACK;
-	return TrackdirToTrack(ftd.best_trackdir);
 }
 
 /*** Trains ***/

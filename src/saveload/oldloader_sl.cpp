@@ -204,7 +204,7 @@ void FixOldVehicles()
 		}
 
 		/* The subtype should be 0, but it sometimes isn't :( */
-		if (v->type == VEH_ROAD || v->type == VEH_SHIP) v->subtype = 0;
+		if (v->type == VEH_ROAD) v->subtype = 0;
 
 		/* Sometimes primary vehicles would have a nothing (invalid) order
 		 * or vehicles that could not have an order would still have a
@@ -392,7 +392,6 @@ static bool FixTTOEngines()
 	uint j = 0;
 	for (uint i = 0; i < lengthof(_orig_rail_vehicle_info); i++, j++) new (GetTempDataEngine(j)) Engine(VEH_TRAIN, i);
 	for (uint i = 0; i < lengthof(_orig_road_vehicle_info); i++, j++) new (GetTempDataEngine(j)) Engine(VEH_ROAD, i);
-	for (uint i = 0; i < lengthof(_orig_ship_vehicle_info); i++, j++) new (GetTempDataEngine(j)) Engine(VEH_SHIP, i);
 	for (uint i = 0; i < lengthof(_orig_aircraft_vehicle_info); i++, j++) new (GetTempDataEngine(j)) Engine(VEH_AIRCRAFT, i);
 
 	Date aging_date = min(_date + DAYS_TILL_ORIGINAL_BASE_YEAR, ConvertYMDToDate(2050, 0, 1));
@@ -1057,14 +1056,6 @@ static const OldChunks vehicle_road_chunk[] = {
 	OCL_END()
 };
 
-static const OldChunks vehicle_ship_chunk[] = {
-	OCL_SVAR(  OC_UINT8, Ship, state ),
-
-	OCL_NULL( 9 ), ///< Junk
-
-	OCL_END()
-};
-
 static const OldChunks vehicle_air_chunk[] = {
 	OCL_SVAR(  OC_UINT8, Aircraft, pos ),
 	OCL_SVAR(  OC_FILE_U8 | OC_VAR_U16, Aircraft, targetairport ),
@@ -1113,7 +1104,6 @@ static bool LoadOldVehicleUnion(LoadgameState *ls, int num)
 			default: SlErrorCorrupt("Invalid vehicle type");
 			case VEH_TRAIN   : res = LoadChunk(ls, v, vehicle_train_chunk);    break;
 			case VEH_ROAD    : res = LoadChunk(ls, v, vehicle_road_chunk);     break;
-			case VEH_SHIP    : res = LoadChunk(ls, v, vehicle_ship_chunk);     break;
 			case VEH_AIRCRAFT: res = LoadChunk(ls, v, vehicle_air_chunk);      break;
 			case VEH_EFFECT  : res = LoadChunk(ls, v, vehicle_effect_chunk);   break;
 			case VEH_DISASTER: res = LoadChunk(ls, v, vehicle_disaster_chunk); break;
@@ -1244,7 +1234,6 @@ bool LoadOldVehicle(LoadgameState *ls, int num)
 				case 0x25 /* MONORAIL     */:
 				case 0x20 /* VEH_TRAIN    */: v = new (_current_vehicle_id) Train();           break;
 				case 0x21 /* VEH_ROAD     */: v = new (_current_vehicle_id) RoadVehicle();     break;
-				case 0x22 /* VEH_SHIP     */: v = new (_current_vehicle_id) Ship();            break;
 				case 0x23 /* VEH_AIRCRAFT */: v = new (_current_vehicle_id) Aircraft();        break;
 				case 0x24 /* VEH_EFFECT   */: v = new (_current_vehicle_id) EffectVehicle();   break;
 				case 0x26 /* VEH_DISASTER */: v = new (_current_vehicle_id) DisasterVehicle(); break;
@@ -1283,21 +1272,6 @@ bool LoadOldVehicle(LoadgameState *ls, int num)
 					if (v->spritenum >= 22) v->spritenum += 12;
 					break;
 
-				case VEH_SHIP:
-					v->spritenum += 2;
-
-					switch (v->spritenum) {
-						case 2: // oil tanker && cargo type != oil
-							if (v->cargo_type != CT_OIL) v->spritenum = 0; // make it a coal/goods ship
-							break;
-						case 4: // passenger ship && cargo type == mail
-							if (v->cargo_type == CT_MAIL) v->spritenum = 0; // make it a mail ship
-							break;
-						default:
-							break;
-					}
-					break;
-
 				default:
 					break;
 			}
@@ -1320,7 +1294,6 @@ bool LoadOldVehicle(LoadgameState *ls, int num)
 				case 0x00 /* VEH_INVALID */: v = NULL;                                        break;
 				case 0x10 /* VEH_TRAIN   */: v = new (_current_vehicle_id) Train();           break;
 				case 0x11 /* VEH_ROAD    */: v = new (_current_vehicle_id) RoadVehicle();     break;
-				case 0x12 /* VEH_SHIP    */: v = new (_current_vehicle_id) Ship();            break;
 				case 0x13 /* VEH_AIRCRAFT*/: v = new (_current_vehicle_id) Aircraft();        break;
 				case 0x14 /* VEH_EFFECT  */: v = new (_current_vehicle_id) EffectVehicle();   break;
 				case 0x15 /* VEH_DISASTER*/: v = new (_current_vehicle_id) DisasterVehicle(); break;

@@ -20,7 +20,6 @@
 #include "command_func.h"
 #include "town.h"
 #include "train.h"
-#include "ship.h"
 #include "roadveh.h"
 #include "water_map.h"
 #include "pathfinder/yapf/yapf_cache.h"
@@ -1589,14 +1588,12 @@ static VehicleEnterTileStatus VehicleEnter_TunnelBridge(Vehicle *v, TileIndex ti
 			}
 		}
 	} else { // IsBridge(tile)
-		if (v->type != VEH_SHIP) {
-			/* modify speed of vehicle */
-			uint16 spd = GetBridgeSpec(GetBridgeType(tile))->speed;
+    /* modify speed of vehicle */
+    uint16 spd = GetBridgeSpec(GetBridgeType(tile))->speed;
 
-			if (v->type == VEH_ROAD) spd *= 2;
-			Vehicle *first = v->First();
-			first->cur_speed = min(first->cur_speed, spd);
-		}
+    if (v->type == VEH_ROAD) spd *= 2;
+    Vehicle *first = v->First();
+    first->cur_speed = min(first->cur_speed, spd);
 
 		if (vdir == dir) {
 			/* Vehicle enters bridge at the last frame inside this tile. */
@@ -1619,10 +1616,6 @@ static VehicleEnterTileStatus VehicleEnter_TunnelBridge(Vehicle *v, TileIndex ti
 					break;
 				}
 
-				case VEH_SHIP:
-					Ship::From(v)->state = TRACK_BIT_WORMHOLE;
-					break;
-
 				default: NOT_REACHED();
 			}
 			return VETSB_ENTERED_WORMHOLE;
@@ -1643,15 +1636,6 @@ static VehicleEnterTileStatus VehicleEnter_TunnelBridge(Vehicle *v, TileIndex ti
 					if (rv->state == RVSB_WORMHOLE) {
 						rv->state = DiagDirToDiagTrackdir(vdir);
 						rv->frame = 0;
-						return VETSB_ENTERED_WORMHOLE;
-					}
-					break;
-				}
-
-				case VEH_SHIP: {
-					Ship *ship = Ship::From(v);
-					if (ship->state == TRACK_BIT_WORMHOLE) {
-						ship->state = DiagDirToDiagTrackBits(vdir);
 						return VETSB_ENTERED_WORMHOLE;
 					}
 					break;

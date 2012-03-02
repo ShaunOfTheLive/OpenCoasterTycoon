@@ -266,7 +266,6 @@ video/sdl_v.h
 settings_func.h
 settings_internal.h
 settings_type.h
-ship.h
 signal_func.h
 signal_type.h
 signs_base.h
@@ -451,7 +450,6 @@ order_cmd.cpp
 rail_cmd.cpp
 road_cmd.cpp
 roadveh_cmd.cpp
-ship_cmd.cpp
 signs_cmd.cpp
 station_cmd.cpp
 terraform_cmd.cpp
@@ -847,8 +845,6 @@ network/core/udp.h
 
 # Pathfinder
 pathfinder/follow_track.hpp
-pathfinder/opf/opf_ship.cpp
-pathfinder/opf/opf_ship.h
 pathfinder/pathfinder_func.h
 pathfinder/pathfinder_type.h
 pathfinder/pf_performance_timer.hpp
@@ -875,10 +871,8 @@ pathfinder/yapf/yapf_destrail.hpp
 pathfinder/yapf/yapf_node.hpp
 pathfinder/yapf/yapf_node_rail.hpp
 pathfinder/yapf/yapf_node_road.hpp
-pathfinder/yapf/yapf_node_ship.hpp
 pathfinder/yapf/yapf_rail.cpp
 pathfinder/yapf/yapf_road.cpp
-pathfinder/yapf/yapf_ship.cpp
 
 # Video
 video/dedicated_v.cpp

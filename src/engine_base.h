@@ -42,7 +42,7 @@ struct Engine : EnginePool::PoolItem<&_engine_pool> {
 	union {
 		RailVehicleInfo rail;
 		RoadVehicleInfo road;
-		ShipVehicleInfo ship;
+//		ShipVehicleInfo ship;
 		AircraftVehicleInfo air;
 	} u;
 
@@ -141,10 +141,10 @@ static inline const RoadVehicleInfo *RoadVehInfo(EngineID e)
 	return &Engine::Get(e)->u.road;
 }
 
-static inline const ShipVehicleInfo *ShipVehInfo(EngineID e)
-{
-	return &Engine::Get(e)->u.ship;
-}
+// static inline const ShipVehicleInfo *ShipVehInfo(EngineID e)
+// {
+// 	return &Engine::Get(e)->u.ship;
+// }
 
 static inline const AircraftVehicleInfo *AircraftVehInfo(EngineID e)
 {

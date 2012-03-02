@@ -48,7 +48,6 @@ Depot::~Depot()
 		default: NOT_REACHED();
 		case MP_RAILWAY: vt = VEH_TRAIN; break;
 		case MP_ROAD:    vt = VEH_ROAD;  break;
-		case MP_WATER:   vt = VEH_SHIP;  break;
 	}
 	DeleteWindowById(GetWindowClassForVehicleType(vt), VehicleListIdentifier(VL_DEPOT_LIST, vt, GetTileOwner(this->xy), this->index).Pack());
 }

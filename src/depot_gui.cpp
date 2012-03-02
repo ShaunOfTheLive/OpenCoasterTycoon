@@ -11,7 +11,6 @@
 
 #include "stdafx.h"
 #include "train.h"
-#include "ship.h"
 #include "aircraft.h"
 #include "gui.h"
 #include "textbuf_gui.h"
@@ -180,7 +179,6 @@ static void InitBlocksizeForShipAircraft(VehicleType type)
 
 		switch (type) {
 			default: NOT_REACHED();
-			case VEH_SHIP:     GetShipSpriteSize(    eid, x, y); break;
 			case VEH_AIRCRAFT: GetAircraftSpriteSize(eid, x, y); break;
 		}
 		if (x > max_width)  max_width  = x;
@@ -189,9 +187,6 @@ static void InitBlocksizeForShipAircraft(VehicleType type)
 
 	switch (type) {
 		default: NOT_REACHED();
-		case VEH_SHIP:
-			_base_block_sizes[VEH_SHIP].width = max(76U, max_width);
-			break;
 		case VEH_AIRCRAFT:
 			_base_block_sizes[VEH_AIRCRAFT].width = max(67U, max_width);
 			break;
@@ -211,7 +206,6 @@ void InitDepotWindowBlockSizes()
 	_base_block_sizes[VEH_ROAD].width = 32;
 	_base_block_sizes[VEH_ROAD].height = GetVehicleHeight(VEH_ROAD);
 
-	InitBlocksizeForShipAircraft(VEH_SHIP);
 	InitBlocksizeForShipAircraft(VEH_AIRCRAFT);
 }
 
@@ -293,7 +287,6 @@ struct DepotWindow : Window {
 			}
 
 			case VEH_ROAD:     DrawRoadVehImage( v, image_left, image_right, sprite_y, this->sel); break;
-			case VEH_SHIP:     DrawShipImage(    v, image_left, image_right, sprite_y, this->sel); break;
 			case VEH_AIRCRAFT: {
 				const Sprite *spr = GetSprite(v->GetImage(DIR_W), ST_NORMAL);
 				DrawAircraftImage(v, image_left, image_right,
@@ -446,7 +439,6 @@ struct DepotWindow : Window {
 					if (xm <= this->flag_width) return MODE_START_STOP;
 					break;
 
-				case VEH_SHIP:
 				case VEH_AIRCRAFT:
 					if (xm <= this->flag_width && ym >= (uint)(FONT_HEIGHT_NORMAL + WD_PAR_VSEP_NORMAL)) return MODE_START_STOP;
 					break;
@@ -566,9 +558,6 @@ struct DepotWindow : Window {
 				this->GetWidget<NWidgetCore>(DEPOT_WIDGET_SELL_ALL)->widget_data    = SPR_SELL_ALL_ROADVEH;
 				this->GetWidget<NWidgetCore>(DEPOT_WIDGET_AUTOREPLACE)->widget_data = SPR_REPLACE_ROADVEH;
 				break;
-
-			case VEH_SHIP:
-				this->GetWidget<NWidgetCore>(DEPOT_WIDGET_VEHICLE_LIST)->widget_data = STR_SHIP;
 
 				/* Sprites */
 				this->GetWidget<NWidgetCore>(DEPOT_WIDGET_SELL)->widget_data        = SPR_SELL_SHIP;
@@ -1011,7 +1000,6 @@ void ShowDepotWindow(TileIndex tile, VehicleType type)
 		default: NOT_REACHED();
 		case VEH_TRAIN:    desc = &_train_depot_desc;    break;
 		case VEH_ROAD:     desc = &_road_depot_desc;     break;
-		case VEH_SHIP:     desc = &_ship_depot_desc;     break;
 		case VEH_AIRCRAFT: desc = &_aircraft_depot_desc; break;
 	}
 

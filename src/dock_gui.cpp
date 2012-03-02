@@ -127,7 +127,7 @@ struct BuildDocksToolbarWindow : Window {
 	virtual void OnInvalidateData(int data = 0, bool gui_scope = true)
 	{
 		if (!gui_scope) return;
-		this->SetWidgetsDisabledState(!CanBuildVehicleInfrastructure(VEH_SHIP),
+		this->SetWidgetsDisabledState(true,
 			DTW_DEPOT,
 			DTW_STATION,
 			DTW_BUOY,
@@ -147,21 +147,6 @@ struct BuildDocksToolbarWindow : Window {
 
 			case DTW_DEMOLISH: // Demolish aka dynamite button
 				HandlePlacePushButton(this, DTW_DEMOLISH, ANIMCURSOR_DEMOLISH, HT_RECT | HT_DIAGONAL);
-				break;
-
-			case DTW_DEPOT: // Build depot button
-				if (!CanBuildVehicleInfrastructure(VEH_SHIP)) return;
-				if (HandlePlacePushButton(this, DTW_DEPOT, SPR_CURSOR_SHIP_DEPOT, HT_RECT)) ShowBuildDocksDepotPicker(this);
-				break;
-
-			case DTW_STATION: // Build station button
-				if (!CanBuildVehicleInfrastructure(VEH_SHIP)) return;
-				if (HandlePlacePushButton(this, DTW_STATION, SPR_CURSOR_DOCK, HT_SPECIAL)) ShowBuildDockStationPicker(this);
-				break;
-
-			case DTW_BUOY: // Build buoy button
-				if (!CanBuildVehicleInfrastructure(VEH_SHIP)) return;
-				HandlePlacePushButton(this, DTW_BUOY, SPR_CURSOR_BUOY, HT_RECT);
 				break;
 
 			case DTW_RIVER: // Build river button (in scenario editor)

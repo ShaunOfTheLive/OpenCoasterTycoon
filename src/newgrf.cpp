@@ -952,135 +952,6 @@ static ChangeInfoResult RoadVehicleChangeInfo(uint engine, int numinfo, int prop
 	return ret;
 }
 
-static ChangeInfoResult ShipVehicleChangeInfo(uint engine, int numinfo, int prop, ByteReader *buf)
-{
-	ChangeInfoResult ret = CIR_SUCCESS;
-
-	for (int i = 0; i < numinfo; i++) {
-		Engine *e = GetNewEngine(_cur_grffile, VEH_SHIP, engine + i);
-		if (e == NULL) return CIR_INVALID_ID; // No engine could be allocated, so neither can any next vehicles
-
-		EngineInfo *ei = &e->info;
-		ShipVehicleInfo *svi = &e->u.ship;
-
-		switch (prop) {
-			case 0x08: { // Sprite ID
-				uint8 spriteid = buf->ReadByte();
-
-				/* ships have different custom id in the GRF file */
-				if (spriteid == 0xFF) spriteid = 0xFD;
-
-				if (spriteid < 0xFD) spriteid >>= 1;
-
-				svi->image_index = spriteid;
-				break;
-			}
-
-			case 0x09: // Refittable
-				svi->old_refittable = (buf->ReadByte() != 0);
-				break;
-
-			case PROP_SHIP_COST_FACTOR: // 0x0A Cost factor
-				svi->cost_factor = buf->ReadByte();
-				break;
-
-			case PROP_SHIP_SPEED: // 0x0B Speed (1 unit is 0.5 km-ish/h)
-				svi->max_speed = buf->ReadByte();
-				break;
-
-			case 0x0C: { // Cargo type
-				uint8 cargo = buf->ReadByte();
-
-				if (cargo < NUM_CARGO && HasBit(_cargo_mask, cargo)) {
-					ei->cargo_type = cargo;
-				} else if (cargo == 0xFF) {
-					ei->cargo_type = CT_INVALID;
-				} else {
-					ei->cargo_type = CT_INVALID;
-					grfmsg(2, "ShipVehicleChangeInfo: Invalid cargo type %d, using first refittable", cargo);
-				}
-				break;
-			}
-
-			case PROP_SHIP_CARGO_CAPACITY: // 0x0D Cargo capacity
-				svi->capacity = buf->ReadWord();
-				break;
-
-			case PROP_SHIP_RUNNING_COST_FACTOR: // 0x0F Running cost factor
-				svi->running_cost = buf->ReadByte();
-				break;
-
-			case 0x10: // SFX
-				svi->sfx = buf->ReadByte();
-				break;
-
-			case 0x11: // Cargos available for refitting
-				ei->refit_mask = buf->ReadDWord();
-				_gted[e->index].refitmask_valid = true;
-				_gted[e->index].refitmask_grf = _cur_grffile;
-				break;
-
-			case 0x12: // Callback mask
-				ei->callback_mask = buf->ReadByte();
-				break;
-
-			case 0x13: // Refit cost
-				ei->refit_cost = buf->ReadByte();
-				break;
-
-			case 0x14: // Ocean speed fraction
-			case 0x15: // Canal speed fraction
-				/** @todo Speed fractions for ships on oceans and canals */
-				buf->ReadByte();
-				ret = CIR_UNHANDLED;
-				break;
-
-			case 0x16: // Retire vehicle early
-				ei->retire_early = buf->ReadByte();
-				break;
-
-			case 0x17: // Miscellaneous flags
-				ei->misc_flags = buf->ReadByte();
-				_loaded_newgrf_features.has_2CC |= HasBit(ei->misc_flags, EF_USES_2CC);
-				break;
-
-			case 0x18: // Cargo classes allowed
-				_gted[e->index].cargo_allowed = buf->ReadWord();
-				_gted[e->index].refitmask_valid = true;
-				break;
-
-			case 0x19: // Cargo classes disallowed
-				_gted[e->index].cargo_disallowed = buf->ReadWord();
-				_gted[e->index].refitmask_valid = true;
-				break;
-
-			case 0x1A: // Long format introduction date (days since year 0)
-				ei->base_intro = buf->ReadDWord();
-				break;
-
-			case 0x1B: // Alter purchase list sort order
-				AlterVehicleListOrder(e->index, buf->ReadExtendedByte());
-				break;
-
-			case 0x1C: // Visual effect
-				svi->visual_effect = buf->ReadByte();
-				/* Avoid accidentally setting visual_effect to the default value
-				 * Since bit 6 (disable effects) is set anyways, we can safely erase some bits. */
-				if (svi->visual_effect == VE_DEFAULT) {
-					assert(HasBit(svi->visual_effect, VE_DISABLE_EFFECT));
-					SB(svi->visual_effect, VE_TYPE_START, VE_TYPE_COUNT, 0);
-				}
-				break;
-
-			default:
-				ret = CommonVehicleChangeInfo(ei, prop, buf);
-				break;
-		}
-	}
-
-	return ret;
-}
-
 static ChangeInfoResult AircraftVehicleChangeInfo(uint engine, int numinfo, int prop, ByteReader *buf)
 {
 	ChangeInfoResult ret = CIR_SUCCESS;
@@ -3540,7 +3411,6 @@ static void FeatureChangeInfo(ByteReader *buf)
 	static const VCI_Handler handler[] = {
 		/* GSF_TRAINS */        RailVehicleChangeInfo,
 		/* GSF_ROADVEHICLES */  RoadVehicleChangeInfo,
-		/* GSF_SHIPS */         ShipVehicleChangeInfo,
 		/* GSF_AIRCRAFT */      AircraftVehicleChangeInfo,
 		/* GSF_STATIONS */      StationChangeInfo,
 		/* GSF_CANALS */        CanalChangeInfo,
@@ -7510,9 +7380,6 @@ static void CalculateRefitMasks()
 		 * cargo type. Finally disable the vehicle, if there is still no cargo. */
 		if (ei->cargo_type == CT_INVALID && ei->refit_mask != 0) ei->cargo_type = (CargoID)FindFirstBit(ei->refit_mask);
 		if (ei->cargo_type == CT_INVALID) ei->climates = 0x80;
-
-		/* Clear refit_mask for not refittable ships */
-		if (e->type == VEH_SHIP && !e->u.ship.old_refittable) ei->refit_mask = 0;
 	}
 }
 

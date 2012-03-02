@@ -177,7 +177,6 @@ public:
 			default: NOT_REACHED();
 			case VEH_TRAIN:    this->sorting = &_sorting.train;    break;
 			case VEH_ROAD:     this->sorting = &_sorting.roadveh;  break;
-			case VEH_SHIP:     this->sorting = &_sorting.ship;     break;
 			case VEH_AIRCRAFT: this->sorting = &_sorting.aircraft; break;
 		}
 

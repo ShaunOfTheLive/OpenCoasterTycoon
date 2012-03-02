@@ -57,7 +57,6 @@
 #include "ini_type.h"
 #include "ai/ai_config.hpp"
 #include "ai/ai.hpp"
-#include "ship.h"
 #include "smallmap_gui.h"
 #include "roadveh.h"
 #include "fios.h"
@@ -1068,14 +1067,6 @@ static bool CheckFreeformEdges(int32 p1)
 {
 	if (_game_mode == GM_MENU) return true;
 	if (p1 != 0) {
-		Ship *s;
-		FOR_ALL_SHIPS(s) {
-			/* Check if there is a ship on the northern border. */
-			if (TileX(s->tile) == 0 || TileY(s->tile) == 0) {
-				ShowErrorMessage(STR_CONFIG_SETTING_EDGES_NOT_EMPTY, INVALID_STRING_ID, WL_ERROR);
-				return false;
-			}
-		}
 		BaseStation *st;
 		FOR_ALL_BASE_STATIONS(st) {
 			/* Check if there is a buoy on the northern border. */

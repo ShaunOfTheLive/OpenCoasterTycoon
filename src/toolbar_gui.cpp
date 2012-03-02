@@ -83,7 +83,6 @@ enum ToolbarNormalWidgets {
 	TBN_VEHICLESTART,      ///< trains, actually.  So following are trucks, boats and planes
 	TBN_TRAINS        = TBN_VEHICLESTART,
 	TBN_ROADVEHS,
-	TBN_SHIPS,
 	TBN_AIRCRAFTS,
 	TBN_ZOOMIN,
 	TBN_ZOOMOUT,
@@ -636,20 +635,6 @@ static CallBackFunction MenuClickShowRoad(int index)
 	return CBF_NONE;
 }
 
-/* --- Ship button menu --- */
-
-static CallBackFunction ToolbarShipClick(Window *w)
-{
-	ToolbarVehicleClick(w, VEH_SHIP);
-	return CBF_NONE;
-}
-
-static CallBackFunction MenuClickShowShips(int index)
-{
-	ShowVehicleListWindow((CompanyID)index, VEH_SHIP);
-	return CBF_NONE;
-}
-
 /* --- Aircraft button menu --- */
 
 static CallBackFunction ToolbarAirClick(Window *w)
@@ -1004,6 +989,7 @@ static CallBackFunction ToolbarBtn_NULL(Window *w)
 
 typedef CallBackFunction MenuClickedProc(int index);
 
+// this MUST match the toolbar buttons. if you remove a button, also remove its menu entry.
 static MenuClickedProc * const _menu_clicked_procs[] = {
 	NULL,                 // 0
 	NULL,                 // 1
@@ -1020,18 +1006,17 @@ static MenuClickedProc * const _menu_clicked_procs[] = {
 	MenuClickIndustry,    // 12
 	MenuClickShowTrains,  // 13
 	MenuClickShowRoad,    // 14
-	MenuClickShowShips,   // 15
-	MenuClickShowAir,     // 16
-	MenuClickMap,         // 17
-	NULL,                 // 18
-	MenuClickBuildRail,   // 19
-	MenuClickBuildRoad,   // 20
-	MenuClickBuildWater,  // 21
-	MenuClickBuildAir,    // 22
-	MenuClickForest,      // 23
-	MenuClickMusicWindow, // 24
-	MenuClickNewspaper,   // 25
-	MenuClickHelp,        // 26
+	MenuClickShowAir,     // 15
+	MenuClickMap,         // 16
+	NULL,                 // 17
+	MenuClickBuildRail,   // 18
+	MenuClickBuildRoad,   // 19
+	MenuClickBuildWater,  // 20
+	MenuClickBuildAir,    // 21
+	MenuClickForest,      // 22
+	MenuClickMusicWindow, // 23
+	MenuClickNewspaper,   // 24
+	MenuClickHelp,        // 25
 };
 
 int16 *_preferred_toolbar_size = NULL; ///< Pointer to the default size for the main toolbar.
@@ -1200,31 +1185,31 @@ class NWidgetMainToolbarContainer : public NWidgetToolbarContainer {
 		static const uint SMALLEST_ARRANGEMENT = 14;
 		static const uint BIGGEST_ARRANGEMENT  = 19;
 		static const byte arrange14[] = {
-			0,  1, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 27,
-			2,  3,  4,  5,  6,  7,  8,  9, 10, 12, 24, 25, 26, 27,
+			0,  1, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 
+			2,  3,  4,  5,  6,  7,  8,  9, 10, 12, 24, 25, 26, 
 		};
 		static const byte arrange15[] = {
-			0,  1,  4, 13, 14, 15, 16, 19, 20, 21, 22, 23, 17, 18, 27,
-			0,  2,  4,  3,  5,  6,  7,  8,  9, 10, 12, 24, 25, 26, 27,
+			0,  1,  4, 13, 14, 15, 16, 19, 20, 21, 22, 23, 17, 18, 
+			0,  2,  4,  3,  5,  6,  7,  8,  9, 10, 12, 24, 25, 26, 
 		};
 		static const byte arrange16[] = {
-			0,  1,  2,  4, 13, 14, 15, 16, 19, 20, 21, 22, 23, 17, 18, 27,
-			0,  1,  3,  5,  6,  7,  8,  9, 10, 12, 24, 25, 26, 17, 18, 27,
+			0,  1,  2,  4, 13, 14, 15, 16, 19, 20, 21, 22, 23, 17, 18, 
+			0,  1,  3,  5,  6,  7,  8,  9, 10, 12, 24, 25, 26, 17, 18, 
 		};
 		static const byte arrange17[] = {
-			0,  1,  2,  4,  6, 13, 14, 15, 16, 19, 20, 21, 22, 23, 17, 18, 27,
-			0,  1,  3,  4,  6,  5,  7,  8,  9, 10, 12, 24, 25, 26, 17, 18, 27,
+			0,  1,  2,  4,  6, 13, 14, 15, 16, 19, 20, 21, 22, 23, 17, 18, 
+			0,  1,  3,  4,  6,  5,  7,  8,  9, 10, 12, 24, 25, 26, 17, 18, 
 		};
 		static const byte arrange18[] = {
-			0,  1,  2,  4,  5,  6,  7,  8,  9, 12, 19, 20, 21, 22, 23, 17, 18, 27,
-			0,  1,  3,  4,  5,  6,  7, 10, 13, 14, 15, 16, 24, 25, 26, 17, 18, 27,
+			0,  1,  2,  4,  5,  6,  7,  8,  9, 12, 19, 20, 21, 22, 23, 17, 18, 
+			0,  1,  3,  4,  5,  6,  7, 10, 13, 14, 15, 16, 24, 25, 26, 17, 18, 
 		};
 		static const byte arrange19[] = {
-			0,  1,  2,  4,  5,  6, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 17, 18, 27,
-			0,  1,  3,  4,  7,  8,  9, 10, 12, 25, 19, 20, 21, 22, 23, 26, 17, 18, 27,
+			0,  1,  2,  4,  5,  6, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 17, 18, 
+			0,  1,  3,  4,  7,  8,  9, 10, 12, 25, 19, 20, 21, 22, 23, 26, 17, 18, 
 		};
 		static const byte arrange_all[] = {
-			0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26,
+			0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25,
 		};
 
 		/* If at least BIGGEST_ARRANGEMENT fit, just spread all the buttons nicely */
@@ -1309,6 +1294,7 @@ class NWidgetScenarioToolbarContainer : public NWidgetToolbarContainer {
 
 typedef CallBackFunction ToolbarButtonProc(Window *w);
 
+// this MUST match the toolbar buttons. if you remove a button, also remove its click entry.
 static ToolbarButtonProc * const _toolbar_button_procs[] = {
 	ToolbarPauseClick,
 	ToolbarFastForwardClick,
@@ -1325,7 +1311,6 @@ static ToolbarButtonProc * const _toolbar_button_procs[] = {
 	ToolbarIndustryClick,
 	ToolbarTrainClick,
 	ToolbarRoadClick,
-	ToolbarShipClick,
 	ToolbarAirClick,
 	ToolbarZoomInClick,
 	ToolbarZoomOutClick,
@@ -1357,7 +1342,6 @@ enum MainToolbarHotkeys {
 	MTHK_INDUSTRIES,
 	MTHK_TRAIN_LIST,
 	MTHK_ROADVEH_LIST,
-	MTHK_SHIP_LIST,
 	MTHK_AIRCRAFT_LIST,
 	MTHK_ZOOM_IN,
 	MTHK_ZOOM_OUT,
@@ -1401,7 +1385,7 @@ struct MainToolbarWindow : Window {
 		 * Since enabled state is the default, just disable when needed */
 		this->SetWidgetsDisabledState(_local_company == COMPANY_SPECTATOR, TBN_RAILS, TBN_ROADS, TBN_WATER, TBN_AIR, TBN_LANDSCAPE, WIDGET_LIST_END);
 		/* disable company list drop downs, if there are no companies */
-		this->SetWidgetsDisabledState(Company::GetNumItems() == 0, TBN_STATIONS, TBN_FINANCES, TBN_TRAINS, TBN_ROADVEHS, TBN_SHIPS, TBN_AIRCRAFTS, WIDGET_LIST_END);
+		this->SetWidgetsDisabledState(Company::GetNumItems() == 0, TBN_STATIONS, TBN_FINANCES, TBN_TRAINS, TBN_ROADVEHS, TBN_AIRCRAFTS, WIDGET_LIST_END);
 
 		this->SetWidgetDisabledState(TBN_RAILS, !CanBuildVehicleInfrastructure(VEH_TRAIN));
 		this->SetWidgetDisabledState(TBN_AIR, !CanBuildVehicleInfrastructure(VEH_AIRCRAFT));
@@ -1439,7 +1423,6 @@ struct MainToolbarWindow : Window {
 			case MTHK_INDUSTRIES: ShowBuildIndustryWindow(); break;
 			case MTHK_TRAIN_LIST: ShowVehicleListWindow(_local_company, VEH_TRAIN); break;
 			case MTHK_ROADVEH_LIST: ShowVehicleListWindow(_local_company, VEH_ROAD); break;
-			case MTHK_SHIP_LIST: ShowVehicleListWindow(_local_company, VEH_SHIP); break;
 			case MTHK_AIRCRAFT_LIST: ShowVehicleListWindow(_local_company, VEH_AIRCRAFT); break;
 			case MTHK_ZOOM_IN: ToolbarZoomInClick(this); break;
 			case MTHK_ZOOM_OUT: ToolbarZoomOutClick(this); break;
@@ -1541,7 +1524,6 @@ Hotkey<MainToolbarWindow> MainToolbarWindow::maintoolbar_hotkeys[] = {
 	Hotkey<MainToolbarWindow>(WKC_F12, "industry_list", MTHK_INDUSTRIES),
 	Hotkey<MainToolbarWindow>(WKC_SHIFT | WKC_F1, "train_list", MTHK_TRAIN_LIST),
 	Hotkey<MainToolbarWindow>(WKC_SHIFT | WKC_F2, "roadveh_list", MTHK_ROADVEH_LIST),
-	Hotkey<MainToolbarWindow>(WKC_SHIFT | WKC_F3, "ship_list", MTHK_SHIP_LIST),
 	Hotkey<MainToolbarWindow>(WKC_SHIFT | WKC_F4, "aircraft_list", MTHK_AIRCRAFT_LIST),
 	Hotkey<MainToolbarWindow>(_maintoolbar_zoomin_keys, "zoomin", MTHK_ZOOM_IN),
 	Hotkey<MainToolbarWindow>(_maintoolbar_zoomout_keys, "zoomout", MTHK_ZOOM_OUT),
@@ -1585,7 +1567,6 @@ static NWidgetBase *MakeMainToolbar(int *biggest_index)
 		SPR_IMG_INDUSTRY,        // TBN_INDUSTRIES
 		SPR_IMG_TRAINLIST,       // TBN_TRAINS
 		SPR_IMG_TRUCKLIST,       // TBN_ROADVEHS
-		SPR_IMG_SHIPLIST,        // TBN_SHIPS
 		SPR_IMG_AIRPLANESLIST,   // TBN_AIRCRAFTS
 		SPR_IMG_ZOOMIN,          // TBN_ZOOMIN
 		SPR_IMG_ZOOMOUT,         // TBN_ZOOMOUT
@@ -1603,7 +1584,7 @@ static NWidgetBase *MakeMainToolbar(int *biggest_index)
 	NWidgetMainToolbarContainer *hor = new NWidgetMainToolbarContainer();
 	for (uint i = 0; i < TBN_END; i++) {
 		switch (i) {
-			case 4: case 8: case 13: case 17: case 19: case 24: hor->Add(new NWidgetSpacer(0, 0)); break;
+			case 4: case 8: case 13: case 16: case 18: case 23: hor->Add(new NWidgetSpacer(0, 0)); break;
 		}
 		hor->Add(new NWidgetLeaf(i == TBN_SAVEGAME ? WWT_IMGBTN_2 : WWT_IMGBTN, COLOUR_GREY, i, toolbar_button_sprites[i], STR_TOOLBAR_TOOLTIP_PAUSE_GAME + i));
 	}

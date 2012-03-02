@@ -620,7 +620,6 @@ bool MayCompanyTakeOver(CompanyID cbig, CompanyID csmall)
 	/* Do the combined vehicle counts stay within the limits? */
 	return big_counts[VEH_TRAIN]     + small_counts[VEH_TRAIN]    <= _settings_game.vehicle.max_trains &&
 		big_counts[VEH_ROAD]     + small_counts[VEH_ROAD]     <= _settings_game.vehicle.max_roadveh &&
-		big_counts[VEH_SHIP]     + small_counts[VEH_SHIP]     <= _settings_game.vehicle.max_ships &&
 		big_counts[VEH_AIRCRAFT] + small_counts[VEH_AIRCRAFT] <= _settings_game.vehicle.max_aircraft;
 }
 

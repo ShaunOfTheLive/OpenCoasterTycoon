@@ -68,7 +68,6 @@ int32 AIEventEnginePreview::GetCapacity()
 			return -1;
 		}
 
-		case VEH_SHIP:
 		case VEH_AIRCRAFT:
 			return e->GetDisplayDefaultCapacity();
 
@@ -103,7 +102,6 @@ int32 AIEventEnginePreview::GetVehicleType()
 	switch (::Engine::Get(this->engine)->type) {
 		case VEH_ROAD:     return AIVehicle::VT_ROAD;
 		case VEH_TRAIN:    return AIVehicle::VT_RAIL;
-		case VEH_SHIP:     return AIVehicle::VT_WATER;
 		case VEH_AIRCRAFT: return AIVehicle::VT_AIR;
 		default: NOT_REACHED();
 	}

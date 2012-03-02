@@ -1186,7 +1186,6 @@ static char *FormatString(char *buff, const char *str_arg, int64 *argv, const in
 						default: NOT_REACHED();
 						case VEH_TRAIN:    str = STR_SV_TRAIN_NAME; break;
 						case VEH_ROAD:     str = STR_SV_ROAD_VEHICLE_NAME; break;
-						case VEH_SHIP:     str = STR_SV_SHIP_NAME; break;
 						case VEH_AIRCRAFT: str = STR_SV_AIRCRAFT_NAME; break;
 					}
 

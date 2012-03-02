@@ -71,12 +71,6 @@ AIVehicleList_Depot::AIVehicleList_Depot(TileIndex tile)
 			dest = GetDepotIndex(tile);
 			break;
 
-		case MP_WATER:
-			if (!IsShipDepot(tile)) return;
-			type = VEH_SHIP;
-			dest = GetDepotIndex(tile);
-			break;
-
 		default: // No depot
 			return;
 	}

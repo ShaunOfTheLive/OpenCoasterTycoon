@@ -87,7 +87,6 @@ static inline WindowClass GetWindowClassForVehicleType(VehicleType vt)
 		default: NOT_REACHED();
 		case VEH_TRAIN:    return WC_TRAINS_LIST;
 		case VEH_ROAD:     return WC_ROADVEH_LIST;
-		case VEH_SHIP:     return WC_SHIPS_LIST;
 		case VEH_AIRCRAFT: return WC_AIRCRAFT_LIST;
 	}
 }

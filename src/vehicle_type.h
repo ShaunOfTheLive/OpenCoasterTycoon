@@ -20,7 +20,6 @@ typedef uint32 VehicleID;
 enum VehicleType {
 	VEH_TRAIN,          ///< %Train vehicle type.
 	VEH_ROAD,           ///< Road vehicle type.
-	VEH_SHIP,           ///< %Ship vehicle type.
 	VEH_AIRCRAFT,       ///< %Aircraft vehicle type.
 	VEH_EFFECT,         ///< Effect vehicle type (smoke, explosions, sparks, bubbles)
 	VEH_DISASTER,       ///< Disaster vehicle type.
@@ -35,7 +34,6 @@ typedef SimpleTinyEnumT<VehicleType, byte> VehicleTypeByte;
 struct Vehicle;
 struct Train;
 struct RoadVehicle;
-struct Ship;
 struct Aircraft;
 struct EffectVehicle;
 struct DisasterVehicle;

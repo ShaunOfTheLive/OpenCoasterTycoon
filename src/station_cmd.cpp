@@ -3016,7 +3016,6 @@ static void UpdateStationRating(Station *st)
 				if (b >= 0) rating += b >> 2;
 
 				byte days = ge->days_since_pickup;
-				if (st->last_vehicle_type == VEH_SHIP) days >>= 2;
 				(days > 21) ||
 				(rating += 25, days > 12) ||
 				(rating += 25, days > 6) ||

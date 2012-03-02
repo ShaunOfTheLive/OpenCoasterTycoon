@@ -355,15 +355,6 @@ static Order GetOrderCmdFromTile(const Vehicle *v, TileIndex tile)
 			}
 			break;
 
-		case MP_WATER:
-			if (v->type != VEH_SHIP) break;
-			if (IsShipDepot(tile) && IsTileOwner(tile, _local_company)) {
-				order.MakeGoToDepot(GetDepotIndex(tile), ODTFB_PART_OF_ORDERS, ONSF_STOP_EVERYWHERE);
-				if (_ctrl_pressed) order.SetDepotOrderType((OrderDepotTypeFlags)(order.GetDepotOrderType() ^ ODTFB_SERVICE));
-				return order;
-			}
-			break;
-
 		default:
 			break;
 	}
@@ -377,10 +368,10 @@ static Order GetOrderCmdFromTile(const Vehicle *v, TileIndex tile)
 		return order;
 	}
 
-	if ((IsBuoyTile(tile) && v->type == VEH_SHIP) || (IsRailWaypointTile(tile) && v->type == VEH_TRAIN)) {
-		order.MakeGoToWaypoint(GetStationIndex(tile));
-		return order;
-	}
+ 	if (IsRailWaypointTile(tile) && v->type == VEH_TRAIN) {
+ 		order.MakeGoToWaypoint(GetStationIndex(tile));
+ 		return order;
+ 	}
 
 	if (IsTileType(tile, MP_STATION)) {
 		StationID st_index = GetStationIndex(tile);
@@ -388,7 +379,6 @@ static Order GetOrderCmdFromTile(const Vehicle *v, TileIndex tile)
 
 		if (st->owner == _local_company || st->owner == OWNER_NONE) {
 			byte facil;
-			(facil = FACIL_DOCK, v->type == VEH_SHIP) ||
 			(facil = FACIL_TRAIN, v->type == VEH_TRAIN) ||
 			(facil = FACIL_AIRPORT, v->type == VEH_AIRCRAFT) ||
 			(facil = FACIL_BUS_STOP, v->type == VEH_ROAD && RoadVehicle::From(v)->IsBus()) ||

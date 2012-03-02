@@ -215,7 +215,6 @@ static void CheckValidVehicles()
 	Engine *e;
 	FOR_ALL_ENGINES_OF_TYPE(e, VEH_TRAIN) { first_engine[VEH_TRAIN] = e->index; break; }
 	FOR_ALL_ENGINES_OF_TYPE(e, VEH_ROAD) { first_engine[VEH_ROAD] = e->index; break; }
-	FOR_ALL_ENGINES_OF_TYPE(e, VEH_SHIP) { first_engine[VEH_SHIP] = e->index; break; }
 	FOR_ALL_ENGINES_OF_TYPE(e, VEH_AIRCRAFT) { first_engine[VEH_AIRCRAFT] = e->index; break; }
 
 	Vehicle *v;
@@ -224,7 +223,6 @@ static void CheckValidVehicles()
 		switch (v->type) {
 			case VEH_TRAIN:
 			case VEH_ROAD:
-			case VEH_SHIP:
 			case VEH_AIRCRAFT:
 				if (v->engine_type >= total_engines || v->type != Engine::Get(v->engine_type)->type) {
 					v->engine_type = first_engine[v->type];
@@ -369,10 +367,6 @@ void AfterLoadVehicles(bool part_of_load)
 				break;
 			}
 
-			case VEH_SHIP:
-				Ship::From(v)->UpdateCache();
-				break;
-
 			default: break;
 		}
 	}
@@ -407,7 +401,6 @@ void AfterLoadVehicles(bool part_of_load)
 			}
 
 			case VEH_TRAIN:
-			case VEH_SHIP:
 				v->cur_image = v->GetImage(v->direction);
 				break;
 
@@ -620,16 +613,6 @@ const SaveLoad *GetVehicleDescription(VehicleType vt)
 		     SLE_END()
 	};
 
-	static const SaveLoad _ship_desc[] = {
-		SLE_WRITEBYTE(Vehicle, type, VEH_SHIP),
-		SLE_VEH_INCLUDE(),
-		     SLE_VAR(Ship, state, SLE_UINT8),
-
-		SLE_CONDNULL(16, 2, 143), // old reserved space
-
-		     SLE_END()
-	};
-
 	static const SaveLoad _aircraft_desc[] = {
 		SLE_WRITEBYTE(Vehicle, type, VEH_AIRCRAFT),
 		SLE_VEH_INCLUDE(),
@@ -722,7 +705,6 @@ const SaveLoad *GetVehicleDescription(VehicleType vt)
 	static const SaveLoad * const _veh_descs[] = {
 		_train_desc,
 		_roadveh_desc,
-		_ship_desc,
 		_aircraft_desc,
 		_special_desc,
 		_disaster_desc,
@@ -757,7 +739,6 @@ void Load_VEHS()
 		switch (vtype) {
 			case VEH_TRAIN:    v = new (index) Train();           break;
 			case VEH_ROAD:     v = new (index) RoadVehicle();     break;
-			case VEH_SHIP:     v = new (index) Ship();            break;
 			case VEH_AIRCRAFT: v = new (index) Aircraft();        break;
 			case VEH_EFFECT:   v = new (index) EffectVehicle();   break;
 			case VEH_DISASTER: v = new (index) DisasterVehicle(); break;

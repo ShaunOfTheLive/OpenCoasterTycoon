@@ -36,7 +36,6 @@ StringID GetEngineCategoryName(EngineID engine)
 		default: NOT_REACHED();
 		case VEH_ROAD:              return STR_ENGINE_PREVIEW_ROAD_VEHICLE;
 		case VEH_AIRCRAFT:          return STR_ENGINE_PREVIEW_AIRCRAFT;
-		case VEH_SHIP:              return STR_ENGINE_PREVIEW_SHIP;
 		case VEH_TRAIN:
 			return GetRailTypeInfo(e->u.rail.railtype)->strings.new_loco;
 	}
@@ -244,9 +243,6 @@ StringID GetEngineInfoString(EngineID engine)
 		case VEH_ROAD:
 			return GetRoadVehEngineInfoString(e);
 
-		case VEH_SHIP:
-			return GetShipEngineInfoString(e);
-
 		case VEH_AIRCRAFT:
 			return GetAircraftEngineInfoString(e);
 
@@ -274,10 +270,6 @@ void DrawVehicleEngine(int left, int right, int preferred_x, int y, EngineID eng
 
 		case VEH_ROAD:
 			DrawRoadVehEngine(left, right, preferred_x, y, engine, pal);
-			break;
-
-		case VEH_SHIP:
-			DrawShipEngine(left, right, preferred_x, y, engine, pal);
 			break;
 
 		case VEH_AIRCRAFT:

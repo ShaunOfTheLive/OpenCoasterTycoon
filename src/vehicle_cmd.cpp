@@ -89,7 +89,6 @@ CommandCost CmdBuildVehicle(TileIndex tile, DoCommandFlag flags, uint32 p1, uint
 	switch (GetTileType(tile)) {
 		case MP_RAILWAY: type = VEH_TRAIN;    break;
 		case MP_ROAD:    type = VEH_ROAD;     break;
-		case MP_WATER:   type = VEH_SHIP;     break;
 		case MP_STATION: type = VEH_AIRCRAFT; break;
 		default: NOT_REACHED(); // Safe due to IsDepotTile()
 	}
@@ -109,7 +108,6 @@ CommandCost CmdBuildVehicle(TileIndex tile, DoCommandFlag flags, uint32 p1, uint
 	switch (type) {
 		case VEH_TRAIN:    num_vehicles = (e->u.rail.railveh_type == RAILVEH_MULTIHEAD ? 2 : 1) + CountArticulatedParts(eid, false); break;
 		case VEH_ROAD:     num_vehicles = 1 + CountArticulatedParts(eid, false); break;
-		case VEH_SHIP:     num_vehicles = 1; break;
 		case VEH_AIRCRAFT: num_vehicles = e->u.air.subtype & AIR_CTOL ? 2 : 3; break;
 		default: NOT_REACHED(); // Safe due to IsDepotTile()
 	}
@@ -125,7 +123,6 @@ CommandCost CmdBuildVehicle(TileIndex tile, DoCommandFlag flags, uint32 p1, uint
 	switch (type) {
 		case VEH_TRAIN:    value.AddCost(CmdBuildRailVehicle(tile, flags, e, GB(p1, 16, 16), &v)); break;
 		case VEH_ROAD:     value.AddCost(CmdBuildRoadVehicle(tile, flags, e, GB(p1, 16, 16), &v)); break;
-		case VEH_SHIP:     value.AddCost(CmdBuildShip       (tile, flags, e, GB(p1, 16, 16), &v)); break;
 		case VEH_AIRCRAFT: value.AddCost(CmdBuildAircraft   (tile, flags, e, GB(p1, 16, 16), &v)); break;
 		default: NOT_REACHED(); // Safe due to IsDepotTile()
 	}
@@ -213,11 +210,6 @@ static CommandCost GetRefitCost(EngineID engine_type)
 	Price base_price;
 	uint cost_factor = e->info.refit_cost;
 	switch (e->type) {
-		case VEH_SHIP:
-			base_price = PR_BUILD_VEHICLE_SHIP;
-			expense_type = EXPENSES_SHIP_RUN;
-			break;
-
 		case VEH_ROAD:
 			base_price = PR_BUILD_VEHICLE_ROAD;
 			expense_type = EXPENSES_ROADVEH_RUN;
@@ -346,7 +338,7 @@ CommandCost CmdRefitVehicle(TileIndex tile, DoCommandFlag flags, uint32 p1, uint
 	if (ret.Failed()) return ret;
 
 	/* Don't allow shadows and such to be refitted. */
-	if (v != front && (v->type == VEH_SHIP || v->type == VEH_AIRCRAFT)) return CMD_ERROR;
+	if (v != front && (v->type == VEH_AIRCRAFT)) return CMD_ERROR;
 	if (!front->IsStoppedInDepot()) return_cmd_error(STR_ERROR_TRAIN_MUST_BE_STOPPED_INSIDE_DEPOT + front->type);
 	if (front->vehstatus & VS_CRASHED) return_cmd_error(STR_ERROR_VEHICLE_IS_DESTROYED);
 
@@ -356,7 +348,7 @@ CommandCost CmdRefitVehicle(TileIndex tile, DoCommandFlag flags, uint32 p1, uint
 	if (new_cid >= NUM_CARGO) return CMD_ERROR;
 
 	/* For ships and aircrafts there is always only one. */
-	bool only_this = HasBit(p2, 7) || front->type == VEH_SHIP || front->type == VEH_AIRCRAFT;
+	bool only_this = HasBit(p2, 7) || front->type == VEH_AIRCRAFT;
 	uint8 num_vehicles = GB(p2, 16, 8);
 
 	CommandCost cost = RefitVehicle(v, only_this, num_vehicles, new_cid, new_subtype, flags);
@@ -372,7 +364,6 @@ CommandCost CmdRefitVehicle(TileIndex tile, DoCommandFlag flags, uint32 p1, uint
 				if (_settings_game.vehicle.roadveh_acceleration_model != AM_ORIGINAL) RoadVehicle::From(front)->CargoChanged();
 				break;
 
-			case VEH_SHIP:
 			case VEH_AIRCRAFT:
 				v->InvalidateNewGRFCacheOfChain();
 				v->colourmap = PAL_NONE; // invalidate vehicle colour map
@@ -419,7 +410,6 @@ CommandCost CmdStartStopVehicle(TileIndex tile, DoCommandFlag flags, uint32 p1, 
 			if ((v->vehstatus & VS_STOPPED) && Train::From(v)->gcache.cached_power == 0) return_cmd_error(STR_ERROR_TRAIN_START_NO_CATENARY);
 			break;
 
-		case VEH_SHIP:
 		case VEH_ROAD:
 			break;
 

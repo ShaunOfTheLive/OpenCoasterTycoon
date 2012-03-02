@@ -660,32 +660,6 @@ static int DrawRoadVehPurchaseInfo(int left, int right, int y, EngineID engine_n
 	return y;
 }
 
-/* Draw ship specific details */
-static int DrawShipPurchaseInfo(int left, int right, int y, EngineID engine_number, bool refittable)
-{
-	const Engine *e = Engine::Get(engine_number);
-
-	/* Purchase cost - Max speed */
-	SetDParam(0, e->GetCost());
-	SetDParam(1, e->GetDisplayMaxSpeed());
-	DrawString(left, right, y, STR_PURCHASE_INFO_COST_SPEED);
-	y += FONT_HEIGHT_NORMAL;
-
-	/* Cargo type + capacity */
-	SetDParam(0, e->GetDefaultCargoType());
-	SetDParam(1, e->GetDisplayDefaultCapacity());
-	SetDParam(2, refittable ? STR_PURCHASE_INFO_REFITTABLE : STR_EMPTY);
-	DrawString(left, right, y, STR_PURCHASE_INFO_CAPACITY);
-	y += FONT_HEIGHT_NORMAL;
-
-	/* Running cost */
-	SetDParam(0, e->GetRunningCost());
-	DrawString(left, right, y, STR_PURCHASE_INFO_RUNNINGCOST);
-	y += FONT_HEIGHT_NORMAL;
-
-	return y;
-}
-
 /* Draw aircraft specific details */
 static int DrawAircraftPurchaseInfo(int left, int right, int y, EngineID engine_number, bool refittable)
 {
@@ -774,10 +748,6 @@ int DrawVehiclePurchaseInfo(int left, int right, int y, EngineID engine_number)
 		case VEH_ROAD:
 			y = DrawRoadVehPurchaseInfo(left, right, y, engine_number);
 			articulated_cargo = true;
-			break;
-
-		case VEH_SHIP:
-			y = DrawShipPurchaseInfo(left, right, y, engine_number, refittable);
 			break;
 
 		case VEH_AIRCRAFT:
@@ -907,7 +877,6 @@ struct BuildVehicleWindow : Window {
 				break;
 			case VEH_ROAD:
 				this->filter.roadtypes = (tile == INVALID_TILE) ? ROADTYPES_ALL : GetRoadTypes(tile);
-			case VEH_SHIP:
 			case VEH_AIRCRAFT:
 				break;
 		}
@@ -1082,23 +1051,6 @@ struct BuildVehicleWindow : Window {
 		this->sel_engine = sel_id;
 	}
 
-	/* Figure out what ship EngineIDs to put in the list */
-	void GenerateBuildShipList()
-	{
-		EngineID sel_id = INVALID_ENGINE;
-		this->eng_list.Clear();
-
-		const Engine *e;
-		FOR_ALL_ENGINES_OF_TYPE(e, VEH_SHIP) {
-			EngineID eid = e->index;
-			if (!IsEngineBuildable(eid, VEH_SHIP, _local_company)) continue;
-			*this->eng_list.Append() = eid;
-
-			if (eid == this->sel_engine) sel_id = eid;
-		}
-		this->sel_engine = sel_id;
-	}
-
 	/* Figure out what aircraft EngineIDs to put in the list */
 	void GenerateBuildAircraftList()
 	{
@@ -1139,9 +1091,6 @@ struct BuildVehicleWindow : Window {
 				return; // trains should not reach the last sorting
 			case VEH_ROAD:
 				this->GenerateBuildRoadVehList();
-				break;
-			case VEH_SHIP:
-				this->GenerateBuildShipList();
 				break;
 			case VEH_AIRCRAFT:
 				this->GenerateBuildAircraftList();

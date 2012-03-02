@@ -1242,7 +1242,6 @@ void DrawVehicleImage(const Vehicle *v, int left, int right, int y, VehicleID se
 	switch (v->type) {
 		case VEH_TRAIN:    DrawTrainImage(Train::From(v), left, right, y, selection, skip); break;
 		case VEH_ROAD:     DrawRoadVehImage(v, left, right, y, selection, skip);  break;
-		case VEH_SHIP:     DrawShipImage(v, left, right, y, selection);     break;
 		case VEH_AIRCRAFT: DrawAircraftImage(v, left, right, y, selection); break;
 		default: NOT_REACHED();
 	}
@@ -1259,7 +1258,7 @@ uint GetVehicleListHeight(VehicleType type, uint divisor)
 	/* Name + vehicle + profit */
 	uint base = GetVehicleHeight(type) + 2 * FONT_HEIGHT_SMALL;
 	/* Drawing of the 4 small orders + profit*/
-	if (type >= VEH_SHIP) base = max(base, 5U * FONT_HEIGHT_SMALL);
+	if (type >= VEH_AIRCRAFT) base = max(base, 5U * FONT_HEIGHT_SMALL);
 
 	if (divisor == 1) return base;
 
@@ -1285,7 +1284,7 @@ void BaseVehicleListWindow::DrawVehicleListItems(VehicleID selected_vehicle, int
 	int text_left  = left  + (rtl ?           0 : text_offset);
 	int text_right = right - (rtl ? text_offset :           0);
 
-	bool show_orderlist = this->vli.vtype >= VEH_SHIP;
+	bool show_orderlist = this->vli.vtype >= VEH_AIRCRAFT;
 	int orderlist_left  = left  + (rtl ? 0 : max(100 + text_offset, width / 2));
 	int orderlist_right = right - (rtl ? max(100 + text_offset, width / 2) : 0);
 
@@ -1359,7 +1358,6 @@ public:
 		switch (this->vli.vtype) {
 			case VEH_TRAIN:    this->sorting = &_sorting.train; break;
 			case VEH_ROAD:     this->sorting = &_sorting.roadveh; break;
-			case VEH_SHIP:     this->sorting = &_sorting.ship; break;
 			case VEH_AIRCRAFT: this->sorting = &_sorting.aircraft; break;
 			default: NOT_REACHED();
 		}
@@ -1405,7 +1403,6 @@ public:
 					case VEH_ROAD:
 						size->height = 6 * resize->height;
 						break;
-					case VEH_SHIP:
 					case VEH_AIRCRAFT:
 						size->height = 4 * resize->height;
 						break;
@@ -1869,10 +1866,6 @@ struct VehicleDetailsWindow : Window {
 						size->height = this->GetRoadVehDetailsHeight(v);
 						break;
 
-					case VEH_SHIP:
-						size->height = WD_FRAMERECT_TOP + 4 * FONT_HEIGHT_NORMAL + 3 + WD_FRAMERECT_BOTTOM;
-						break;
-
 					case VEH_AIRCRAFT:
 						size->height = WD_FRAMERECT_TOP + 5 * FONT_HEIGHT_NORMAL + 4 + WD_FRAMERECT_BOTTOM;
 						break;
@@ -1905,7 +1898,6 @@ struct VehicleDetailsWindow : Window {
 			default: NOT_REACHED();
 			case VEH_TRAIN:    return vds->servint_trains   != 0;
 			case VEH_ROAD:     return vds->servint_roadveh  != 0;
-			case VEH_SHIP:     return vds->servint_ships    != 0;
 			case VEH_AIRCRAFT: return vds->servint_aircraft != 0;
 		}
 	}
@@ -1926,7 +1918,6 @@ struct VehicleDetailsWindow : Window {
 		switch (v->type) {
 			case VEH_TRAIN:    DrawTrainDetails(Train::From(v), left, right, y, vscroll_pos, vscroll_cap, det_tab);  break;
 			case VEH_ROAD:     DrawRoadVehDetails(v, left, right, y);  break;
-			case VEH_SHIP:     DrawShipDetails(v, left, right, y);     break;
 			case VEH_AIRCRAFT: DrawAircraftDetails(Aircraft::From(v), left, right, y); break;
 			default: NOT_REACHED();
 		}
@@ -2195,8 +2186,7 @@ static const WindowDesc _train_view_desc(
 	 using them for array indexing in a number of places here. */
 assert_compile(VEH_TRAIN == 0);
 assert_compile(VEH_ROAD == 1);
-assert_compile(VEH_SHIP == 2);
-assert_compile(VEH_AIRCRAFT == 3);
+assert_compile(VEH_AIRCRAFT == 2);
 
 /** Zoom levels for vehicle views indexed by vehicle type. */
 static const ZoomLevel _vehicle_view_zoom_levels[] = {
@@ -2351,7 +2341,6 @@ public:
 			case VEH_ROAD:
 				break;
 
-			case VEH_SHIP:
 			case VEH_AIRCRAFT:
 				this->SelectPlane(SEL_RT_REFIT);
 				break;
@@ -2485,7 +2474,7 @@ public:
 					break;
 
 				case OT_GOTO_WAYPOINT: {
-					assert(v->type == VEH_TRAIN || v->type == VEH_SHIP);
+					assert(v->type == VEH_TRAIN);
 					SetDParam(0, v->current_order.GetDestination());
 					str = STR_VEHICLE_STATUS_HEADING_FOR_WAYPOINT_VEL;
 					SetDParam(1, v->GetDisplaySpeed());

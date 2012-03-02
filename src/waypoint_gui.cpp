@@ -57,7 +57,7 @@ public:
 	WaypointWindow(const WindowDesc *desc, WindowNumber window_number) : Window()
 	{
 		this->wp = Waypoint::Get(window_number);
-		this->vt = (wp->string_id == STR_SV_STNAME_WAYPOINT) ? VEH_TRAIN : VEH_SHIP;
+		this->vt = (wp->string_id == STR_SV_STNAME_WAYPOINT) ? VEH_TRAIN : VEH_INVALID;
 
 		this->CreateNestedTree(desc);
 		if (this->vt == VEH_TRAIN) {

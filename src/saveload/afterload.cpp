@@ -2532,8 +2532,6 @@ bool AfterLoadGame()
 					rv->gv_flags |= FixVehicleInclination(rv, dir);
 					break;
 				}
-				case VEH_SHIP:
-					break;
 
 				default:
 					continue;

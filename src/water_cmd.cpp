@@ -1177,10 +1177,6 @@ static TrackStatus GetTileTrackStatus_Water(TileIndex tile, TransportType mode, 
 
 static bool ClickTile_Water(TileIndex tile)
 {
-	if (GetWaterTileType(tile) == WATER_TILE_DEPOT) {
-		ShowDepotWindow(GetShipDepotNorthTile(tile), VEH_SHIP);
-		return true;
-	}
 	return false;
 }
 

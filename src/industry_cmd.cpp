@@ -2333,7 +2333,7 @@ static int WhoCanServiceIndustry(Industry *ind)
 			for (const Vehicle *u = v; u != NULL; u = u->Next()) {
 				CanCargoServiceIndustry(u->cargo_type, ind, &c_accepts, &c_produces);
 			}
-		} else if (v->type == VEH_ROAD || v->type == VEH_SHIP || v->type == VEH_AIRCRAFT) {
+		} else if (v->type == VEH_ROAD || v->type == VEH_AIRCRAFT) {
 			CanCargoServiceIndustry(v->cargo_type, ind, &c_accepts, &c_produces);
 		} else {
 			continue;

@@ -346,7 +346,6 @@
 	switch (::Vehicle::Get(vehicle_id)->type) {
 		case VEH_ROAD:     return VT_ROAD;
 		case VEH_TRAIN:    return VT_RAIL;
-		case VEH_SHIP:     return VT_WATER;
 		case VEH_AIRCRAFT: return VT_AIR;
 		default:           return VT_INVALID;
 	}

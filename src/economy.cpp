@@ -123,8 +123,7 @@ Money CalculateCompanyValue(const Company *c, bool including_loan)
 
 		if (v->type == VEH_TRAIN ||
 				v->type == VEH_ROAD ||
-				(v->type == VEH_AIRCRAFT && Aircraft::From(v)->IsNormalAircraft()) ||
-				v->type == VEH_SHIP) {
+				(v->type == VEH_AIRCRAFT && Aircraft::From(v)->IsNormalAircraft())) {
 			value += v->value * 3 >> 1;
 		}
 	}
@@ -387,7 +386,7 @@ void ChangeOwnershipOfCompanyItems(Owner old_owner, Owner new_owner)
 	{
 		FreeUnitIDGenerator unitidgen[] = {
 			FreeUnitIDGenerator(VEH_TRAIN, new_owner), FreeUnitIDGenerator(VEH_ROAD,     new_owner),
-			FreeUnitIDGenerator(VEH_SHIP,  new_owner), FreeUnitIDGenerator(VEH_AIRCRAFT, new_owner)
+			FreeUnitIDGenerator(VEH_AIRCRAFT, new_owner)
 		};
 
 		Vehicle *v;
@@ -1248,9 +1247,8 @@ static void LoadUnloadVehicle(Vehicle *v, int *cargo_left)
 		int t;
 		switch (u->type) {
 			case VEH_TRAIN: /* FALL THROUGH */
-			case VEH_SHIP:
-				t = u->vcache.cached_max_speed;
-				break;
+ 				t = u->vcache.cached_max_speed;
+ 				break;
 
 			case VEH_ROAD:
 				t = u->vcache.cached_max_speed / 2;

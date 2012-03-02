@@ -541,36 +541,36 @@ static const RailVehicleInfo _orig_rail_vehicle_info[] = {
 #undef M
 #undef RVI
 
-/**
- * Writes the properties of a ship into the ShipVehicleInfo struct.
- * @see ShipVehicleInfo
- * @param a image_index
- * @param b cost_factor
- * @param c max_speed (1 unit = 1/3.2 mph = 0.5 km-ish/h)
- * @param d capacity (persons, bags, tons, pieces, items, cubic metres, ...)
- * @param e running_cost
- * @param f sound effect
- * @param g refittable
- */
-#define SVI(a, b, c, d, e, f, g) { a, b, c, d, e, f, g, VE_DEFAULT }
-static const ShipVehicleInfo _orig_ship_vehicle_info[] = {
-	/*   image_index    capacity                   refittable
-	 *   |    cost_factor    running_cost          |
-	 *   |    |    max_speed |  sfx                |
-	 *   |    |    |    |    |  |                  | */
-	SVI( 1, 160,  48, 220, 140, SND_06_SHIP_HORN,  0 ), //  0 MPS Oil Tanker
-	SVI( 1, 176,  80, 350, 125, SND_06_SHIP_HORN,  0 ), //  1 CS-Inc. Oil Tanker
-	SVI( 2,  96,  64, 100,  90, SND_07_FERRY_HORN, 0 ), //  2 MPS Passenger Ferry
-	SVI( 2, 112, 128, 130,  80, SND_07_FERRY_HORN, 0 ), //  3 FFP Passenger Ferry
-	SVI( 3, 148, 224, 100, 190, SND_07_FERRY_HORN, 0 ), //  4 Bakewell 300 Hovercraft
-	SVI( 2,  96,  64, 100,  90, SND_07_FERRY_HORN, 0 ), //  5 Chugger-Chug Passenger Ferry
-	SVI( 2, 112, 128, 130,  80, SND_07_FERRY_HORN, 0 ), //  6 Shivershake Passenger Ferry
-	SVI( 0, 128,  48, 160, 150, SND_06_SHIP_HORN,  1 ), //  7 Yate Cargo ship
-	SVI( 0, 144,  80, 190, 113, SND_06_SHIP_HORN,  1 ), //  8 Bakewell Cargo ship
-	SVI( 0, 128,  48, 160, 150, SND_06_SHIP_HORN,  1 ), //  9 Mightymover Cargo ship
-	SVI( 0, 144,  80, 190, 113, SND_06_SHIP_HORN,  1 ), // 10 Powernaut Cargo ship
-};
-#undef SVI
+// /**
+//  * Writes the properties of a ship into the ShipVehicleInfo struct.
+//  * @see ShipVehicleInfo
+//  * @param a image_index
+//  * @param b cost_factor
+//  * @param c max_speed (1 unit = 1/3.2 mph = 0.5 km-ish/h)
+//  * @param d capacity (persons, bags, tons, pieces, items, cubic metres, ...)
+//  * @param e running_cost
+//  * @param f sound effect
+//  * @param g refittable
+//  */
+// #define SVI(a, b, c, d, e, f, g) { a, b, c, d, e, f, g, VE_DEFAULT }
+// static const ShipVehicleInfo _orig_ship_vehicle_info[] = {
+// 	/*   image_index    capacity                   refittable
+// 	 *   |    cost_factor    running_cost          |
+// 	 *   |    |    max_speed |  sfx                |
+// 	 *   |    |    |    |    |  |                  | */
+// 	SVI( 1, 160,  48, 220, 140, SND_06_SHIP_HORN,  0 ), //  0 MPS Oil Tanker
+// 	SVI( 1, 176,  80, 350, 125, SND_06_SHIP_HORN,  0 ), //  1 CS-Inc. Oil Tanker
+// 	SVI( 2,  96,  64, 100,  90, SND_07_FERRY_HORN, 0 ), //  2 MPS Passenger Ferry
+// 	SVI( 2, 112, 128, 130,  80, SND_07_FERRY_HORN, 0 ), //  3 FFP Passenger Ferry
+// 	SVI( 3, 148, 224, 100, 190, SND_07_FERRY_HORN, 0 ), //  4 Bakewell 300 Hovercraft
+// 	SVI( 2,  96,  64, 100,  90, SND_07_FERRY_HORN, 0 ), //  5 Chugger-Chug Passenger Ferry
+// 	SVI( 2, 112, 128, 130,  80, SND_07_FERRY_HORN, 0 ), //  6 Shivershake Passenger Ferry
+// 	SVI( 0, 128,  48, 160, 150, SND_06_SHIP_HORN,  1 ), //  7 Yate Cargo ship
+// 	SVI( 0, 144,  80, 190, 113, SND_06_SHIP_HORN,  1 ), //  8 Bakewell Cargo ship
+// 	SVI( 0, 128,  48, 160, 150, SND_06_SHIP_HORN,  1 ), //  9 Mightymover Cargo ship
+// 	SVI( 0, 144,  80, 190, 113, SND_06_SHIP_HORN,  1 ), // 10 Powernaut Cargo ship
+// };
+// #undef SVI
 
 /**
  * Writes the properties of an aircraft into the AircraftVehicleInfo struct.

@@ -43,7 +43,7 @@ void MoveBuoysToWaypoints()
 	OrderList *ol;
 	FOR_ALL_ORDER_LISTS(ol) {
 		VehicleType vt = ol->GetFirstSharedVehicle()->type;
-		if (vt != VEH_SHIP && vt != VEH_TRAIN) continue;
+		if (vt != VEH_TRAIN) continue;
 
 		for (Order *o = ol->GetFirstOrder(); o != NULL; o = o->next) UpdateWaypointOrder(o);
 	}
@@ -51,7 +51,7 @@ void MoveBuoysToWaypoints()
 	Vehicle *v;
 	FOR_ALL_VEHICLES(v) {
 		VehicleType vt = v->type;
-		if (vt != VEH_SHIP && vt != VEH_TRAIN) continue;
+		if (vt != VEH_TRAIN) continue;
 
 		UpdateWaypointOrder(&v->current_order);
 	}

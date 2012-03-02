@@ -578,26 +578,6 @@ TileIndex Order::GetLocation(const Vehicle *v) const
 	}
 }
 
-static uint GetOrderDistance(const Order *prev, const Order *cur, const Vehicle *v, int conditional_depth = 0)
-{
-	assert(v->type == VEH_SHIP);
-
-	if (cur->IsType(OT_CONDITIONAL)) {
-		if (conditional_depth > v->GetNumOrders()) return 0;
-
-		conditional_depth++;
-
-		int dist1 = GetOrderDistance(prev, v->GetOrder(cur->GetConditionSkipToOrder()), v, conditional_depth);
-		int dist2 = GetOrderDistance(prev, cur->next == NULL ? v->orders.list->GetFirstOrder() : cur->next, v, conditional_depth);
-		return max(dist1, dist2);
-	}
-
-	TileIndex prev_tile = prev->GetLocation(v);
-	TileIndex cur_tile = cur->GetLocation(v);
-	if (prev_tile == INVALID_TILE || cur_tile == INVALID_TILE) return 0;
-	return DistanceManhattan(prev_tile, cur_tile);
-}
-
 /**
  * Add an order to the orderlist of a vehicle.
  * @param tile unused
@@ -699,10 +679,6 @@ CommandCost CmdInsertOrder(TileIndex tile, DoCommandFlag flags, uint32 p1, uint3
 							if (!IsRoadDepotTile(dp->xy)) return CMD_ERROR;
 							break;
 
-						case VEH_SHIP:
-							if (!IsShipDepotTile(dp->xy)) return CMD_ERROR;
-							break;
-
 						default: return CMD_ERROR;
 					}
 				}
@@ -729,14 +705,6 @@ CommandCost CmdInsertOrder(TileIndex tile, DoCommandFlag flags, uint32 p1, uint3
 					if (ret.Failed()) return ret;
 					break;
 				}
-
-				case VEH_SHIP:
-					if (!(wp->facilities & FACIL_DOCK)) return_cmd_error(STR_ERROR_CAN_T_ADD_ORDER);
-					if (wp->owner != OWNER_NONE) {
-						CommandCost ret = CheckOwnership(wp->owner);
-						if (ret.Failed()) return ret;
-					}
-					break;
 			}
 
 			/* Order flags can be any of the following for waypoints:
@@ -782,35 +750,6 @@ CommandCost CmdInsertOrder(TileIndex tile, DoCommandFlag flags, uint32 p1, uint3
 	if (v->GetNumOrders() >= MAX_VEH_ORDER_ID) return_cmd_error(STR_ERROR_TOO_MANY_ORDERS);
 	if (!Order::CanAllocateItem()) return_cmd_error(STR_ERROR_NO_MORE_SPACE_FOR_ORDERS);
 	if (v->orders.list == NULL && !OrderList::CanAllocateItem()) return_cmd_error(STR_ERROR_NO_MORE_SPACE_FOR_ORDERS);
-
-	if (v->type == VEH_SHIP && _settings_game.pf.pathfinder_for_ships != VPF_NPF) {
-		/* Make sure the new destination is not too far away from the previous */
-		const Order *prev = NULL;
-		uint n = 0;
-
-		/* Find the last goto station or depot order before the insert location.
-		 * If the order is to be inserted at the beginning of the order list this
-		 * finds the last order in the list. */
-		const Order *o;
-		FOR_VEHICLE_ORDERS(v, o) {
-			switch (o->GetType()) {
-				case OT_GOTO_STATION:
-				case OT_GOTO_DEPOT:
-				case OT_GOTO_WAYPOINT:
-					prev = o;
-					break;
-
-				default: break;
-			}
-			if (++n == sel_ord && prev != NULL) break;
-		}
-		if (prev != NULL) {
-			uint dist = GetOrderDistance(prev, &new_order, v);
-			if (dist >= 130) {
-				return_cmd_error(STR_ERROR_TOO_FAR_FROM_PREVIOUS_DESTINATION);
-			}
-		}
-	}
 
 	if (flags & DC_EXEC) {
 		Order *new_o = new Order();
@@ -1043,7 +982,6 @@ CommandCost CmdSkipToOrder(TileIndex tile, DoCommandFlag flags, uint32 p1, uint3
 
 	/* We have an aircraft/ship, they have a mini-schedule, so update them all */
 	if (v->type == VEH_AIRCRAFT) SetWindowClassesDirty(WC_AIRCRAFT_LIST);
-	if (v->type == VEH_SHIP) SetWindowClassesDirty(WC_SHIPS_LIST);
 
 	return CommandCost();
 }
@@ -2024,8 +1962,8 @@ bool ProcessOrders(Vehicle *v)
 	}
 
 	/* If it is unchanged, keep it. */
-	if (order->Equals(v->current_order) && (v->type == VEH_AIRCRAFT || v->dest_tile != 0) &&
-			(v->type != VEH_SHIP || !order->IsType(OT_GOTO_STATION) || Station::Get(order->GetDestination())->dock_tile != INVALID_TILE)) {
+	if (order->Equals(v->current_order) && (v->type == VEH_AIRCRAFT || v->dest_tile != 0))
+  {
 		return false;
 	}
 
@@ -2042,7 +1980,6 @@ bool ProcessOrders(Vehicle *v)
 			break;
 
 		case VEH_AIRCRAFT:
-		case VEH_SHIP:
 			SetWindowClassesDirty(GetWindowClassForVehicleType(v->type));
 			break;
 	}

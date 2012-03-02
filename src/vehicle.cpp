@@ -12,7 +12,6 @@
 #include "stdafx.h"
 #include "gui.h"
 #include "roadveh.h"
-#include "ship.h"
 #include "spritecache.h"
 #include "timetable.h"
 #include "viewport_func.h"
@@ -443,7 +442,7 @@ CommandCost EnsureNoVehicleOnGround(TileIndex tile)
 /** Procedure called for every vehicle found in tunnel/bridge in the hash map */
 static Vehicle *GetVehicleTunnelBridgeProc(Vehicle *v, void *data)
 {
-	if (v->type != VEH_TRAIN && v->type != VEH_ROAD && v->type != VEH_SHIP) return NULL;
+	if (v->type != VEH_TRAIN && v->type != VEH_ROAD) return NULL;
 	if (v == (const Vehicle *)data) return NULL;
 
 	return v;
@@ -629,7 +628,6 @@ bool Vehicle::IsEngineCountable() const
 			return !this->IsArticulatedPart() && // tenders and other articulated parts
 					!Train::From(this)->IsRearDualheaded(); // rear parts of multiheaded engines
 		case VEH_ROAD: return RoadVehicle::From(this)->IsFrontEngine();
-		case VEH_SHIP: return true;
 		default: return false; // Only count company buildable vehicles
 	}
 }
@@ -644,7 +642,7 @@ bool Vehicle::HasEngineType() const
 		case VEH_AIRCRAFT: return Aircraft::From(this)->IsNormalAircraft();
 		case VEH_TRAIN:
 		case VEH_ROAD:
-		case VEH_SHIP: return true;
+    return true;
 		default: return false;
 	}
 }
@@ -839,7 +837,6 @@ void CallVehicleTicks()
 			case VEH_TRAIN:
 			case VEH_ROAD:
 			case VEH_AIRCRAFT:
-			case VEH_SHIP:
 				if (_age_cargo_skip_counter == 0) v->cargo.AgeCargo();
 
 				if (v->type == VEH_TRAIN && Train::From(v)->IsWagon()) continue;
@@ -1054,7 +1051,6 @@ void CheckVehicleBreakdown(Vehicle *v)
 
 	/* calculate reliability value to use in comparison */
 	rel = v->reliability;
-	if (v->type == VEH_SHIP) rel += 0x6666;
 
 	/* reduced breakdowns? */
 	if (_settings_game.difficulty.vehicle_breakdowns == 1) rel += 0x6666;
@@ -1246,16 +1242,6 @@ void VehicleEnterDepot(Vehicle *v)
 		case VEH_ROAD:
 			SetWindowClassesDirty(WC_ROADVEH_LIST);
 			break;
-
-		case VEH_SHIP: {
-			SetWindowClassesDirty(WC_SHIPS_LIST);
-			Ship *ship = Ship::From(v);
-			ship->state = TRACK_BIT_DEPOT;
-			ship->UpdateCache();
-			ship->UpdateViewport(true, true);
-			SetWindowDirty(WC_VEHICLE_DEPOT, v->tile);
-			break;
-		}
 
 		case VEH_AIRCRAFT:
 			SetWindowClassesDirty(WC_AIRCRAFT_LIST);
@@ -1499,7 +1485,6 @@ UnitID GetFreeUnitNumber(VehicleType type)
 	switch (type) {
 		case VEH_TRAIN:    max_veh = _settings_game.vehicle.max_trains;   break;
 		case VEH_ROAD:     max_veh = _settings_game.vehicle.max_roadveh;  break;
-		case VEH_SHIP:     max_veh = _settings_game.vehicle.max_ships;    break;
 		case VEH_AIRCRAFT: max_veh = _settings_game.vehicle.max_aircraft; break;
 		default: NOT_REACHED();
 	}
@@ -1534,7 +1519,6 @@ bool CanBuildVehicleInfrastructure(VehicleType type)
 	switch (type) {
 		case VEH_TRAIN:    max = _settings_game.vehicle.max_trains; break;
 		case VEH_ROAD:     max = _settings_game.vehicle.max_roadveh; break;
-		case VEH_SHIP:     max = _settings_game.vehicle.max_ships; break;
 		case VEH_AIRCRAFT: max = _settings_game.vehicle.max_aircraft; break;
 		default: NOT_REACHED();
 	}
@@ -1631,11 +1615,6 @@ LiveryScheme GetEngineLiveryScheme(EngineID engine_type, EngineID parent_engine_
 				/* Bus or truck */
 				return IsCargoInClass(cargo_type, CC_PASSENGERS) ? LS_BUS : LS_TRUCK;
 			}
-
-		case VEH_SHIP:
-			if (cargo_type == CT_INVALID) cargo_type = e->GetDefaultCargoType();
-			if (cargo_type == CT_INVALID) cargo_type = CT_GOODS; // The vehicle does not carry anything, let's pick some freight cargo
-			return IsCargoInClass(cargo_type, CC_PASSENGERS) ? LS_PASSENGER_SHIP : LS_FREIGHT_SHIP;
 
 		case VEH_AIRCRAFT:
 			switch (e->u.air.subtype) {
@@ -1776,34 +1755,31 @@ uint GetVehicleCapacity(const Vehicle *v, uint16 *mail_capacity)
 	switch (e->type) {
 		case VEH_TRAIN:    capacity = GetVehicleProperty(v, PROP_TRAIN_CARGO_CAPACITY,        e->u.rail.capacity); break;
 		case VEH_ROAD:     capacity = GetVehicleProperty(v, PROP_ROADVEH_CARGO_CAPACITY,      e->u.road.capacity); break;
-		case VEH_SHIP:     capacity = GetVehicleProperty(v, PROP_SHIP_CARGO_CAPACITY,         e->u.ship.capacity); break;
 		case VEH_AIRCRAFT: capacity = GetVehicleProperty(v, PROP_AIRCRAFT_PASSENGER_CAPACITY, e->u.air.passenger_capacity); break;
 		default: NOT_REACHED();
 	}
 
 	/* Apply multipliers depending on cargo- and vehicletype.
 	 * Note: This might change to become more consistent/flexible. */
-	if (e->type != VEH_SHIP) {
-		if (e->type == VEH_AIRCRAFT) {
-			if (!IsCargoInClass(v->cargo_type, CC_PASSENGERS)) {
-				capacity += GetVehicleProperty(v, PROP_AIRCRAFT_MAIL_CAPACITY, e->u.air.mail_capacity);
-			}
-			if (v->cargo_type == CT_MAIL) return capacity;
-		} else {
-			switch (default_cargo) {
-				case CT_PASSENGERS: break;
-				case CT_MAIL:
-				case CT_GOODS: capacity *= 2; break;
-				default:       capacity *= 4; break;
-			}
-		}
-		switch (v->cargo_type) {
-			case CT_PASSENGERS: break;
-			case CT_MAIL:
-			case CT_GOODS: capacity /= 2; break;
-			default:       capacity /= 4; break;
-		}
-	}
+  if (e->type == VEH_AIRCRAFT) {
+    if (!IsCargoInClass(v->cargo_type, CC_PASSENGERS)) {
+      capacity += GetVehicleProperty(v, PROP_AIRCRAFT_MAIL_CAPACITY, e->u.air.mail_capacity);
+    }
+    if (v->cargo_type == CT_MAIL) return capacity;
+  } else {
+    switch (default_cargo) {
+      case CT_PASSENGERS: break;
+      case CT_MAIL:
+      case CT_GOODS: capacity *= 2; break;
+      default:       capacity *= 4; break;
+    }
+  }
+  switch (v->cargo_type) {
+    case CT_PASSENGERS: break;
+    case CT_MAIL:
+    case CT_GOODS: capacity /= 2; break;
+    default:       capacity /= 4; break;
+  }
 
 	return capacity;
 }
@@ -1852,7 +1828,7 @@ void Vehicle::DeleteUnreachedImplicitOrders()
  */
 void Vehicle::BeginLoading()
 {
-	assert(IsTileType(this->tile, MP_STATION) || this->type == VEH_SHIP);
+	assert(IsTileType(this->tile, MP_STATION));
 
 	if (this->current_order.IsType(OT_GOTO_STATION) &&
 			this->current_order.GetDestination() == this->last_station_visited) {
@@ -2118,7 +2094,6 @@ void Vehicle::UpdateVisualEffect(bool allow_power_change)
 	switch (e->type) {
 		case VEH_TRAIN: visual_effect = e->u.rail.visual_effect; break;
 		case VEH_ROAD:  visual_effect = e->u.road.visual_effect; break;
-		case VEH_SHIP:  visual_effect = e->u.ship.visual_effect; break;
 		default:        visual_effect = 1 << VE_DISABLE_EFFECT;  break;
 	}
 
@@ -2431,9 +2406,6 @@ bool CanVehicleUseStation(EngineID engine_type, const Station *st)
 			 * use the station, but if it doesn't have facilities for RVs it is
 			 * certainly not possible that the station can be used. */
 			return (st->facilities & (FACIL_BUS_STOP | FACIL_TRUCK_STOP)) != 0;
-
-		case VEH_SHIP:
-			return (st->facilities & FACIL_DOCK) != 0;
 
 		case VEH_AIRCRAFT:
 			return (st->facilities & FACIL_AIRPORT) != 0 &&
